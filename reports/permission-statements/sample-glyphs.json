@@ -1,0 +1,1220 @@
+[
+  {
+    "id": "s10-inertia-intersection",
+    "formulas": 12,
+    "letters": [
+      {
+        "formula": 4,
+        "command": "mathfrak",
+        "letter": "p",
+        "expected": "𝔭",
+        "actual": "𝔭"
+      },
+      {
+        "formula": 5,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 7,
+        "command": "mathfrak",
+        "letter": "p",
+        "expected": "𝔭",
+        "actual": "𝔭"
+      }
+    ]
+  },
+  {
+    "id": "k1-cusp-space-conventions",
+    "formulas": 0,
+    "letters": []
+  },
+  {
+    "id": "u2-lattice-fourier-expansion",
+    "formulas": 11,
+    "letters": [
+      {
+        "formula": 3,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 4,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 8,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      }
+    ]
+  },
+  {
+    "id": "family-point-analytic-levels",
+    "formulas": 95,
+    "letters": [
+      {
+        "formula": 23,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 44,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 56,
+        "command": "mathfrak",
+        "letter": "p",
+        "expected": "𝔭",
+        "actual": "𝔭"
+      },
+      {
+        "formula": 58,
+        "command": "mathfrak",
+        "letter": "p",
+        "expected": "𝔭",
+        "actual": "𝔭"
+      },
+      {
+        "formula": 65,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 75,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 83,
+        "command": "mathbb",
+        "letter": "F",
+        "expected": "𝔽",
+        "actual": "𝔽"
+      },
+      {
+        "formula": 86,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      }
+    ]
+  },
+  {
+    "id": "def-arithmetic-image-models",
+    "formulas": 103,
+    "letters": [
+      {
+        "formula": 3,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 5,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 6,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 7,
+        "command": "mathscr",
+        "letter": "L",
+        "expected": "ℒ",
+        "actual": "ℒ"
+      },
+      {
+        "formula": 20,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 22,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 26,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 28,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 31,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 32,
+        "command": "mathbb",
+        "letter": "R",
+        "expected": "ℝ",
+        "actual": "ℝ"
+      },
+      {
+        "formula": 33,
+        "command": "mathscr",
+        "letter": "L",
+        "expected": "ℒ",
+        "actual": "ℒ"
+      },
+      {
+        "formula": 36,
+        "command": "mathbb",
+        "letter": "N",
+        "expected": "ℕ",
+        "actual": "ℕ"
+      },
+      {
+        "formula": 37,
+        "command": "mathscr",
+        "letter": "L",
+        "expected": "ℒ",
+        "actual": "ℒ"
+      },
+      {
+        "formula": 38,
+        "command": "mathscr",
+        "letter": "L",
+        "expected": "ℒ",
+        "actual": "ℒ"
+      },
+      {
+        "formula": 39,
+        "command": "mathscr",
+        "letter": "L",
+        "expected": "ℒ",
+        "actual": "ℒ"
+      },
+      {
+        "formula": 39,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 39,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 40,
+        "command": "mathbb",
+        "letter": "N",
+        "expected": "ℕ",
+        "actual": "ℕ"
+      },
+      {
+        "formula": 42,
+        "command": "mathscr",
+        "letter": "L",
+        "expected": "ℒ",
+        "actual": "ℒ"
+      },
+      {
+        "formula": 44,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 44,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 45,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 56,
+        "command": "mathbb",
+        "letter": "P",
+        "expected": "ℙ",
+        "actual": "ℙ"
+      },
+      {
+        "formula": 56,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 57,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 63,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 65,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 70,
+        "command": "mathcal",
+        "letter": "N",
+        "expected": "𝒩",
+        "actual": "𝒩"
+      },
+      {
+        "formula": 70,
+        "command": "mathbb",
+        "letter": "R",
+        "expected": "ℝ",
+        "actual": "ℝ"
+      },
+      {
+        "formula": 73,
+        "command": "mathscr",
+        "letter": "L",
+        "expected": "ℒ",
+        "actual": "ℒ"
+      },
+      {
+        "formula": 75,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 76,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 79,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 91,
+        "command": "mathcal",
+        "letter": "N",
+        "expected": "𝒩",
+        "actual": "𝒩"
+      },
+      {
+        "formula": 99,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      }
+    ]
+  },
+  {
+    "id": "s2-adelic-fock-pairing",
+    "formulas": 16,
+    "letters": [
+      {
+        "formula": 11,
+        "command": "mathbb",
+        "letter": "A",
+        "expected": "𝔸",
+        "actual": "𝔸"
+      },
+      {
+        "formula": 12,
+        "command": "mathcal",
+        "letter": "F",
+        "expected": "ℱ",
+        "actual": "ℱ"
+      },
+      {
+        "formula": 13,
+        "command": "mathcal",
+        "letter": "F",
+        "expected": "ℱ",
+        "actual": "ℱ"
+      },
+      {
+        "formula": 14,
+        "command": "mathcal",
+        "letter": "P",
+        "expected": "𝒫",
+        "actual": "𝒫"
+      },
+      {
+        "formula": 16,
+        "command": "mathcal",
+        "letter": "F",
+        "expected": "ℱ",
+        "actual": "ℱ"
+      },
+      {
+        "formula": 16,
+        "command": "mathcal",
+        "letter": "P",
+        "expected": "𝒫",
+        "actual": "𝒫"
+      },
+      {
+        "formula": 16,
+        "command": "mathcal",
+        "letter": "P",
+        "expected": "𝒫",
+        "actual": "𝒫"
+      },
+      {
+        "formula": 16,
+        "command": "mathcal",
+        "letter": "F",
+        "expected": "ℱ",
+        "actual": "ℱ"
+      }
+    ]
+  },
+  {
+    "id": "r6-bounded-lattice-basis",
+    "formulas": 10,
+    "letters": [
+      {
+        "formula": 3,
+        "command": "mathbb",
+        "letter": "R",
+        "expected": "ℝ",
+        "actual": "ℝ"
+      },
+      {
+        "formula": 4,
+        "command": "mathbb",
+        "letter": "R",
+        "expected": "ℝ",
+        "actual": "ℝ"
+      },
+      {
+        "formula": 5,
+        "command": "mathbb",
+        "letter": "R",
+        "expected": "ℝ",
+        "actual": "ℝ"
+      },
+      {
+        "formula": 7,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      }
+    ]
+  },
+  {
+    "id": "s10-witt-lower-signatures",
+    "formulas": 14,
+    "letters": [
+      {
+        "formula": 3,
+        "command": "mathbb",
+        "letter": "N",
+        "expected": "ℕ",
+        "actual": "ℕ"
+      }
+    ]
+  },
+  {
+    "id": "v6-discrete-series-classification",
+    "formulas": 19,
+    "letters": [
+      {
+        "formula": 5,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 17,
+        "command": "mathbb",
+        "letter": "N",
+        "expected": "ℕ",
+        "actual": "ℕ"
+      }
+    ]
+  },
+  {
+    "id": "s7-formal-two-torsion-uniqueness",
+    "formulas": 12,
+    "letters": []
+  },
+  {
+    "id": "s11-appell-humbert-frame",
+    "formulas": 16,
+    "letters": [
+      {
+        "formula": 1,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 5,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 5,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 6,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 8,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 9,
+        "command": "mathbb",
+        "letter": "R",
+        "expected": "ℝ",
+        "actual": "ℝ"
+      },
+      {
+        "formula": 10,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 11,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      }
+    ]
+  },
+  {
+    "id": "family-point-ratio-characters",
+    "formulas": 53,
+    "letters": [
+      {
+        "formula": 1,
+        "command": "mathbb",
+        "letter": "A",
+        "expected": "𝔸",
+        "actual": "𝔸"
+      },
+      {
+        "formula": 1,
+        "command": "mathbb",
+        "letter": "A",
+        "expected": "𝔸",
+        "actual": "𝔸"
+      },
+      {
+        "formula": 4,
+        "command": "mathfrak",
+        "letter": "c",
+        "expected": "𝔠",
+        "actual": "𝔠"
+      },
+      {
+        "formula": 5,
+        "command": "mathfrak",
+        "letter": "p",
+        "expected": "𝔭",
+        "actual": "𝔭"
+      },
+      {
+        "formula": 17,
+        "command": "mathbb",
+        "letter": "A",
+        "expected": "𝔸",
+        "actual": "𝔸"
+      },
+      {
+        "formula": 25,
+        "command": "mathfrak",
+        "letter": "p",
+        "expected": "𝔭",
+        "actual": "𝔭"
+      },
+      {
+        "formula": 39,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      }
+    ]
+  },
+  {
+    "id": "u2-partial-zeta-integrality",
+    "formulas": 22,
+    "letters": [
+      {
+        "formula": 5,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 7,
+        "command": "mathfrak",
+        "letter": "c",
+        "expected": "𝔠",
+        "actual": "𝔠"
+      },
+      {
+        "formula": 7,
+        "command": "mathfrak",
+        "letter": "c",
+        "expected": "𝔠",
+        "actual": "𝔠"
+      },
+      {
+        "formula": 7,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 9,
+        "command": "mathfrak",
+        "letter": "c",
+        "expected": "𝔠",
+        "actual": "𝔠"
+      },
+      {
+        "formula": 15,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 15,
+        "command": "mathbb",
+        "letter": "Q",
+        "expected": "ℚ",
+        "actual": "ℚ"
+      },
+      {
+        "formula": 19,
+        "command": "mathfrak",
+        "letter": "a",
+        "expected": "𝔞",
+        "actual": "𝔞"
+      },
+      {
+        "formula": 19,
+        "command": "mathfrak",
+        "letter": "a",
+        "expected": "𝔞",
+        "actual": "𝔞"
+      },
+      {
+        "formula": 22,
+        "command": "mathbb",
+        "letter": "Q",
+        "expected": "ℚ",
+        "actual": "ℚ"
+      },
+      {
+        "formula": 22,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      }
+    ]
+  },
+  {
+    "id": "w3-arithmetic-curve-section-count",
+    "formulas": 45,
+    "letters": [
+      {
+        "formula": 6,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 10,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 16,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 22,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 35,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 41,
+        "command": "mathbb",
+        "letter": "R",
+        "expected": "ℝ",
+        "actual": "ℝ"
+      },
+      {
+        "formula": 43,
+        "command": "mathbb",
+        "letter": "N",
+        "expected": "ℕ",
+        "actual": "ℕ"
+      },
+      {
+        "formula": 44,
+        "command": "mathbb",
+        "letter": "N",
+        "expected": "ℕ",
+        "actual": "ℕ"
+      }
+    ]
+  },
+  {
+    "id": "v8-supercuspidal-unitarity",
+    "formulas": 16,
+    "letters": [
+      {
+        "formula": 11,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      }
+    ]
+  },
+  {
+    "id": "w2-fock-cartan-transport",
+    "formulas": 17,
+    "letters": [
+      {
+        "formula": 9,
+        "command": "mathbb",
+        "letter": "A",
+        "expected": "𝔸",
+        "actual": "𝔸"
+      }
+    ]
+  },
+  {
+    "id": "family-point-theta-expansion-realizations",
+    "formulas": 79,
+    "letters": [
+      {
+        "formula": 7,
+        "command": "mathbb",
+        "letter": "F",
+        "expected": "𝔽",
+        "actual": "𝔽"
+      },
+      {
+        "formula": 31,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 32,
+        "command": "mathbb",
+        "letter": "F",
+        "expected": "𝔽",
+        "actual": "𝔽"
+      },
+      {
+        "formula": 47,
+        "command": "mathbb",
+        "letter": "A",
+        "expected": "𝔸",
+        "actual": "𝔸"
+      },
+      {
+        "formula": 60,
+        "command": "mathbb",
+        "letter": "F",
+        "expected": "𝔽",
+        "actual": "𝔽"
+      },
+      {
+        "formula": 77,
+        "command": "mathsf",
+        "letter": "T",
+        "expected": "𝖳",
+        "actual": "𝖳"
+      }
+    ]
+  },
+  {
+    "id": "r1-poincare-l2-multiplicity",
+    "formulas": 21,
+    "letters": [
+      {
+        "formula": 8,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      }
+    ]
+  },
+  {
+    "id": "local-euler-characteristic",
+    "formulas": 7,
+    "letters": [
+      {
+        "formula": 2,
+        "command": "mathbb",
+        "letter": "Q",
+        "expected": "ℚ",
+        "actual": "ℚ"
+      },
+      {
+        "formula": 5,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 5,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 7,
+        "command": "mathbb",
+        "letter": "Q",
+        "expected": "ℚ",
+        "actual": "ℚ"
+      }
+    ]
+  },
+  {
+    "id": "u3-theta-jet-padic-bound",
+    "formulas": 31,
+    "letters": [
+      {
+        "formula": 11,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 28,
+        "command": "mathbb",
+        "letter": "Q",
+        "expected": "ℚ",
+        "actual": "ℚ"
+      },
+      {
+        "formula": 28,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 31,
+        "command": "mathbf",
+        "letter": "1",
+        "expected": "𝟏",
+        "actual": "𝟏"
+      }
+    ]
+  },
+  {
+    "id": "p016",
+    "formulas": 0,
+    "letters": []
+  },
+  {
+    "id": "s2-local-holomorphic-period-matrix",
+    "formulas": 27,
+    "letters": [
+      {
+        "formula": 2,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 8,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 10,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 12,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 15,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 15,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 15,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 21,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      }
+    ]
+  },
+  {
+    "id": "w3-functorial-principalization",
+    "formulas": 20,
+    "letters": [
+      {
+        "formula": 2,
+        "command": "mathcal",
+        "letter": "I",
+        "expected": "ℐ",
+        "actual": "ℐ"
+      },
+      {
+        "formula": 4,
+        "command": "mathcal",
+        "letter": "I",
+        "expected": "ℐ",
+        "actual": "ℐ"
+      },
+      {
+        "formula": 5,
+        "command": "mathcal",
+        "letter": "I",
+        "expected": "ℐ",
+        "actual": "ℐ"
+      },
+      {
+        "formula": 5,
+        "command": "mathcal",
+        "letter": "I",
+        "expected": "ℐ",
+        "actual": "ℐ"
+      },
+      {
+        "formula": 5,
+        "command": "mathcal",
+        "letter": "E",
+        "expected": "ℰ",
+        "actual": "ℰ"
+      },
+      {
+        "formula": 5,
+        "command": "mathcal",
+        "letter": "I",
+        "expected": "ℐ",
+        "actual": "ℐ"
+      },
+      {
+        "formula": 5,
+        "command": "mathcal",
+        "letter": "I",
+        "expected": "ℐ",
+        "actual": "ℐ"
+      },
+      {
+        "formula": 5,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 5,
+        "command": "mathcal",
+        "letter": "I",
+        "expected": "ℐ",
+        "actual": "ℐ"
+      },
+      {
+        "formula": 5,
+        "command": "mathcal",
+        "letter": "O",
+        "expected": "𝒪",
+        "actual": "𝒪"
+      },
+      {
+        "formula": 6,
+        "command": "mathcal",
+        "letter": "E",
+        "expected": "ℰ",
+        "actual": "ℰ"
+      },
+      {
+        "formula": 7,
+        "command": "mathcal",
+        "letter": "I",
+        "expected": "ℐ",
+        "actual": "ℐ"
+      },
+      {
+        "formula": 15,
+        "command": "mathcal",
+        "letter": "J",
+        "expected": "𝒥",
+        "actual": "𝒥"
+      },
+      {
+        "formula": 17,
+        "command": "mathcal",
+        "letter": "J",
+        "expected": "𝒥",
+        "actual": "𝒥"
+      },
+      {
+        "formula": 19,
+        "command": "mathcal",
+        "letter": "J",
+        "expected": "𝒥",
+        "actual": "𝒥"
+      }
+    ]
+  },
+  {
+    "id": "r9-self-dual-filtration-measure",
+    "formulas": 14,
+    "letters": [
+      {
+        "formula": 2,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 4,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 5,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 13,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      }
+    ]
+  },
+  {
+    "id": "u3-etale-power-sum-classes",
+    "formulas": 14,
+    "letters": [
+      {
+        "formula": 3,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      },
+      {
+        "formula": 3,
+        "command": "mathbb",
+        "letter": "Z",
+        "expected": "ℤ",
+        "actual": "ℤ"
+      }
+    ]
+  },
+  {
+    "id": "s5-crystalline-de-rham-span",
+    "formulas": 13,
+    "letters": [
+      {
+        "formula": 2,
+        "command": "mathbb",
+        "letter": "Q",
+        "expected": "ℚ",
+        "actual": "ℚ"
+      },
+      {
+        "formula": 3,
+        "command": "mathbb",
+        "letter": "Q",
+        "expected": "ℚ",
+        "actual": "ℚ"
+      }
+    ]
+  },
+  {
+    "id": "u2-casimir-sum-squares",
+    "formulas": 9,
+    "letters": [
+      {
+        "formula": 4,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      }
+    ]
+  },
+  {
+    "id": "u3-graded-infinitesimal-finiteness",
+    "formulas": 8,
+    "letters": []
+  },
+  {
+    "id": "r7-eventual-power-sum-independence",
+    "formulas": 7,
+    "letters": [
+      {
+        "formula": 2,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      },
+      {
+        "formula": 6,
+        "command": "mathbb",
+        "letter": "C",
+        "expected": "ℂ",
+        "actual": "ℂ"
+      }
+    ]
+  },
+  {
+    "id": "u5-zero-unit-cells",
+    "formulas": 11,
+    "letters": []
+  }
+]

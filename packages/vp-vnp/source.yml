@@ -1,0 +1,12 @@
+{
+  "url": "https://github.com/anthropics/formal-math",
+  "commit": "11b6c7e3c927df2658f513b6b68ea7f8929c62c5",
+  "repositoryFolder": "vp-vnp/",
+  "sourceRoot": "",
+  "credit": "vp-vnp source",
+  "hasDeclarationIndex": false,
+  "hasTheoremUse": false,
+  "moduleList": "packages/vp-vnp/modules.txt",
+  "proofFile": "proofs/vp-vnp/proof.yml",
+  "license": "Apache-2.0"
+}

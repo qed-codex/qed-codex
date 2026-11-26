@@ -1,0 +1,22 @@
+{
+  "package": "zeta23",
+  "metadata": "packages/zeta23/formalization.yaml",
+  "metadataSha256": "07d6fb33253544c7c8356d68132f6f6ea6563da1cb12626d5089d769f971e927",
+  "verificationRecords": [
+    {
+      "title": "Audit record",
+      "who": "zeta23 project",
+      "address": "https://github.com/anthropics/formal-math/blob/11b6c7e3c927df2658f513b6b68ea7f8929c62c5/zeta23/AUDIT.md"
+    }
+  ],
+  "statement": "Challenge.lean",
+  "solution": "Solution.lean",
+  "additionalRoles": {
+    "statement": [
+      "Challenge/XiPrime.lean"
+    ],
+    "solution": [
+      "Solution/XiPrime.lean"
+    ]
+  }
+}

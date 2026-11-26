@@ -1,0 +1,26 @@
+---
+{
+  "module": "OAI/Algorithms/SubexponentialSAT/SqrtLog/LayoutFiberSumProgramNative.lean",
+  "declarations": [],
+  "author": "dial481",
+  "writer": "OpenAI (unnamed internal model)",
+  "origin": "other-author",
+  "entry_type": "source-documentation",
+  "license": "Apache-2.0",
+  "copyright_status": "absent",
+  "source": "https://github.com/openai/math/blob/3344da59991ed94f9ba711217b29c1d760badfa6/lean/OAI/Algorithms/SubexponentialSAT/SqrtLog/LayoutFiberSumProgramNative.lean",
+  "source_commit": "3344da59991ed94f9ba711217b29c1d760badfa6",
+  "kind": "ai"
+}
+---
+
+Documentation comments extracted from this file at [3344da5](https://github.com/openai/math/blob/3344da59991ed94f9ba711217b29c1d760badfa6/lean/OAI/Algorithms/SubexponentialSAT/SqrtLog/LayoutFiberSumProgramNative.lean). Any heading that names a declaration was added by QED Codex. The text is otherwise unchanged.
+
+ Discharge the fiber loop's callback by the concrete integer-entry machine.
+All remaining assumptions describe its actual caches and numerical bounds. 
+
+### `entryAt`
+
+ The concrete metadata lookup and universal integer-entry program fulfills
+the native fiber callback, even with arbitrary accumulator/queue contents.
+`U` bounds actual metadata lookup time; it is not a program-service premise. 

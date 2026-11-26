@@ -1,0 +1,53 @@
+---
+{
+  "module": "Solution/XiPrime.lean",
+  "declarations": [],
+  "author": "dial481",
+  "writer": "Claude",
+  "origin": "other-author",
+  "entry_type": "source-documentation",
+  "license": "Apache-2.0",
+  "copyright": "Copyright (c) 2026 Anthropic, PBC. All rights reserved.",
+  "source": "https://github.com/anthropics/formal-math/blob/11b6c7e3c927df2658f513b6b68ea7f8929c62c5/zeta23/Solution/XiPrime.lean",
+  "source_commit": "11b6c7e3c927df2658f513b6b68ea7f8929c62c5",
+  "kind": "ai"
+}
+---
+
+Documentation comments extracted from this file at [11b6c7e](https://github.com/anthropics/formal-math/blob/11b6c7e3c927df2658f513b6b68ea7f8929c62c5/zeta23/Solution/XiPrime.lean). Any heading that names a declaration was added by QED Codex. The text is otherwise unchanged.
+
+```text
+/-
+Copyright (c) 2026 Anthropic, PBC. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+SPDX-License-Identifier: Apache-2.0
+-/
+```
+
+### `xiPrime_zeros_in_open_critical_strip`
+
+ **Every zero of ξ′ lies in the open critical strip 0 < Re s < 1** (ξ(s) = ½s(s−1)π^{−s/2}Γ(s/2)ζ(s)). 
+
+### `xiPrime_over_xi_re_pos`
+
+ **Re ξ′/ξ(s) > 0 whenever Re s ≥ 1.** 
+
+### `xiPrime_simple_zeros_on_critical_line`
+
+ **At least 85.838% of the zeros of ξ′ are simple and on the critical line; at least 92.919% are
+distinct** — for all large T, counting the zeros ρ of ξ′ with T < Im ρ ≤ 2T (ANY real part) with
+multiplicity in the denominator. 
+
+### `xiPrime_simple_zeros_on_critical_line_cumulative`
+
+ the same for the windows 0 < Im ρ ≤ T (cumulative counts). 
+
+### `xiPrime_simple_zeros_on_critical_line_quartic`
+
+ the same with the near-optimal quartic window: **at least 86.864% simple and on the critical line, at least 93.432%
+distinct**, for all large T, zeros of ξ′ with T < Im ρ ≤ 2T counted with multiplicity in the denominator. 
+
+### `xiPrime_simple_zeros_on_critical_line_quartic_cumulative`
+
+ the quartic-window percentages for the cumulative windows 0 < Im ρ ≤ T: **at least 86.864% simple and on the
+critical line, at least 93.432% distinct**, for all large T. 

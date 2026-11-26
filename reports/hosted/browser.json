@@ -1,0 +1,2751 @@
+{
+  "browser": "159.0.8154.6",
+  "transport": "Direct browser TLS through a byte-counting CONNECT tunnel",
+  "samples": [
+    {
+      "kind": "module",
+      "value": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+      "state": "cold",
+      "elapsedMs": 3045.7,
+      "tls": {
+        "sent": 1556,
+        "received": 871114,
+        "total": 872670
+      },
+      "files": 8,
+      "databasePayload": 245305,
+      "databaseEncodedResponses": 248365,
+      "requests": [
+        {
+          "asset": "interior",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 216908,
+          "encodedResponseBytes": 217509
+        },
+        {
+          "asset": "p/1",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 1225,
+          "encodedResponseBytes": 1552
+        },
+        {
+          "asset": "p/9009",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 9209,
+          "encodedResponseBytes": 9522
+        },
+        {
+          "asset": "p/473",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 5167,
+          "encodedResponseBytes": 5525
+        },
+        {
+          "asset": "p/18",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 83,
+          "encodedResponseBytes": 547
+        },
+        {
+          "asset": "p/7",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 5393,
+          "encodedResponseBytes": 5725
+        },
+        {
+          "asset": "p/5693",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7251,
+          "encodedResponseBytes": 7562
+        },
+        {
+          "asset": "p/19",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 69,
+          "encodedResponseBytes": 423
+        }
+      ],
+      "navigationTls": {
+        "sent": 2671,
+        "received": 7856,
+        "total": 10527
+      }
+    },
+    {
+      "kind": "module",
+      "value": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+      "state": "repeat",
+      "elapsedMs": 1.6,
+      "tls": {
+        "sent": 0,
+        "received": 0,
+        "total": 0
+      },
+      "files": 0,
+      "databasePayload": 0,
+      "databaseEncodedResponses": 0,
+      "requests": []
+    },
+    {
+      "kind": "module",
+      "value": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+      "state": "warm",
+      "elapsedMs": 178.3,
+      "tls": {
+        "sent": 331,
+        "received": 20964,
+        "total": 21295
+      },
+      "files": 3,
+      "databasePayload": 19769,
+      "databaseEncodedResponses": 20744,
+      "requests": [
+        {
+          "asset": "p/9009",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 9209,
+          "encodedResponseBytes": 9577
+        },
+        {
+          "asset": "p/473",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 5167,
+          "encodedResponseBytes": 5471
+        },
+        {
+          "asset": "p/7",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 5393,
+          "encodedResponseBytes": 5696
+        }
+      ],
+      "navigationTls": {
+        "sent": 2767,
+        "received": 7863,
+        "total": 10630
+      }
+    },
+    {
+      "kind": "typeahead",
+      "value": "RowS",
+      "state": "cold",
+      "elapsedMs": 1167.8,
+      "tls": {
+        "sent": 1004,
+        "received": 850408,
+        "total": 851412
+      },
+      "files": 3,
+      "databasePayload": 226898,
+      "databaseEncodedResponses": 228115,
+      "requests": [
+        {
+          "asset": "interior",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 216908,
+          "encodedResponseBytes": 217509
+        },
+        {
+          "asset": "p/1",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 1225,
+          "encodedResponseBytes": 1530
+        },
+        {
+          "asset": "p/9007",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8765,
+          "encodedResponseBytes": 9076
+        }
+      ],
+      "navigationTls": {
+        "sent": 2671,
+        "received": 7870,
+        "total": 10541
+      }
+    },
+    {
+      "kind": "typeahead",
+      "value": "RowS",
+      "state": "repeat",
+      "elapsedMs": 1.1,
+      "tls": {
+        "sent": 0,
+        "received": 0,
+        "total": 0
+      },
+      "files": 0,
+      "databasePayload": 0,
+      "databaseEncodedResponses": 0,
+      "requests": []
+    },
+    {
+      "kind": "typeahead",
+      "value": "RowS",
+      "state": "warm",
+      "elapsedMs": 153.2,
+      "tls": {
+        "sent": 111,
+        "received": 9193,
+        "total": 9304
+      },
+      "files": 1,
+      "databasePayload": 8765,
+      "databaseEncodedResponses": 9127,
+      "requests": [
+        {
+          "asset": "p/9007",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8765,
+          "encodedResponseBytes": 9127
+        }
+      ],
+      "navigationTls": {
+        "sent": 2671,
+        "received": 7888,
+        "total": 10559
+      }
+    },
+    {
+      "kind": "typeahead",
+      "value": "galois",
+      "state": "cold",
+      "elapsedMs": 1052,
+      "tls": {
+        "sent": 1005,
+        "received": 850857,
+        "total": 851862
+      },
+      "files": 3,
+      "databasePayload": 227558,
+      "databaseEncodedResponses": 228778,
+      "requests": [
+        {
+          "asset": "interior",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 216908,
+          "encodedResponseBytes": 217501
+        },
+        {
+          "asset": "p/1",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 1225,
+          "encodedResponseBytes": 1534
+        },
+        {
+          "asset": "p/7454",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 9425,
+          "encodedResponseBytes": 9743
+        }
+      ],
+      "navigationTls": {
+        "sent": 2735,
+        "received": 7853,
+        "total": 10588
+      }
+    },
+    {
+      "kind": "typeahead",
+      "value": "galois",
+      "state": "repeat",
+      "elapsedMs": 1.5,
+      "tls": {
+        "sent": 0,
+        "received": 0,
+        "total": 0
+      },
+      "files": 0,
+      "databasePayload": 0,
+      "databaseEncodedResponses": 0,
+      "requests": []
+    },
+    {
+      "kind": "typeahead",
+      "value": "galois",
+      "state": "warm",
+      "elapsedMs": 58.1,
+      "tls": {
+        "sent": 112,
+        "received": 9878,
+        "total": 9990
+      },
+      "files": 1,
+      "databasePayload": 9425,
+      "databaseEncodedResponses": 9790,
+      "requests": [
+        {
+          "asset": "p/7454",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 9425,
+          "encodedResponseBytes": 9790
+        }
+      ],
+      "navigationTls": {
+        "sent": 2767,
+        "received": 7854,
+        "total": 10621
+      }
+    },
+    {
+      "kind": "typeahead",
+      "value": "zero",
+      "state": "cold",
+      "elapsedMs": 1118.3,
+      "tls": {
+        "sent": 1005,
+        "received": 850712,
+        "total": 851717
+      },
+      "files": 3,
+      "databasePayload": 227064,
+      "databaseEncodedResponses": 228308,
+      "requests": [
+        {
+          "asset": "interior",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 216908,
+          "encodedResponseBytes": 217506
+        },
+        {
+          "asset": "p/1",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 1225,
+          "encodedResponseBytes": 1532
+        },
+        {
+          "asset": "p/9695",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8931,
+          "encodedResponseBytes": 9270
+        }
+      ],
+      "navigationTls": {
+        "sent": 2671,
+        "received": 7856,
+        "total": 10527
+      }
+    },
+    {
+      "kind": "typeahead",
+      "value": "zero",
+      "state": "repeat",
+      "elapsedMs": 1.6,
+      "tls": {
+        "sent": 0,
+        "received": 0,
+        "total": 0
+      },
+      "files": 0,
+      "databasePayload": 0,
+      "databaseEncodedResponses": 0,
+      "requests": []
+    },
+    {
+      "kind": "typeahead",
+      "value": "zero",
+      "state": "warm",
+      "elapsedMs": 55.9,
+      "tls": {
+        "sent": 112,
+        "received": 9382,
+        "total": 9494
+      },
+      "files": 1,
+      "databasePayload": 8931,
+      "databaseEncodedResponses": 9294,
+      "requests": [
+        {
+          "asset": "p/9695",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8931,
+          "encodedResponseBytes": 9294
+        }
+      ],
+      "navigationTls": {
+        "sent": 2735,
+        "received": 7854,
+        "total": 10589
+      }
+    },
+    {
+      "kind": "typeahead",
+      "value": "siegel",
+      "state": "cold",
+      "elapsedMs": 1136.9,
+      "tls": {
+        "sent": 1004,
+        "received": 850052,
+        "total": 851056
+      },
+      "files": 3,
+      "databasePayload": 226794,
+      "databaseEncodedResponses": 228002,
+      "requests": [
+        {
+          "asset": "interior",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 216908,
+          "encodedResponseBytes": 217500
+        },
+        {
+          "asset": "p/1",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 1225,
+          "encodedResponseBytes": 1528
+        },
+        {
+          "asset": "p/9105",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8661,
+          "encodedResponseBytes": 8974
+        }
+      ],
+      "navigationTls": {
+        "sent": 2767,
+        "received": 7860,
+        "total": 10627
+      }
+    },
+    {
+      "kind": "typeahead",
+      "value": "siegel",
+      "state": "repeat",
+      "elapsedMs": 1,
+      "tls": {
+        "sent": 0,
+        "received": 0,
+        "total": 0
+      },
+      "files": 0,
+      "databasePayload": 0,
+      "databaseEncodedResponses": 0,
+      "requests": []
+    },
+    {
+      "kind": "typeahead",
+      "value": "siegel",
+      "state": "warm",
+      "elapsedMs": 57.6,
+      "tls": {
+        "sent": 111,
+        "received": 9096,
+        "total": 9207
+      },
+      "files": 1,
+      "databasePayload": 8661,
+      "databaseEncodedResponses": 9030,
+      "requests": [
+        {
+          "asset": "p/9105",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8661,
+          "encodedResponseBytes": 9030
+        }
+      ],
+      "navigationTls": {
+        "sent": 2671,
+        "received": 7860,
+        "total": 10531
+      }
+    },
+    {
+      "kind": "typeahead",
+      "value": "a",
+      "state": "cold",
+      "elapsedMs": 1801.6,
+      "tls": {
+        "sent": 1117,
+        "received": 855940,
+        "total": 857057
+      },
+      "files": 4,
+      "databasePayload": 231955,
+      "databaseEncodedResponses": 233548,
+      "requests": [
+        {
+          "asset": "interior",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 216908,
+          "encodedResponseBytes": 217507
+        },
+        {
+          "asset": "p/1",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 1225,
+          "encodedResponseBytes": 1526
+        },
+        {
+          "asset": "p/6143",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 3911,
+          "encodedResponseBytes": 4213
+        },
+        {
+          "asset": "p/6144",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 9911,
+          "encodedResponseBytes": 10302
+        }
+      ],
+      "navigationTls": {
+        "sent": 2703,
+        "received": 7862,
+        "total": 10565
+      }
+    },
+    {
+      "kind": "typeahead",
+      "value": "a",
+      "state": "repeat",
+      "elapsedMs": 1.7,
+      "tls": {
+        "sent": 0,
+        "received": 0,
+        "total": 0
+      },
+      "files": 0,
+      "databasePayload": 0,
+      "databaseEncodedResponses": 0,
+      "requests": []
+    },
+    {
+      "kind": "typeahead",
+      "value": "a",
+      "state": "warm",
+      "elapsedMs": 257.4,
+      "tls": {
+        "sent": 224,
+        "received": 14678,
+        "total": 14902
+      },
+      "files": 2,
+      "databasePayload": 13822,
+      "databaseEncodedResponses": 14524,
+      "requests": [
+        {
+          "asset": "p/6143",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 3911,
+          "encodedResponseBytes": 4296
+        },
+        {
+          "asset": "p/6144",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 9911,
+          "encodedResponseBytes": 10228
+        }
+      ],
+      "navigationTls": {
+        "sent": 2767,
+        "received": 7862,
+        "total": 10629
+      }
+    },
+    {
+      "kind": "typeahead",
+      "value": "Α",
+      "state": "cold",
+      "elapsedMs": 1299.7,
+      "tls": {
+        "sent": 1005,
+        "received": 851829,
+        "total": 852834
+      },
+      "files": 3,
+      "databasePayload": 228353,
+      "databaseEncodedResponses": 229591,
+      "requests": [
+        {
+          "asset": "interior",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 216908,
+          "encodedResponseBytes": 217503
+        },
+        {
+          "asset": "p/1",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 1225,
+          "encodedResponseBytes": 1552
+        },
+        {
+          "asset": "p/9709",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 10220,
+          "encodedResponseBytes": 10536
+        }
+      ],
+      "navigationTls": {
+        "sent": 2703,
+        "received": 7856,
+        "total": 10559
+      }
+    },
+    {
+      "kind": "typeahead",
+      "value": "Α",
+      "state": "repeat",
+      "elapsedMs": 1.1,
+      "tls": {
+        "sent": 0,
+        "received": 0,
+        "total": 0
+      },
+      "files": 0,
+      "databasePayload": 0,
+      "databaseEncodedResponses": 0,
+      "requests": []
+    },
+    {
+      "kind": "typeahead",
+      "value": "Α",
+      "state": "warm",
+      "elapsedMs": 82.2,
+      "tls": {
+        "sent": 112,
+        "received": 10655,
+        "total": 10767
+      },
+      "files": 1,
+      "databasePayload": 10220,
+      "databaseEncodedResponses": 10589,
+      "requests": [
+        {
+          "asset": "p/9709",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 10220,
+          "encodedResponseBytes": 10589
+        }
+      ],
+      "navigationTls": {
+        "sent": 2671,
+        "received": 7856,
+        "total": 10527
+      }
+    },
+    {
+      "kind": "typeahead",
+      "value": "_aux",
+      "state": "cold",
+      "elapsedMs": 1249.6,
+      "tls": {
+        "sent": 1004,
+        "received": 845944,
+        "total": 846948
+      },
+      "files": 3,
+      "databasePayload": 222319,
+      "databaseEncodedResponses": 223573,
+      "requests": [
+        {
+          "asset": "interior",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 216908,
+          "encodedResponseBytes": 217527
+        },
+        {
+          "asset": "p/1",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 1225,
+          "encodedResponseBytes": 1531
+        },
+        {
+          "asset": "p/6112",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 4186,
+          "encodedResponseBytes": 4515
+        }
+      ],
+      "navigationTls": {
+        "sent": 2703,
+        "received": 7864,
+        "total": 10567
+      }
+    },
+    {
+      "kind": "typeahead",
+      "value": "_aux",
+      "state": "repeat",
+      "elapsedMs": 1.4,
+      "tls": {
+        "sent": 0,
+        "received": 0,
+        "total": 0
+      },
+      "files": 0,
+      "databasePayload": 0,
+      "databaseEncodedResponses": 0,
+      "requests": []
+    },
+    {
+      "kind": "typeahead",
+      "value": "_aux",
+      "state": "warm",
+      "elapsedMs": 54,
+      "tls": {
+        "sent": 111,
+        "received": 4613,
+        "total": 4724
+      },
+      "files": 1,
+      "databasePayload": 4186,
+      "databaseEncodedResponses": 4547,
+      "requests": [
+        {
+          "asset": "p/6112",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 4186,
+          "encodedResponseBytes": 4547
+        }
+      ],
+      "navigationTls": {
+        "sent": 2671,
+        "received": 7850,
+        "total": 10521
+      }
+    },
+    {
+      "kind": "search",
+      "value": "RowSrc",
+      "state": "cold",
+      "elapsedMs": 1546.5,
+      "tls": {
+        "sent": 1448,
+        "received": 895918,
+        "total": 897366
+      },
+      "files": 7,
+      "databasePayload": 270533,
+      "databaseEncodedResponses": 273241,
+      "requests": [
+        {
+          "asset": "interior",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 216908,
+          "encodedResponseBytes": 217504
+        },
+        {
+          "asset": "p/1",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 1225,
+          "encodedResponseBytes": 1527
+        },
+        {
+          "asset": "p/13",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 93,
+          "encodedResponseBytes": 399
+        },
+        {
+          "asset": "p/5698",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 10542,
+          "encodedResponseBytes": 10940
+        },
+        {
+          "asset": "p/6111",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 14126,
+          "encodedResponseBytes": 14604
+        },
+        {
+          "asset": "p/6029",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 22472,
+          "encodedResponseBytes": 22791
+        },
+        {
+          "asset": "p/473",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 5167,
+          "encodedResponseBytes": 5476
+        }
+      ],
+      "navigationTls": {
+        "sent": 2767,
+        "received": 7860,
+        "total": 10627
+      }
+    },
+    {
+      "kind": "search",
+      "value": "RowSrc",
+      "state": "repeat",
+      "elapsedMs": 1.5,
+      "tls": {
+        "sent": 0,
+        "received": 0,
+        "total": 0
+      },
+      "files": 0,
+      "databasePayload": 0,
+      "databaseEncodedResponses": 0,
+      "requests": []
+    },
+    {
+      "kind": "search",
+      "value": "RowSrc",
+      "state": "warm",
+      "elapsedMs": 371.4,
+      "tls": {
+        "sent": 555,
+        "received": 54679,
+        "total": 55234
+      },
+      "files": 5,
+      "databasePayload": 52400,
+      "databaseEncodedResponses": 54283,
+      "requests": [
+        {
+          "asset": "p/13",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 93,
+          "encodedResponseBytes": 447
+        },
+        {
+          "asset": "p/5698",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 10542,
+          "encodedResponseBytes": 10855
+        },
+        {
+          "asset": "p/6111",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 14126,
+          "encodedResponseBytes": 14468
+        },
+        {
+          "asset": "p/6029",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 22472,
+          "encodedResponseBytes": 22877
+        },
+        {
+          "asset": "p/473",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 5167,
+          "encodedResponseBytes": 5636
+        }
+      ],
+      "navigationTls": {
+        "sent": 2671,
+        "received": 7894,
+        "total": 10565
+      }
+    },
+    {
+      "kind": "search",
+      "value": "zero*",
+      "state": "cold",
+      "elapsedMs": 4012.7,
+      "tls": {
+        "sent": 2768,
+        "received": 1017340,
+        "total": 1020108
+      },
+      "files": 19,
+      "databasePayload": 386609,
+      "databaseEncodedResponses": 393661,
+      "requests": [
+        {
+          "asset": "interior",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 216908,
+          "encodedResponseBytes": 217499
+        },
+        {
+          "asset": "p/1",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 1225,
+          "encodedResponseBytes": 1530
+        },
+        {
+          "asset": "p/13",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 93,
+          "encodedResponseBytes": 397
+        },
+        {
+          "asset": "p/5698",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 10542,
+          "encodedResponseBytes": 10914
+        },
+        {
+          "asset": "p/6111",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 14126,
+          "encodedResponseBytes": 14606
+        },
+        {
+          "asset": "p/6107",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 25149,
+          "encodedResponseBytes": 25481
+        },
+        {
+          "asset": "p/6108",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 22711,
+          "encodedResponseBytes": 23037
+        },
+        {
+          "asset": "p/20",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8100,
+          "encodedResponseBytes": 8488
+        },
+        {
+          "asset": "p/22",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7850,
+          "encodedResponseBytes": 8158
+        },
+        {
+          "asset": "p/24",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7702,
+          "encodedResponseBytes": 8009
+        },
+        {
+          "asset": "p/25",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 6997,
+          "encodedResponseBytes": 7360
+        },
+        {
+          "asset": "p/26",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7019,
+          "encodedResponseBytes": 7488
+        },
+        {
+          "asset": "p/28",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8816,
+          "encodedResponseBytes": 9155
+        },
+        {
+          "asset": "p/29",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8029,
+          "encodedResponseBytes": 8348
+        },
+        {
+          "asset": "p/30",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7662,
+          "encodedResponseBytes": 8019
+        },
+        {
+          "asset": "p/31",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8484,
+          "encodedResponseBytes": 8795
+        },
+        {
+          "asset": "p/32",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7885,
+          "encodedResponseBytes": 8188
+        },
+        {
+          "asset": "p/34",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8520,
+          "encodedResponseBytes": 8914
+        },
+        {
+          "asset": "p/35",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8791,
+          "encodedResponseBytes": 9275
+        }
+      ],
+      "navigationTls": {
+        "sent": 2703,
+        "received": 7869,
+        "total": 10572
+      }
+    },
+    {
+      "kind": "search",
+      "value": "zero*",
+      "state": "repeat",
+      "elapsedMs": 11.9,
+      "tls": {
+        "sent": 0,
+        "received": 0,
+        "total": 0
+      },
+      "files": 0,
+      "databasePayload": 0,
+      "databaseEncodedResponses": 0,
+      "requests": []
+    },
+    {
+      "kind": "search",
+      "value": "zero*",
+      "state": "warm",
+      "elapsedMs": 1063.8,
+      "tls": {
+        "sent": 1875,
+        "received": 175687,
+        "total": 177562
+      },
+      "files": 17,
+      "databasePayload": 168476,
+      "databaseEncodedResponses": 174433,
+      "requests": [
+        {
+          "asset": "p/13",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 93,
+          "encodedResponseBytes": 464
+        },
+        {
+          "asset": "p/5698",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 10542,
+          "encodedResponseBytes": 10856
+        },
+        {
+          "asset": "p/6111",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 14126,
+          "encodedResponseBytes": 14441
+        },
+        {
+          "asset": "p/6107",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 25149,
+          "encodedResponseBytes": 25539
+        },
+        {
+          "asset": "p/6108",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 22711,
+          "encodedResponseBytes": 23201
+        },
+        {
+          "asset": "p/20",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8100,
+          "encodedResponseBytes": 8438
+        },
+        {
+          "asset": "p/22",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7850,
+          "encodedResponseBytes": 8163
+        },
+        {
+          "asset": "p/24",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7702,
+          "encodedResponseBytes": 8055
+        },
+        {
+          "asset": "p/25",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 6997,
+          "encodedResponseBytes": 7304
+        },
+        {
+          "asset": "p/26",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7019,
+          "encodedResponseBytes": 7325
+        },
+        {
+          "asset": "p/28",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8816,
+          "encodedResponseBytes": 9192
+        },
+        {
+          "asset": "p/29",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8029,
+          "encodedResponseBytes": 8494
+        },
+        {
+          "asset": "p/30",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7662,
+          "encodedResponseBytes": 7985
+        },
+        {
+          "asset": "p/31",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8484,
+          "encodedResponseBytes": 8801
+        },
+        {
+          "asset": "p/32",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7885,
+          "encodedResponseBytes": 8238
+        },
+        {
+          "asset": "p/34",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8520,
+          "encodedResponseBytes": 8831
+        },
+        {
+          "asset": "p/35",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8791,
+          "encodedResponseBytes": 9106
+        }
+      ],
+      "navigationTls": {
+        "sent": 2767,
+        "received": 7860,
+        "total": 10627
+      }
+    },
+    {
+      "kind": "search",
+      "value": "Formalism AND siegel*",
+      "state": "cold",
+      "elapsedMs": 2891.3,
+      "tls": {
+        "sent": 2450,
+        "received": 1003282,
+        "total": 1005732
+      },
+      "files": 16,
+      "databasePayload": 373875,
+      "databaseEncodedResponses": 379812,
+      "requests": [
+        {
+          "asset": "interior",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 216908,
+          "encodedResponseBytes": 217509
+        },
+        {
+          "asset": "p/1",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 1225,
+          "encodedResponseBytes": 1533
+        },
+        {
+          "asset": "p/13",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 93,
+          "encodedResponseBytes": 399
+        },
+        {
+          "asset": "p/5698",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 10542,
+          "encodedResponseBytes": 11081
+        },
+        {
+          "asset": "p/6110",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 16600,
+          "encodedResponseBytes": 16932
+        },
+        {
+          "asset": "p/5824",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 19186,
+          "encodedResponseBytes": 19512
+        },
+        {
+          "asset": "p/6109",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 17898,
+          "encodedResponseBytes": 18250
+        },
+        {
+          "asset": "p/6111",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 14126,
+          "encodedResponseBytes": 14497
+        },
+        {
+          "asset": "p/6039",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 21734,
+          "encodedResponseBytes": 22056
+        },
+        {
+          "asset": "p/6040",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 14424,
+          "encodedResponseBytes": 14737
+        },
+        {
+          "asset": "p/5825",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 517,
+          "encodedResponseBytes": 1044
+        },
+        {
+          "asset": "p/597",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8612,
+          "encodedResponseBytes": 8920
+        },
+        {
+          "asset": "p/604",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8788,
+          "encodedResponseBytes": 9132
+        },
+        {
+          "asset": "p/605",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8732,
+          "encodedResponseBytes": 9049
+        },
+        {
+          "asset": "p/613",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8291,
+          "encodedResponseBytes": 8656
+        },
+        {
+          "asset": "p/614",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 6199,
+          "encodedResponseBytes": 6505
+        }
+      ],
+      "navigationTls": {
+        "sent": 2767,
+        "received": 7888,
+        "total": 10655
+      }
+    },
+    {
+      "kind": "search",
+      "value": "Formalism AND siegel*",
+      "state": "repeat",
+      "elapsedMs": 8.4,
+      "tls": {
+        "sent": 0,
+        "received": 0,
+        "total": 0
+      },
+      "files": 0,
+      "databasePayload": 0,
+      "databaseEncodedResponses": 0,
+      "requests": []
+    },
+    {
+      "kind": "search",
+      "value": "Formalism AND siegel*",
+      "state": "warm",
+      "elapsedMs": 949.3,
+      "tls": {
+        "sent": 1557,
+        "received": 161924,
+        "total": 163481
+      },
+      "files": 14,
+      "databasePayload": 155742,
+      "databaseEncodedResponses": 160780,
+      "requests": [
+        {
+          "asset": "p/13",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 93,
+          "encodedResponseBytes": 463
+        },
+        {
+          "asset": "p/5698",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 10542,
+          "encodedResponseBytes": 10860
+        },
+        {
+          "asset": "p/6110",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 16600,
+          "encodedResponseBytes": 16928
+        },
+        {
+          "asset": "p/5824",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 19186,
+          "encodedResponseBytes": 19565
+        },
+        {
+          "asset": "p/6109",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 17898,
+          "encodedResponseBytes": 18405
+        },
+        {
+          "asset": "p/6111",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 14126,
+          "encodedResponseBytes": 14447
+        },
+        {
+          "asset": "p/6039",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 21734,
+          "encodedResponseBytes": 22057
+        },
+        {
+          "asset": "p/6040",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 14424,
+          "encodedResponseBytes": 14791
+        },
+        {
+          "asset": "p/5825",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 517,
+          "encodedResponseBytes": 827
+        },
+        {
+          "asset": "p/597",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8612,
+          "encodedResponseBytes": 8924
+        },
+        {
+          "asset": "p/604",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8788,
+          "encodedResponseBytes": 9163
+        },
+        {
+          "asset": "p/605",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8732,
+          "encodedResponseBytes": 9233
+        },
+        {
+          "asset": "p/613",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8291,
+          "encodedResponseBytes": 8611
+        },
+        {
+          "asset": "p/614",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 6199,
+          "encodedResponseBytes": 6506
+        }
+      ],
+      "navigationTls": {
+        "sent": 2767,
+        "received": 7854,
+        "total": 10621
+      }
+    },
+    {
+      "kind": "search",
+      "value": "map*",
+      "state": "cold",
+      "elapsedMs": 2152.3,
+      "tls": {
+        "sent": 2220,
+        "received": 960139,
+        "total": 962359
+      },
+      "files": 14,
+      "databasePayload": 331714,
+      "databaseEncodedResponses": 336915,
+      "requests": [
+        {
+          "asset": "interior",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 216908,
+          "encodedResponseBytes": 217500
+        },
+        {
+          "asset": "p/1",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 1225,
+          "encodedResponseBytes": 1533
+        },
+        {
+          "asset": "p/13",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 93,
+          "encodedResponseBytes": 400
+        },
+        {
+          "asset": "p/5698",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 10542,
+          "encodedResponseBytes": 10920
+        },
+        {
+          "asset": "p/6111",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 14126,
+          "encodedResponseBytes": 14612
+        },
+        {
+          "asset": "p/5948",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 9424,
+          "encodedResponseBytes": 9737
+        },
+        {
+          "asset": "p/5949",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 24162,
+          "encodedResponseBytes": 24509
+        },
+        {
+          "asset": "p/20",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8100,
+          "encodedResponseBytes": 8457
+        },
+        {
+          "asset": "p/21",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7567,
+          "encodedResponseBytes": 7899
+        },
+        {
+          "asset": "p/23",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7453,
+          "encodedResponseBytes": 7764
+        },
+        {
+          "asset": "p/26",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7019,
+          "encodedResponseBytes": 7380
+        },
+        {
+          "asset": "p/27",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8250,
+          "encodedResponseBytes": 8734
+        },
+        {
+          "asset": "p/28",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8816,
+          "encodedResponseBytes": 9132
+        },
+        {
+          "asset": "p/29",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8029,
+          "encodedResponseBytes": 8338
+        }
+      ],
+      "navigationTls": {
+        "sent": 2703,
+        "received": 7883,
+        "total": 10586
+      }
+    },
+    {
+      "kind": "search",
+      "value": "map*",
+      "state": "repeat",
+      "elapsedMs": 4.7,
+      "tls": {
+        "sent": 0,
+        "received": 0,
+        "total": 0
+      },
+      "files": 0,
+      "databasePayload": 0,
+      "databaseEncodedResponses": 0,
+      "requests": []
+    },
+    {
+      "kind": "search",
+      "value": "map*",
+      "state": "warm",
+      "elapsedMs": 905.6,
+      "tls": {
+        "sent": 1327,
+        "received": 118852,
+        "total": 120179
+      },
+      "files": 12,
+      "databasePayload": 113581,
+      "databaseEncodedResponses": 117928,
+      "requests": [
+        {
+          "asset": "p/13",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 93,
+          "encodedResponseBytes": 452
+        },
+        {
+          "asset": "p/5698",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 10542,
+          "encodedResponseBytes": 10852
+        },
+        {
+          "asset": "p/6111",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 14126,
+          "encodedResponseBytes": 14466
+        },
+        {
+          "asset": "p/5948",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 9424,
+          "encodedResponseBytes": 9802
+        },
+        {
+          "asset": "p/5949",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 24162,
+          "encodedResponseBytes": 24654
+        },
+        {
+          "asset": "p/20",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8100,
+          "encodedResponseBytes": 8414
+        },
+        {
+          "asset": "p/21",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7567,
+          "encodedResponseBytes": 7872
+        },
+        {
+          "asset": "p/23",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7453,
+          "encodedResponseBytes": 7806
+        },
+        {
+          "asset": "p/26",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7019,
+          "encodedResponseBytes": 7332
+        },
+        {
+          "asset": "p/27",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8250,
+          "encodedResponseBytes": 8585
+        },
+        {
+          "asset": "p/28",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8816,
+          "encodedResponseBytes": 9191
+        },
+        {
+          "asset": "p/29",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8029,
+          "encodedResponseBytes": 8502
+        }
+      ],
+      "navigationTls": {
+        "sent": 2767,
+        "received": 7855,
+        "total": 10622
+      }
+    },
+    {
+      "kind": "declaration",
+      "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+      "state": "cold",
+      "elapsedMs": 1373.5,
+      "tls": {
+        "sent": 1228,
+        "received": 862113,
+        "total": 863341
+      },
+      "files": 5,
+      "databasePayload": 237654,
+      "databaseEncodedResponses": 239738,
+      "requests": [
+        {
+          "asset": "interior",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 216908,
+          "encodedResponseBytes": 217499
+        },
+        {
+          "asset": "p/1",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 1225,
+          "encodedResponseBytes": 1529
+        },
+        {
+          "asset": "p/7456",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7299,
+          "encodedResponseBytes": 7631
+        },
+        {
+          "asset": "p/3176",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7055,
+          "encodedResponseBytes": 7577
+        },
+        {
+          "asset": "p/473",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 5167,
+          "encodedResponseBytes": 5502
+        }
+      ],
+      "navigationTls": {
+        "sent": 2767,
+        "received": 7872,
+        "total": 10639
+      }
+    },
+    {
+      "kind": "declaration",
+      "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+      "state": "repeat",
+      "elapsedMs": 0.9,
+      "tls": {
+        "sent": 0,
+        "received": 0,
+        "total": 0
+      },
+      "files": 0,
+      "databasePayload": 0,
+      "databaseEncodedResponses": 0,
+      "requests": []
+    },
+    {
+      "kind": "declaration",
+      "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+      "state": "warm",
+      "elapsedMs": 150.8,
+      "tls": {
+        "sent": 335,
+        "received": 20700,
+        "total": 21035
+      },
+      "files": 3,
+      "databasePayload": 19521,
+      "databaseEncodedResponses": 20502,
+      "requests": [
+        {
+          "asset": "p/7456",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7299,
+          "encodedResponseBytes": 7654
+        },
+        {
+          "asset": "p/3176",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7055,
+          "encodedResponseBytes": 7358
+        },
+        {
+          "asset": "p/473",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 5167,
+          "encodedResponseBytes": 5490
+        }
+      ],
+      "navigationTls": {
+        "sent": 2671,
+        "received": 7867,
+        "total": 10538
+      }
+    },
+    {
+      "kind": "trail",
+      "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+      "state": "cold",
+      "elapsedMs": 2734.6,
+      "tls": {
+        "sent": 2120,
+        "received": 949790,
+        "total": 951910
+      },
+      "files": 13,
+      "databasePayload": 321788,
+      "databaseEncodedResponses": 326673,
+      "requests": [
+        {
+          "asset": "interior",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 216908,
+          "encodedResponseBytes": 217509
+        },
+        {
+          "asset": "p/1",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 1225,
+          "encodedResponseBytes": 1533
+        },
+        {
+          "asset": "p/7456",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7299,
+          "encodedResponseBytes": 7607
+        },
+        {
+          "asset": "p/5582",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 20506,
+          "encodedResponseBytes": 20888
+        },
+        {
+          "asset": "p/4931",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 19353,
+          "encodedResponseBytes": 19846
+        },
+        {
+          "asset": "p/473",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 5167,
+          "encodedResponseBytes": 5504
+        },
+        {
+          "asset": "p/3176",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7055,
+          "encodedResponseBytes": 7361
+        },
+        {
+          "asset": "p/461",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7985,
+          "encodedResponseBytes": 8338
+        },
+        {
+          "asset": "p/3107",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8203,
+          "encodedResponseBytes": 8515
+        },
+        {
+          "asset": "p/696",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 3826,
+          "encodedResponseBytes": 4133
+        },
+        {
+          "asset": "p/4472",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7252,
+          "encodedResponseBytes": 7625
+        },
+        {
+          "asset": "p/681",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 6886,
+          "encodedResponseBytes": 7354
+        },
+        {
+          "asset": "p/4363",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 10123,
+          "encodedResponseBytes": 10460
+        }
+      ],
+      "navigationTls": {
+        "sent": 2735,
+        "received": 7862,
+        "total": 10597
+      }
+    },
+    {
+      "kind": "trail",
+      "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+      "state": "repeat",
+      "elapsedMs": 2.7,
+      "tls": {
+        "sent": 0,
+        "received": 0,
+        "total": 0
+      },
+      "files": 0,
+      "databasePayload": 0,
+      "databaseEncodedResponses": 0,
+      "requests": []
+    },
+    {
+      "kind": "trail",
+      "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+      "state": "warm",
+      "elapsedMs": 696.9,
+      "tls": {
+        "sent": 1227,
+        "received": 108300,
+        "total": 109527
+      },
+      "files": 11,
+      "databasePayload": 103655,
+      "databaseEncodedResponses": 107508,
+      "requests": [
+        {
+          "asset": "p/7456",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7299,
+          "encodedResponseBytes": 7675
+        },
+        {
+          "asset": "p/5582",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 20506,
+          "encodedResponseBytes": 20838
+        },
+        {
+          "asset": "p/4931",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 19353,
+          "encodedResponseBytes": 19675
+        },
+        {
+          "asset": "p/473",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 5167,
+          "encodedResponseBytes": 5527
+        },
+        {
+          "asset": "p/3176",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7055,
+          "encodedResponseBytes": 7526
+        },
+        {
+          "asset": "p/461",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7985,
+          "encodedResponseBytes": 8292
+        },
+        {
+          "asset": "p/3107",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 8203,
+          "encodedResponseBytes": 8541
+        },
+        {
+          "asset": "p/696",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 3826,
+          "encodedResponseBytes": 4179
+        },
+        {
+          "asset": "p/4472",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 7252,
+          "encodedResponseBytes": 7559
+        },
+        {
+          "asset": "p/681",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 6886,
+          "encodedResponseBytes": 7193
+        },
+        {
+          "asset": "p/4363",
+          "status": 200,
+          "protocol": "h2",
+          "contentEncoding": "identity",
+          "cache": "public, max-age=31536000, immutable, no-transform",
+          "type": "application/gzip",
+          "fromCache": false,
+          "bodyBytes": 10123,
+          "encodedResponseBytes": 10503
+        }
+      ],
+      "navigationTls": {
+        "sent": 2767,
+        "received": 7868,
+        "total": 10635
+      }
+    }
+  ]
+}

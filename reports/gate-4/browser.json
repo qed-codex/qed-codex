@@ -1,0 +1,48 @@
+{
+  "directory": [
+    {
+      "engine": "chromium",
+      "version": "159.0.8154.6",
+      "staticModule": "src/Formalism/LocalToGlobal/HermitianForms/TiedTwSymAll.lean",
+      "staticAndBoardNumberedReads": 0,
+      "unmatched": 116,
+      "boardRanks": [
+        1,
+        51,
+        146251,
+        146283
+      ]
+    },
+    {
+      "engine": "firefox",
+      "version": "159.0",
+      "staticModule": "src/Formalism/LocalToGlobal/HermitianForms/TiedTwSymAll.lean",
+      "staticAndBoardNumberedReads": 0,
+      "unmatched": 116,
+      "boardRanks": [
+        1,
+        51,
+        146251,
+        146283
+      ]
+    },
+    {
+      "engine": "webkit",
+      "version": "27.2",
+      "staticModule": "src/Formalism/LocalToGlobal/HermitianForms/TiedTwSymAll.lean",
+      "staticAndBoardNumberedReads": 0,
+      "unmatched": 116,
+      "boardRanks": [
+        1,
+        51,
+        146251,
+        146283
+      ]
+    }
+  ],
+  "console": [
+    "chromium 159.0.8154.6 passed indexed examples, share links, reads, limits, authorization, cancellation and recovery",
+    "firefox 159.0 passed indexed examples, share links, reads, limits, authorization, cancellation and recovery",
+    "webkit 27.2 passed indexed examples, share links, reads, limits, authorization, cancellation and recovery"
+  ]
+}

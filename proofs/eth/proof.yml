@@ -1,0 +1,17 @@
+{
+  "package": "eth",
+  "readmeOpening": "packages/eth/readme-opening.md",
+  "readmeSHA256": "844e0dd78593f728e6a6a1f52b7b3d1e162020c1746ac1f4b3c4e5f2ff7f494e",
+  "openingSHA256": "203970b173d763fbf9f8a976590914c15251057fc990922cb3b6651d21a41bf1",
+  "writer": "AI models",
+  "creditSource": "https://github.com/anthropics/formal-math/blob/11b6c7e3c927df2658f513b6b68ea7f8929c62c5/eth/README.md",
+  "verificationRecords": [
+    {
+      "title": "Lean proof",
+      "who": "eth project",
+      "address": "https://github.com/anthropics/formal-math/blob/11b6c7e3c927df2658f513b6b68ea7f8929c62c5/eth/README.md#lean-proof"
+    }
+  ],
+  "statement": "Challenge.lean",
+  "solution": "Solution.lean"
+}

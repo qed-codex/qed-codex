@@ -1,0 +1,17 @@
+{
+  "url": "https://github.com/openai/math",
+  "commit": "3344da59991ed94f9ba711217b29c1d760badfa6",
+  "repositoryFolder": "lean/",
+  "sourceRoot": "",
+  "credit": "OpenAI math repository",
+  "hasDeclarationIndex": false,
+  "hasTheoremUse": false,
+  "moduleList": "packages/openai-math/modules.txt",
+  "importConfig": "packages/openai-math/import.json",
+  "license": "Apache-2.0",
+  "proofFiles": [
+    "proofs/openai-math/SubexponentialSAT/proof.yml",
+    "proofs/openai-math/VPVNP/proof.yml",
+    "proofs/openai-math/MatrixExponent/proof.yml"
+  ]
+}

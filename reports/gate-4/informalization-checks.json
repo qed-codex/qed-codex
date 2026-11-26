@@ -1,0 +1,127 @@
+[
+  {
+    "fixture": "valid informalization on diverged branches",
+    "exit": 0,
+    "message": "Informalization contribution accepted. Validated 1 added or modified files."
+  },
+  {
+    "fixture": "own informalization edit",
+    "exit": 0,
+    "message": "Informalization contribution accepted. Validated 1 added or modified files."
+  },
+  {
+    "fixture": "own informalization deletion",
+    "exit": 0,
+    "message": "Informalization contribution accepted. Validated 0 added or modified files."
+  },
+  {
+    "fixture": "own informalization move",
+    "exit": 0,
+    "message": "Informalization contribution accepted. Validated 1 added or modified files."
+  },
+  {
+    "fixture": "agreement at the target revision",
+    "exit": 0,
+    "message": "Informalization contribution accepted. Validated 1 added or modified files."
+  },
+  {
+    "fixture": "stale agreement",
+    "exit": 1,
+    "message": "Informalization check failed: agreement peer informalization digest differs"
+  },
+  {
+    "fixture": "symlink in informalization path",
+    "exit": 1,
+    "message": "Informalization check failed: informalization must be a regular non-executable Markdown file"
+  },
+  {
+    "fixture": "file-level informalization",
+    "exit": 0,
+    "message": "Informalization contribution accepted. Validated 1 added or modified files."
+  },
+  {
+    "fixture": "AI informalization with model",
+    "exit": 0,
+    "message": "Informalization contribution accepted. Validated 1 added or modified files."
+  },
+  {
+    "fixture": "unknown module",
+    "exit": 1,
+    "message": "Informalization check failed: module is absent from the trusted database"
+  },
+  {
+    "fixture": "declaration in another module",
+    "exit": 1,
+    "message": "Informalization check failed: named declaration is absent from the cited module"
+  },
+  {
+    "fixture": "missing license",
+    "exit": 1,
+    "message": "Informalization check failed: license must be CC-BY-4.0"
+  },
+  {
+    "fixture": "wrong license",
+    "exit": 1,
+    "message": "Informalization check failed: license must be CC-BY-4.0"
+  },
+  {
+    "fixture": "wrong source revision",
+    "exit": 1,
+    "message": "Informalization check failed: source_commit differs from the trusted proof pin"
+  },
+  {
+    "fixture": "missing AI tool",
+    "exit": 1,
+    "message": "Informalization check failed: an autoinformalization must identify its tool or model"
+  },
+  {
+    "fixture": "invalid kind",
+    "exit": 1,
+    "message": "Informalization check failed: invalid informalization kind"
+  },
+  {
+    "fixture": "incorrect declarations type",
+    "exit": 1,
+    "message": "Informalization check failed: declarations must be a list of nonempty Lean names"
+  },
+  {
+    "fixture": "unknown field",
+    "exit": 1,
+    "message": "Informalization check failed: front matter has missing or unknown fields"
+  },
+  {
+    "fixture": "duplicate metadata key",
+    "exit": 1,
+    "message": "Informalization check failed: duplicate front matter key"
+  },
+  {
+    "fixture": "wrong author in metadata",
+    "exit": 1,
+    "message": "Informalization check failed: module and author must match the contribution path"
+  },
+  {
+    "fixture": "other author's edit",
+    "exit": 1,
+    "message": "Informalization check failed: contribution changes a path outside the PR author's informalization files"
+  },
+  {
+    "fixture": "other author's deletion",
+    "exit": 1,
+    "message": "Informalization check failed: contribution changes a path outside the PR author's informalization files"
+  },
+  {
+    "fixture": "other author's rename",
+    "exit": 1,
+    "message": "Informalization check failed: contribution changes a path outside the PR author's informalization files"
+  },
+  {
+    "fixture": "mixed code and informalization",
+    "exit": 1,
+    "message": "Informalization check failed: contribution changes a path outside the PR author's informalization files"
+  },
+  {
+    "fixture": "code-only change",
+    "exit": 0,
+    "message": "No informalization changes."
+  }
+]

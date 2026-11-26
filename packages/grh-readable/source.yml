@@ -1,0 +1,13 @@
+{
+  "url": "https://github.com/lsernau/grh-lean",
+  "commit": "72fead102f663d5c7a407964a13dc0cf9d977207",
+  "repositoryFolder": "grh/",
+  "sourceRoot": "src/",
+  "credit": "Claude (AI)",
+  "hasDeclarationIndex": false,
+  "hasTheoremUse": false,
+  "moduleList": "packages/grh-readable/modules.txt",
+  "importConfig": "packages/grh-readable/import.json",
+  "license": "Apache-2.0",
+  "proofFile": "proofs/grh-readable/proof.yml"
+}

@@ -1,0 +1,24 @@
+card_id	declaration	constant_owner	constant_module
+family-integral-adjusted-sources	Formalism.MainNotions.FamP.h_eq	Formalism.MainNotions.FamP	src/Formalism/SharpRestriction/ParConsts.lean
+family-integral-adjusted-sources	Formalism.MainNotions.FamP.nprimeDef	Formalism.MainNotions.FamP	src/Formalism/SharpRestriction/ParConsts.lean
+family-integral-adjusted-sources	Formalism.MainNotions.FamP.nuDef	Formalism.MainNotions.FamP	src/Formalism/SharpRestriction/ParConsts.lean
+family-integral-adjusted-sources	Formalism.MainNotions.FamP.rrDef	Formalism.MainNotions.FamP	src/Formalism/SharpRestriction/ParConsts.lean
+family-point-moduli-integral-evaluation	Formalism.L2.Pj.LawsM.evalWD	Formalism.L2.Pj.LawsM	src/Formalism/LocalToGlobal/ProjectiveLattices/CuspidalL2Subspace.lean
+family-point-moduli-integral-evaluation	Formalism.L2.Pj.LawsM.ptNe	Formalism.L2.Pj.LawsM	src/Formalism/LocalToGlobal/ProjectiveLattices/CuspidalL2Subspace.lean
+family-point-moduli-integral-evaluation	Formalism.L2.Pj.LawsM.unitIndep	Formalism.L2.Pj.LawsM	src/Formalism/LocalToGlobal/ProjectiveLattices/CuspidalL2Subspace.lean
+family-point-spectral-evaluation	Formalism.IndefR.IndefiniteRealisation.seeDef	Formalism.IndefR.IndefiniteRealisation	src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/IndefRRealT.lean
+family-point-spectral-evaluation	Formalism.IndefR.IndefiniteRealisation.seeEval	Formalism.IndefR.IndefiniteRealisation	src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/IndefRRealT.lean
+family-point-spectral-evaluation	Formalism.IndefR.IndefiniteRealisation.seeK	Formalism.IndefR.IndefiniteRealisation	src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/IndefRRealT.lean
+z1-gamma-cosine	Complex.Gamma_ne_zero_of_re_pos		Mathlib/Analysis/SpecialFunctions/Gamma/Beta.lean
+z1-gamma-cosine	Complex.cos_eq_zero_iff		Mathlib/Analysis/SpecialFunctions/Trigonometric/Complex.lean
+z1-induced-euler-products	DirichletCharacter.LFunction_changeLevel		Mathlib/NumberTheory/LSeries/DirichletContinuation.lean
+z1-induced-euler-products	DirichletCharacter.changeLevel_one		Mathlib/NumberTheory/DirichletCharacter/Basic.lean
+z1-induced-euler-products	DirichletCharacter.changeLevel_primitiveCharacter		Mathlib/NumberTheory/DirichletCharacter/Basic.lean
+z1-induced-euler-products	DirichletCharacter.conductor_dvd_level		Mathlib/NumberTheory/DirichletCharacter/Basic.lean
+z1-induced-euler-products	DirichletCharacter.conductor_ne_zero		Mathlib/NumberTheory/DirichletCharacter/Basic.lean
+z1-induced-euler-products	DirichletCharacter.conductor_one		Mathlib/NumberTheory/DirichletCharacter/Basic.lean
+z1-induced-euler-products	DirichletCharacter.primitiveCharacter_isPrimitive		Mathlib/NumberTheory/DirichletCharacter/Basic.lean
+z1-zeta-functional-equation	DirichletCharacter.LFunction_modOne_eq		Mathlib/NumberTheory/LSeries/DirichletContinuation.lean
+z1-zeta-functional-equation	riemannZeta_one_sub		Mathlib/NumberTheory/LSeries/RiemannZeta.lean
+z1-zeta-functional-equation	riemannZeta_zero		Mathlib/NumberTheory/LSeries/RiemannZeta.lean
+z2-character-absolute-values	DirichletCharacter.norm_le_one		Mathlib/NumberTheory/DirichletCharacter/Bounds.lean

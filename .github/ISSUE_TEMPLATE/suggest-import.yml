@@ -1,0 +1,39 @@
+name: Suggest an import
+description: Identify a pinned source and the text available for import.
+title: "Import suggestion"
+body:
+  - type: markdown
+    attributes:
+      value: A maintainer verifies the licence and runs the import.
+  - type: input
+    id: source
+    attributes:
+      label: Source address
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Exact revision
+      description: Give the full commit or the date of a reproducible snapshot.
+    validations:
+      required: true
+  - type: input
+    id: licence
+    attributes:
+      label: Licence and where the source states it
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Which proof or modules should be imported?
+    validations:
+      required: true
+  - type: textarea
+    id: writer
+    attributes:
+      label: Who wrote the text according to the source?
+      description: Include the location of the credit.
+    validations:
+      required: true

@@ -1,0 +1,26 @@
+---
+{
+  "module": "OAI/Algorithms/SubexponentialSAT/SqrtLogSpace/HighQueryDecode.lean",
+  "declarations": [],
+  "author": "dial481",
+  "writer": "OpenAI (unnamed internal model)",
+  "origin": "other-author",
+  "entry_type": "source-documentation",
+  "license": "Apache-2.0",
+  "copyright_status": "absent",
+  "source": "https://github.com/openai/math/blob/3344da59991ed94f9ba711217b29c1d760badfa6/lean/OAI/Algorithms/SubexponentialSAT/SqrtLogSpace/HighQueryDecode.lean",
+  "source_commit": "3344da59991ed94f9ba711217b29c1d760badfa6",
+  "kind": "ai"
+}
+---
+
+Documentation comments extracted from this file at [3344da5](https://github.com/openai/math/blob/3344da59991ed94f9ba711217b29c1d760badfa6/lean/OAI/Algorithms/SubexponentialSAT/SqrtLogSpace/HighQueryDecode.lean). Any heading that names a declaration was added by QED Codex. The text is otherwise unchanged.
+
+ The actual current-high decoder, kept independent of the complete query
+and high-loop composition so the fixed stream can consume its proved run. 
+
+### `prepare_high_resources`
+
+ Actual entry of the fixed conditioned stream. Cleanup is charged only
+on its eight touched words, and decoding uses the physical current counter
+and current descending mask. The output restores the original compact cap. 

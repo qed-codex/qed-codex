@@ -1,0 +1,29 @@
+name: Flag a module problem
+description: Report an error in a module fact or informalization.
+title: "Module problem"
+labels: ["module-problem"]
+body:
+  - type: input
+    id: module
+    attributes:
+      label: Package and module path
+      description: Use the package key, a colon and the repository-relative path (for example riemann-hypothesis:src/Main.lean).
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason
+      options:
+        - Incorrect fact or interpretation
+        - copyright or attribution problem
+        - Other module problem
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Claim and evidence
+      description: Identify the affected fact or informalization and link to the relevant lines.
+    validations:
+      required: true

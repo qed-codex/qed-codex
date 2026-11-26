@@ -1,0 +1,599 @@
+{
+  "chromium": {
+    "version": "159.0.8154.6",
+    "routes": [
+      {
+        "route": "home",
+        "width": 1280,
+        "scheme": "light",
+        "fullHeight": 984,
+        "footerBottom": 984,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "rowsrc",
+        "width": 1280,
+        "scheme": "light",
+        "fullHeight": 5834,
+        "footerBottom": 5834,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "slope",
+        "width": 1280,
+        "scheme": "light",
+        "fullHeight": 1137,
+        "footerBottom": 1137,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "d1",
+        "width": 1280,
+        "scheme": "light",
+        "fullHeight": 1096,
+        "footerBottom": 1096,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "galois",
+        "width": 1280,
+        "scheme": "light",
+        "fullHeight": 1241,
+        "footerBottom": 1241,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "anygeometry",
+        "width": 1280,
+        "scheme": "light",
+        "fullHeight": 1671,
+        "footerBottom": 1671,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "rh",
+        "width": 1280,
+        "scheme": "light",
+        "fullHeight": 1066,
+        "footerBottom": 1066,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "home",
+        "width": 1280,
+        "scheme": "dark",
+        "fullHeight": 984,
+        "footerBottom": 984,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "rowsrc",
+        "width": 1280,
+        "scheme": "dark",
+        "fullHeight": 5834,
+        "footerBottom": 5834,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "slope",
+        "width": 1280,
+        "scheme": "dark",
+        "fullHeight": 1137,
+        "footerBottom": 1137,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "d1",
+        "width": 1280,
+        "scheme": "dark",
+        "fullHeight": 1096,
+        "footerBottom": 1096,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "galois",
+        "width": 1280,
+        "scheme": "dark",
+        "fullHeight": 1241,
+        "footerBottom": 1241,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "anygeometry",
+        "width": 1280,
+        "scheme": "dark",
+        "fullHeight": 1671,
+        "footerBottom": 1671,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "rh",
+        "width": 1280,
+        "scheme": "dark",
+        "fullHeight": 1066,
+        "footerBottom": 1066,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "home",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1018,
+        "footerBottom": 1018,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "rowsrc",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 10094,
+        "footerBottom": 10094,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "slope",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1332,
+        "footerBottom": 1332,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "d1",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1219,
+        "footerBottom": 1219,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "galois",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1280,
+        "footerBottom": 1280,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "anygeometry",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1997,
+        "footerBottom": 1997,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "rh",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1184,
+        "footerBottom": 1184,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "home",
+        "width": 380,
+        "scheme": "dark",
+        "fullHeight": 1018,
+        "footerBottom": 1018,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "rowsrc",
+        "width": 380,
+        "scheme": "dark",
+        "fullHeight": 10094,
+        "footerBottom": 10094,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "slope",
+        "width": 380,
+        "scheme": "dark",
+        "fullHeight": 1332,
+        "footerBottom": 1332,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "d1",
+        "width": 380,
+        "scheme": "dark",
+        "fullHeight": 1219,
+        "footerBottom": 1219,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "galois",
+        "width": 380,
+        "scheme": "dark",
+        "fullHeight": 1280,
+        "footerBottom": 1280,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "anygeometry",
+        "width": 380,
+        "scheme": "dark",
+        "fullHeight": 1997,
+        "footerBottom": 1997,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "rh",
+        "width": 380,
+        "scheme": "dark",
+        "fullHeight": 1184,
+        "footerBottom": 1184,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      }
+    ],
+    "interactions": {
+      "typeahead": true,
+      "fullText": true,
+      "sourceSlices": [
+        {
+          "declaration": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "start": 6,
+          "end": 6
+        },
+        {
+          "declaration": "GlobalTheory.Mem.Top.Bl.anyGeometry",
+          "start": 19,
+          "end": 19
+        },
+        {
+          "declaration": "riemannHypothesis",
+          "start": 4,
+          "end": 4
+        }
+      ],
+      "sourceFallback": true,
+      "linkedDeclaration": true,
+      "linkedModule": true,
+      "typeaheadModulePath": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+      "newFilePrefill": true
+    }
+  },
+  "firefox": {
+    "version": "159.0",
+    "routes": [
+      {
+        "route": "home",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1017,
+        "footerBottom": 1017,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "rowsrc",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 10168,
+        "footerBottom": 10168,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "slope",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1334,
+        "footerBottom": 1334,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "d1",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1221,
+        "footerBottom": 1221,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "galois",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1280,
+        "footerBottom": 1280,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "anygeometry",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 2001,
+        "footerBottom": 2001,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "rh",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1186,
+        "footerBottom": 1186,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      }
+    ],
+    "interactions": {
+      "typeahead": true,
+      "fullText": true,
+      "sourceSlices": [
+        {
+          "declaration": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "start": 6,
+          "end": 6
+        },
+        {
+          "declaration": "GlobalTheory.Mem.Top.Bl.anyGeometry",
+          "start": 19,
+          "end": 19
+        },
+        {
+          "declaration": "riemannHypothesis",
+          "start": 4,
+          "end": 4
+        }
+      ],
+      "sourceFallback": true,
+      "linkedDeclaration": true,
+      "linkedModule": true,
+      "typeaheadModulePath": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+      "newFilePrefill": true
+    }
+  },
+  "webkit": {
+    "version": "27.2",
+    "routes": [
+      {
+        "route": "home",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1017,
+        "footerBottom": 1017,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "rowsrc",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 10095,
+        "footerBottom": 10095,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "slope",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1332,
+        "footerBottom": 1332,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "d1",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1220,
+        "footerBottom": 1220,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "galois",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1280,
+        "footerBottom": 1280,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "anygeometry",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1997,
+        "footerBottom": 1997,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      },
+      {
+        "route": "rh",
+        "width": 380,
+        "scheme": "light",
+        "fullHeight": 1190,
+        "footerBottom": 1190,
+        "numberedDatabasePages": 0,
+        "idleAssets": [
+          "interior",
+          "wasm"
+        ]
+      }
+    ],
+    "interactions": {
+      "typeahead": true,
+      "fullText": true,
+      "sourceSlices": [
+        {
+          "declaration": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "start": 6,
+          "end": 6
+        },
+        {
+          "declaration": "GlobalTheory.Mem.Top.Bl.anyGeometry",
+          "start": 19,
+          "end": 19
+        },
+        {
+          "declaration": "riemannHypothesis",
+          "start": 4,
+          "end": 4
+        }
+      ],
+      "sourceFallback": true,
+      "linkedDeclaration": true,
+      "linkedModule": true,
+      "typeaheadModulePath": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+      "newFilePrefill": true
+    }
+  }
+}

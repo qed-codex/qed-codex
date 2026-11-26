@@ -1,0 +1,45 @@
+---
+{
+  "module": "ThreeSumApsp/Util/Asymptotics/LogExponent.lean",
+  "declarations": [],
+  "author": "dial481",
+  "writer": "Anthropic, PBC",
+  "origin": "other-author",
+  "entry_type": "source-documentation",
+  "license": "Apache-2.0",
+  "copyright": "Copyright (c) 2026 Anthropic, PBC. All rights reserved.",
+  "source": "https://github.com/anthropics/formal-math/blob/11b6c7e3c927df2658f513b6b68ea7f8929c62c5/3sum-apsp/ThreeSumApsp/Util/Asymptotics/LogExponent.lean",
+  "source_commit": "11b6c7e3c927df2658f513b6b68ea7f8929c62c5"
+}
+---
+
+Documentation comments extracted from this file at [11b6c7e](https://github.com/anthropics/formal-math/blob/11b6c7e3c927df2658f513b6b68ea7f8929c62c5/3sum-apsp/ThreeSumApsp/Util/Asymptotics/LogExponent.lean). Any heading that names a declaration was added by QED Codex. The text is otherwise unchanged.
+
+```text
+/-
+Copyright (c) 2026 Anthropic, PBC. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+SPDX-License-Identifier: Apache-2.0
+-/
+```
+
+
+# Powers of the logarithm as powers of n with an exponent that tends to 0
+
+`(log n)^e = n^{e log log n / log n}` for `n ≥ 3`, and `log log n / log n` tends to 0.  So
+`n^a (log n)^e ≤ n^{a + η(n)}` for all `n ≥ 1` (`rpow_mul_log_pow_le`), with one function
+`η = logExponent e` that tends to 0 (`tendsto_logExponent`).
+
+
+### `logExponent`
+
+ The exponent `e log log n / log n`, and 0 for `n < 3`. 
+
+### `tendsto_logExponent`
+
+ The exponent tends to 0. 
+
+### `rpow_mul_log_pow_le`
+
+ `n^a (log n)^e ≤ n^{a + η(n)}` for all `n ≥ 1`, where `η(n) = logExponent e n` is the exponent
+above, which tends to 0. 

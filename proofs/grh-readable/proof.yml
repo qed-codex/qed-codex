@@ -1,0 +1,76 @@
+{
+  "package": "grh-readable",
+  "readmeOpening": "packages/grh-readable/readme-opening.md",
+  "readmeSHA256": "2b4950f6495cd801359292328c932a0cb8aaf3e6deafd67460e85825e5de6a7a",
+  "openingSHA256": "9c6d3ce70401ad3ec54daf918d26b45a7bc42597943b415364e9296d9b192556",
+  "writer": "Claude (AI)",
+  "listCredit": "Claude (AI), from the proof by Levent Alpöge with Claude",
+  "creditSource": "https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/README.md#L5-L6",
+  "verificationRecords": [
+    {
+      "title": "Checks",
+      "who": "Readable edition README",
+      "address": "https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/README.md#checks"
+    }
+  ],
+  "root": "src/Main.lean",
+  "statement": "Challenge.lean",
+  "solution": "src/Main.lean",
+  "additionalRoles": {
+    "statement": [
+      "src/Statements.lean"
+    ]
+  },
+  "declarations": [
+    "riemannHypothesis",
+    "riemannZeta_eq_zero_re",
+    "LFunction_ne_zero_of_half_lt_re",
+    "LFunction_eq_zero_re",
+    "LFunction_eq_zero_re_of_isPrimitive"
+  ],
+  "comparator": {
+    "file": "proofs/grh-readable/source/comparator.json",
+    "sourceDirs": {
+      "statement": "",
+      "solution": "src/"
+    }
+  },
+  "materials": [
+    {
+      "heading": "Comparator statement",
+      "path": "Challenge.lean",
+      "sha256": "b729a3ccbc3290cf9d9356d8dd8009ad19b5bad10bb50d5a4711ff3d5133b055"
+    },
+    {
+      "heading": "Statement definitions",
+      "path": "src/Statements.lean",
+      "sha256": "79ef7ca776e42abe1f46caee13ea09bd19f1e2d0b1620d8d5d200258f33b47bf"
+    },
+    {
+      "heading": "Comparator configuration",
+      "path": "comparator.json",
+      "sha256": "af227d4d6a09bd1449d297a745a7a28d1ecd22ecf85ec62deb2825bd0f164304"
+    },
+    {
+      "heading": "Source’s reading guide",
+      "path": "GUIDE.md",
+      "sha256": "80dee66ef3ffa75353276286dd9807e63b222118b26f69783ed50aad8843b320"
+    }
+  ],
+  "artifacts": "proofs/grh-readable/source",
+  "sourceDocuments": [
+    "REFERENCES.md",
+    "CONTENTS.md",
+    "INDEX.md"
+  ],
+  "otherVersions": [
+    {
+      "label": "Original Lean proof by Levent Alpöge with Claude",
+      "url": "/proofs/riemann-hypothesis/"
+    },
+    {
+      "label": "Compact edition, about 76,000 lines of code (outside this directory)",
+      "url": "https://github.com/lsernau/grh-lean/tree/72fead102f663d5c7a407964a13dc0cf9d977207/grh-compact"
+    }
+  ]
+}

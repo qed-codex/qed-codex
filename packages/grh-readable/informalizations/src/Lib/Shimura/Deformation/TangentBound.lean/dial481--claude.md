@@ -1,0 +1,306 @@
+---
+{
+  "module": "src/Lib/Shimura/Deformation/TangentBound.lean",
+  "declarations": [],
+  "author": "dial481",
+  "writer": "Claude",
+  "origin": "other-author",
+  "entry_type": "source-documentation",
+  "license": "Apache-2.0",
+  "copyright_status": "absent",
+  "source": "https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/Lib/Shimura/Deformation/TangentBound.lean",
+  "source_commit": "72fead102f663d5c7a407964a13dc0cf9d977207",
+  "kind": "ai"
+}
+---
+
+Documentation comments extracted from this file at [72fead1](https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/src/Lib/Shimura/Deformation/TangentBound.lean). Any heading that names a declaration was added by QED Codex. The text is otherwise unchanged.
+
+
+# Drinfeld lifting over k[ε] and a bound on the tangent space of the moduli scheme
+
+In the first two sections, `x` and `x'` are first-order deformations over `k[ε]` of one object `x₀`
+over a field `k`, in a family `New.ThetaFamily` of abelian schemes. In the third section, `x` is a
+first-order deformation of `x₀` over `k ⊕ M*`. `New.Variety.sqZeroReduction k k` is
+`Spec k ⟶ Spec k[ε]`, and `New.ThetaObject.IsPullbackAlong b x₀ x` exhibits `x₀` as the pull-back of
+`x` along `b`. In the second section, `k` is algebraically closed of prime characteristic. There,
+`f : x.groupScheme ⟶ x'.groupScheme` is a homomorphism that reduces to multiplication by `a` on
+`x₀.groupScheme`. If `a ≠ 0`, a homomorphism `F` that reduces to `c * a` and kills the kernel of `f`
+yields a homomorphism out of `x'.groupScheme` that reduces to `c`. These tools give the tangent
+bound for deformations without constant directions.
+
+## Main definitions and results
+
+* `New.Variety.AgreeModEps`: points of `x.groupScheme` and `x'.groupScheme` with the same reduction
+  modulo `ε`. The points that agree with `0` are those that vanish modulo `ε`.
+  `New.Variety.AgreeModEps.ringChar_smul_and_smul_eq_zero` gives elements that kill them.
+* `New.Variety.drinfeld_lift`: if `c` kills the points of `x'.groupScheme` that vanish modulo `ε`,
+  then multiplication by `c` on `x₀.groupScheme` lifts to a homomorphism
+  `x.groupScheme ⟶ x'.groupScheme`.
+* `New.Variety.isLinear_and_pairing_eq_of_reduction`: such an `f` is linear, and `a` kills its
+  kernel modulo `ε`. The lemma also describes its effect on the pairing.
+* `New.Variety.finrank_tangent_le_card_index_sub_one`: under the hypotheses stated in its docstring,
+  if a first-order deformation `x` over `k ⊕ M*` of `x₀` has no constant direction in `M`, then
+  `finrank k M ≤ Fintype.card D.Index - 1`.
+
+Notions from other files:
+* `New.ThetaObject`: An object of the family X over a scheme T: a morphism from T to the base of X.
+* `New.ThetaObject.groupScheme`: The group scheme with O_E-action of an object x over S: the
+  pull-back of the abelian scheme of the family along x : S → base.
+* `New.Pic.pairing`: For c in Pic A and T-points x, y of A, the class ⟨x,
+  y⟩ = (x + y)^*c − x^*c − y^*c + 0^*c in Pic T (`New.Pic.atPoint` is x ↦ x^*c).
+* `New.IsGroupBaseChange.pointEquiv`: For an O-compatible base change p : A' → A and an S'-scheme T,
+  the O-linear bijection x ↦ p∘x from T-points of A' over S' to T-points of A over S.
+
+## Relation to the literature
+
+Known result: Deformations of the PEL object have at most n - 1 parameters, where n is the size of
+the index set `D.Index`. Only the upper bound for first-order deformations is proved here, at every
+good place, working on the finite group scheme of w-torsion with Drinfeld's lifting lemma and
+without p-divisible groups or crystals. Source: N. Katz, Serre–Tate local moduli, LNM 868 (1981), §1
+(Drinfeld's lemma); J. Lubin, J. Tate, Formal moduli for one-parameter formal Lie groups, Bull. SMF
+94 (1966); M. Harris, R. Taylor, The Geometry and Cohomology of Some Simple Shimura Varieties
+(2001), III.4.1.
+
+
+ ## Drinfeld's lifting lemma for homomorphisms of deformations over k[ε] 
+
+### `AgreeModEps`
+
+ The T-points y of `x.groupScheme` and y' of `x'.groupScheme` agree modulo ε: on every affine
+k-scheme Spec B mapping to T through the closed point of `Spec k[ε]`, their restrictions are the
+same point of the abelian scheme of the family. The arguments `hq` and `hq'` fix the two
+deformations `x` and `x'` of `x₀`; `pointEquiv` sends a point of `x.groupScheme` to the
+corresponding point of the abelian scheme of the family. 
+
+### `IsReductionModEps`
+
+ `ψ : C ⟶ B`, with `b : Spec B ⟶ Spec k`, is the reduction modulo `ε` of the affine scheme
+`s : Spec C ⟶ Spec k[ε]`. Here `preimage s : k[ε] ⟶ C` is the ring map of which `s` is the
+spectrum. 
+
+### `IsReductionModEps.comp_eq`
+
+ `Spec B` lies over the closed point of `Spec k[ε]`. 
+
+### `IsReductionModEps.isSqZeroExt`
+
+ `ψ` is onto, and the product of any two elements of its kernel is zero. 
+
+### `IsReductionModEps.eq_zero_iff_dvd`
+
+ The kernel of `ψ` is generated by the image of `ε`. 
+
+### `IsReductionModEps.exists_factor`
+
+ Every affine point over the closed point factors through `Spec B`. 
+
+### `exists_isReductionModEps`
+
+ Every affine scheme `s : Spec C ⟶ Spec k[ε]` has a reduction modulo `ε`
+(`New.Variety.IsReductionModEps`). 
+
+### `AgreeModEps.ringChar_smul_and_smul_eq_zero`
+
+ Let `x` deform `x₀` over `k[ε]` (`hq`) and let y be a T-point of `x.groupScheme` that vanishes
+modulo ε. Then y is killed by the characteristic of k. Suppose further that the base homomorphism
+`x.baseHom : 𝓞 E →+* k[ε]` factors as some ψ : k → k[ε] after `x₀.baseHom`. Then y is also killed
+by (β* − b)·c, for every integer b and every c in 𝓞 E such that β − b and c both map to 0 under
+`x₀.baseHom`; here `D.β` is the integer β of `E` that the PEL datum `D` carries. 
+
+### `drinfeld_lift`
+
+ Drinfeld's lifting lemma. Let `x`, `x'` deform `x₀` over `k[ε]`, and let `c` in `𝓞 E` kill all
+points of `x'.groupScheme` that vanish modulo `ε`. Then some homomorphism
+`F : x.groupScheme ⟶ x'.groupScheme` reduces to multiplication by `c`: composed with the inclusion
+`hq.schemeMap` of the reduction `x₀.groupScheme` into `x.groupScheme`, it is `c` times the
+inclusion `hq'.schemeMap`. Also `y ≫ F = c • y'` whenever `y` and `y'` agree modulo `ε`. 
+
+ ## Homomorphisms of deformations that reduce to multiplication by `a` 
+
+### `instance : Module.Finite k k[ε]`
+
+ The dual numbers `k[ε] = k × k` are a finite `k`-module. 
+
+### `isLinear_and_pairing_eq_of_reduction`
+
+ Let `f : x.groupScheme ⟶ x'.groupScheme` be a homomorphism of deformations of `x₀.groupScheme`
+over `k[ε]`, `k` algebraically closed of prime characteristic, that reduces to multiplication by `a`
+(`hf : hq.schemeMap ≫ f = a • hq'.schemeMap`). Then (a) `f` is linear over `𝓞 E`; (b) if `f` kills
+`y`, then `a y` agrees with `0` modulo `ε`; (c) if `x` is a pull-back of `x₀`, then
+`⟨f y, f z⟩ = ⟨a y, a z⟩` for the pairings (`New.Pic.pairing`) of the Pic classes
+`lineBundle.picClass` of the line bundles of `x'` and `x`. 
+
+### `exists_isAdditive_schemeMap_comp_eq_smul`
+
+ Let `f : x.groupScheme ⟶ x'.groupScheme` and `F : x.groupScheme ⟶ x₁.groupScheme` be
+homomorphisms of deformations of `x₀.groupScheme` over `k[ε]` (`k` algebraically closed of prime
+characteristic) that reduce to multiplication by `a ≠ 0` (`hf`) and by `c a`. If `F` kills every
+point `y` over a finite local noetherian `k[ε]`-algebra with `f y = 0` and `a² y = 0`, then some
+homomorphism `x'.groupScheme ⟶ x₁.groupScheme` reduces to multiplication by `c`. 
+
+
+## The tangent bound for deformations with no constant direction
+
+An object `x` has the abelian scheme `x.groupScheme` and the ring map `x.baseHom` from `𝓞 E`.
+
+Idea: lift the `𝔭`-torsion points of `x₀.groupScheme` (`𝔭 = ker x₀.baseHom`) with values in a local
+`k`-algebra `C` to points of `x.groupScheme` over `C ⊕ Hom(M, C)`, multiply by an element of `𝔭` and
+take logarithms. These maps bound the dimension, and a direction that they all kill is constant.
+
+
+### `instance : IsLocalRing (TrivSqZeroExt k (M →ₗ[k] k))`
+
+ `k ⊕ M*` is a local ring: an element is a unit exactly when its first component is not zero. 
+
+ ### The rings `C ⊕ Hom(M, C)` and lifts of points 
+
+### `sqZeroMap`
+
+ For a k-algebra map φ: C → C', the ring homomorphism C ⊕ Hom_k(M,C) → C' ⊕ Hom_k(M,C') of
+trivial square-zero extensions given by φ and composition with φ. 
+
+### `toSqZeroSpec`
+
+ The reduction `Spec C ⟶ Spec (C ⊕ Hom(M, C))` induced by the first projection, as a morphism
+over `Spec (k ⊕ M*)`. 
+
+### `exists_point_lift`
+
+ Every point `y` of `x₀.groupScheme` with values in a local `k`-algebra `C` lifts to a point `Z`
+of `x.groupScheme` with values in `C ⊕ Hom(M, C)`: the reduction of `Z` is `y`, seen in
+`x.groupScheme` through `hp.isGroupBaseChange.pointEquiv`. 
+
+### `sqZeroSpecMap`
+
+ For a k-algebra map φ: C → C', the induced morphism Spec(C' ⊕ Hom_k(M,C')) → Spec(C ⊕
+Hom_k(M,C)) over Spec(k ⊕ M*), M* the dual of M. 
+
+### `sqZeroSpecMap_point_lift`
+
+ Lifts are natural in the algebra: if `Z` lifts the `C`-point `y`, then the image of `Z` along
+`φ : C → C'` lifts the image of `y`. 
+
+### `isInfinitesimal_of_comp_eq_zero`
+
+ A point of `x.groupScheme` with values in `C ⊕ Hom(M, C)` whose reduction to `C` is zero is
+infinitesimal for the first projection. 
+
+ ### The bound 
+
+### `eq_of_lift_star_sub`
+
+ Let `k` be an algebraically closed field of prime characteristic `p`, and let `x₀` be a rigid
+(`HasSpanningCoords`) object of the family `X` over `k`. Let `z`, `z₀` be objects over `k[ε]` that
+both reduce to `x₀`, with `z₀` the constant deformation (the pull-back of `x₀` along `k → k[ε]`) and
+with `𝓞 E → k[ε]` for `z` factoring through `k`. Let `b : ℤ` satisfy: `D.β - b` (for the PEL integer
+`D.β`) lies in `ker x₀.baseHom`; `D.β - b` and `star D.β - b` are coprime; and the ideal of the
+level `D.level` together with `ker x₀.baseHom` times the ideal of `p` and `star D.β - b` is the unit
+ideal. If an additive map `f` from the group scheme of `z₀` to that of `z` restricts over `x₀` to
+`star D.β - b`, then `z₀ = z`. 
+
+### `TangentBoundData`
+
+ The data that the proof of the tangent bound fixes before its last step, for the lift `x` of
+`x₀` given by `hp`, with `𝔭 = ker x₀.baseHom`: the elements `generator`, `localizer`, `residueInt`
+with their conditions modulo `𝔭`, the `logarithm` of `New.ThetaObject.exists_tangent_log` (on points
+`z` with `IsInfinitesimal ψ z`: `z` restricts to `0` over `Spec C'`, for `ψ : C ⟶ C'` onto with
+square-zero kernel) with its properties, lifts `liftPoint y` of points of `x₀.groupScheme`
+(`exists_point_lift`), and the fact that `logarithm (generator • Z)` does not depend on the lift `Z`
+of a `𝔭`-torsion point. 
+
+### `TangentBoundData.generator`
+
+ An element of `𝔭` that generates it locally. 
+
+### `TangentBoundData.map_generator`
+
+ `generator` lies in `𝔭`. 
+
+### `TangentBoundData.generator_ne_zero`
+
+ `generator` is not zero. 
+
+### `TangentBoundData.localizer`
+
+ An element congruent to `1` modulo `𝔭` that multiplies `𝔭` into `(generator)`. 
+
+### `TangentBoundData.sub_one_mem`
+
+ `localizer ≡ 1` modulo `𝔭`. 
+
+### `TangentBoundData.smul_ker_le_span`
+
+ `localizer • 𝔭 ⊆ (generator)`. 
+
+### `TangentBoundData.residueInt`
+
+ An integer congruent to `D.β` modulo `𝔭`. 
+
+### `TangentBoundData.map_β_sub_int`
+
+ `D.β - residueInt` lies in `𝔭`. 
+
+### `TangentBoundData.isCoprime`
+
+ `D.β - residueInt` and `star D.β - residueInt` are coprime. 
+
+### `TangentBoundData.level_eq_top`
+
+ The level condition: `(𝔑) + 𝔭 (p, star D.β - residueInt) = 𝓞 E`, `p` the characteristic
+  of `k`. 
+
+### `TangentBoundData.logarithm`
+
+ The logarithm of a point of `x.groupScheme` with values in `C`. 
+
+### `TangentBoundData.logarithm_smul`
+
+ On infinitesimal points, `a • z` has logarithm `x₀.baseHom a` times that of `z`. 
+
+### `TangentBoundData.smul_eq_zero_of_logarithm`
+
+ An infinitesimal point with logarithm `0` is killed by `star D.β - residueInt`. 
+
+### `TangentBoundData.map_logarithm_eq_zero`
+
+ The logarithm of an infinitesimal point lies in the kernel of `ψ`. 
+
+### `TangentBoundData.logarithm_comp`
+
+ On infinitesimal points, the logarithm is natural in the ring of values. 
+
+### `TangentBoundData.liftPoint`
+
+ A lift of a point `y` of `x₀.groupScheme` to `x.groupScheme` over `C ⊕ Hom(M, C)`. 
+
+### `TangentBoundData.comp_liftPoint_eq`
+
+ `liftPoint y` reduces to `y`. 
+
+### `TangentBoundData.logarithm_smul_liftPoint_eq`
+
+ For a `𝔭`-torsion point `y`, `logarithm (generator • Z)` is the same for every lift `Z`
+  of `y`. 
+
+### `eq_zero_of_forall_snd_logarithm_eq_zero`
+
+ The last step of the tangent bound. Let `k` be algebraically closed of prime characteristic,
+`x₀` rigid (`h_rig`), `𝓞 E` map to `k ⊕ M*` through `k` (`hρ`), and let `l ∈ M` be `0` as soon as
+the pull-back of `x` along `(a, φ) ↦ a + φ(l) ε` is constant (`h_const`). If for every `𝔭`-torsion
+point `y` (`𝔭 = ker x₀.baseHom`) with values in a finite local `k`-algebra the logarithm of
+`S.generator • S.liftPoint y` has second component `0` at `l`, then `l = 0`. 
+
+### `_root_.New.Variety.finrank_tangent_le_card_index_sub_one`
+
+ **Tangent bound.** Let `M` be a `k`-vector space over an algebraically closed field `k`, let
+`x₀` be an object of the family `X` over `k`, and let `x` be an object over the square-zero
+extension `k ⊕ M*`, where `M*` is the dual of `M`. Assume: (a) `D` is good at `ker x₀.baseHom`
+(`PEL.IsGoodAt`, which via `ringChar_prime_and_exists_isCoprime_of_isGoodAt_ker` gives the
+generator, localizer and residue integer of `TangentBoundData`); `x₀` is rigid
+(`New.ThetaObject.HasSpanningCoords`) and is the fibre of an object `w` over a valuation subring of
+`ℂ` that carries a `FullLevelStructure`; (b) `x` reduces to `x₀`, and `𝓞 E` maps to `k ⊕ M*` through
+`k`;
+(c) for `l ≠ 0` in `M`, the pull-back of `x` along `k ⊕ M* → k[ε]`, `(a, φ) ↦ a + φ(l) ε`, is not
+the constant deformation of `x₀`. Then `finrank k M ≤ Fintype.card D.Index - 1`, where
+`D.Index = Fin D.rank` indexes the coordinates, so the bound is `D.rank - 1`. 

@@ -1,0 +1,105 @@
+# This workflow must never check out or execute the pull request head and must never be given secrets.
+name: Check contributed informalizations
+on:
+  pull_request_target:
+    branches: [main]
+    types: [opened, synchronize, reopened, ready_for_review, edited]
+
+concurrency:
+  # A title or body edit must not cancel a validation already in progress.
+  group: informalization-check-${{ github.event.action == 'edited' && !github.event.changes.base.ref.from && format('skip-{0}', github.run_id) || github.event.pull_request.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  informalization:
+    if: github.event.action != 'edited' || github.event.changes.base.ref.from != null
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      LC_ALL: C
+      PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+      BASE_SHA: ${{ github.event.pull_request.base.sha }}
+      HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+      PR_NUMBER: ${{ github.event.pull_request.number }}
+    steps:
+      - name: Check out the trusted base
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Fetch PR Git objects without checking out the head
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          auth=$(printf '%s' "x-access-token:$GH_TOKEN" | base64 -w0)
+          echo "::add-mask::$auth"
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" fetch --no-tags origin "refs/pull/$PR_NUMBER/head"
+          test "$(git rev-parse FETCH_HEAD)" = "$HEAD_SHA"
+          test "$(git rev-parse HEAD)" = "$BASE_SHA"
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.14.4'
+      - name: Determine contribution scope
+        id: scope
+        run: |
+          python -m venv .venv
+          .venv/bin/python -m pip install -r requirements.txt
+          scope=$(.venv/bin/python tools/check_informalization_pr.py --scope --base "$BASE_SHA" --head "$HEAD_SHA" --author "$PR_AUTHOR")
+          echo "type=$scope" >> "$GITHUB_OUTPUT"
+      - name: Build the trusted proof database
+        if: steps.scope.outputs.type == 'informalization'
+        run: |
+          .venv/bin/python tools/sqlite-runtime.py
+          mkdir -p inputs/shore inputs/analysis
+          pin=$(.venv/bin/python -c 'import yaml; print(yaml.safe_load(open("proofs/rh/proof.yml"))["analysis_commit"])')
+          git -C inputs/analysis init --quiet
+          git -C inputs/analysis fetch --quiet --depth=1 https://github.com/qed-codex/riemann-hypothesis-rosetta.git "$pin"
+          git -C inputs/analysis checkout --quiet --detach FETCH_HEAD
+          release=https://github.com/james-shore/rh-proof-dependencies/releases/download/v0.2.1
+          for file in decls.csv.gz constants.csv.gz; do
+            curl -fL --retry 3 "$release/$file" -o "inputs/shore/$file"
+          done
+          export LD_LIBRARY_PATH="$PWD/inputs/sqlite/3.46.1${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+          .venv/bin/python tools/build.py inputs/analysis inputs/shore --disputes proofs/rh/disputes.json --out build/informalizations-base.sqlite3
+      - name: Read the submitter's repository role
+        if: steps.scope.outputs.type == 'informalization'
+        id: role
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          role=$(gh api "repos/$GITHUB_REPOSITORY/collaborators/$PR_AUTHOR/permission" --jq .role_name 2>/dev/null) || role=none
+          case "$role" in maintain|admin) echo "maintainer=true" >> "$GITHUB_OUTPUT";; esac
+      - name: Validate PR informalizations under the authenticated author's handle
+        if: steps.scope.outputs.type == 'informalization'
+        env:
+          IS_MAINTAINER: ${{ steps.role.outputs.maintainer }}
+        run: |
+          args=()
+          if [ "$IS_MAINTAINER" = true ]; then args+=(--maintainer); fi
+          .venv/bin/python tools/check_informalization_pr.py "${args[@]}" --database build/informalizations-base.sqlite3 --base "$BASE_SHA" --head "$HEAD_SHA" --author "$PR_AUTHOR"
+
+  report:
+    needs: informalization
+    if: always() && !cancelled() && needs.informalization.result != 'skipped'
+    runs-on: ubuntu-24.04
+    permissions:
+      statuses: write
+    steps:
+      - name: Attach the result to the PR head
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          RESULT: ${{ needs.informalization.result }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          state=failure
+          if [ "$RESULT" = success ]; then state=success; fi
+          gh api --method POST "repos/$GH_REPO/statuses/$HEAD_SHA" \
+            -f state="$state" -f context="Informalization contribution" -f target_url="$RUN_URL" \
+            -f description="Validation base ${BASE_SHA:0:8}"

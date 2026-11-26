@@ -1,0 +1,17 @@
+{
+  "typeahead": "galois",
+  "module": "src/Main.lean",
+  "declaration": "riemannHypothesis",
+  "trail": "riemannHypothesis",
+  "siblings": "riemannHypothesis",
+  "wanted": "1",
+  "wantedSource": {
+    "pkg": "openai-math",
+    "start": 1
+  },
+  "search": "galois",
+  "searchCount": "galois",
+  "declarationHead": "riemannHypothesis",
+  "declarationOutside": "riemannHypothesis",
+  "tracePosition": "riemannHypothesis"
+}

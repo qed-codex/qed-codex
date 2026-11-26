@@ -1,0 +1,311 @@
+{
+  "chromium": {
+    "version": "159.0.8154.6",
+    "queries": [
+      {
+        "kind": "module",
+        "value": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+        "cold": 9,
+        "repeat": 0,
+        "warm": 4
+      },
+      {
+        "kind": "typeahead",
+        "value": "RowS",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "typeahead",
+        "value": "galois",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "typeahead",
+        "value": "zero",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "typeahead",
+        "value": "siegel",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "typeahead",
+        "value": "a",
+        "cold": 4,
+        "repeat": 0,
+        "warm": 2
+      },
+      {
+        "kind": "typeahead",
+        "value": "Α",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "typeahead",
+        "value": "_aux",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "search",
+        "value": "RowSrc",
+        "cold": 7,
+        "repeat": 0,
+        "warm": 5
+      },
+      {
+        "kind": "search",
+        "value": "zero*",
+        "cold": 19,
+        "repeat": 0,
+        "warm": 17
+      },
+      {
+        "kind": "search",
+        "value": "Formalism AND siegel*",
+        "cold": 16,
+        "repeat": 0,
+        "warm": 14
+      },
+      {
+        "kind": "search",
+        "value": "map*",
+        "cold": 14,
+        "repeat": 0,
+        "warm": 12
+      },
+      {
+        "kind": "declaration",
+        "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+        "cold": 5,
+        "repeat": 0,
+        "warm": 3
+      },
+      {
+        "kind": "trail",
+        "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+        "cold": 13,
+        "repeat": 0,
+        "warm": 11
+      }
+    ]
+  },
+  "firefox": {
+    "version": "159.0",
+    "queries": [
+      {
+        "kind": "module",
+        "value": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+        "cold": 9,
+        "repeat": 0,
+        "warm": 4
+      },
+      {
+        "kind": "typeahead",
+        "value": "RowS",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "typeahead",
+        "value": "galois",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "typeahead",
+        "value": "zero",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "typeahead",
+        "value": "siegel",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "typeahead",
+        "value": "a",
+        "cold": 4,
+        "repeat": 0,
+        "warm": 2
+      },
+      {
+        "kind": "typeahead",
+        "value": "Α",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "typeahead",
+        "value": "_aux",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "search",
+        "value": "RowSrc",
+        "cold": 7,
+        "repeat": 0,
+        "warm": 5
+      },
+      {
+        "kind": "search",
+        "value": "zero*",
+        "cold": 19,
+        "repeat": 0,
+        "warm": 17
+      },
+      {
+        "kind": "search",
+        "value": "Formalism AND siegel*",
+        "cold": 16,
+        "repeat": 0,
+        "warm": 14
+      },
+      {
+        "kind": "search",
+        "value": "map*",
+        "cold": 14,
+        "repeat": 0,
+        "warm": 12
+      },
+      {
+        "kind": "declaration",
+        "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+        "cold": 5,
+        "repeat": 0,
+        "warm": 3
+      },
+      {
+        "kind": "trail",
+        "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+        "cold": 13,
+        "repeat": 0,
+        "warm": 11
+      }
+    ]
+  },
+  "webkit": {
+    "version": "27.2",
+    "queries": [
+      {
+        "kind": "module",
+        "value": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+        "cold": 9,
+        "repeat": 0,
+        "warm": 4
+      },
+      {
+        "kind": "typeahead",
+        "value": "RowS",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "typeahead",
+        "value": "galois",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "typeahead",
+        "value": "zero",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "typeahead",
+        "value": "siegel",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "typeahead",
+        "value": "a",
+        "cold": 4,
+        "repeat": 0,
+        "warm": 2
+      },
+      {
+        "kind": "typeahead",
+        "value": "Α",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "typeahead",
+        "value": "_aux",
+        "cold": 3,
+        "repeat": 0,
+        "warm": 1
+      },
+      {
+        "kind": "search",
+        "value": "RowSrc",
+        "cold": 7,
+        "repeat": 0,
+        "warm": 5
+      },
+      {
+        "kind": "search",
+        "value": "zero*",
+        "cold": 19,
+        "repeat": 0,
+        "warm": 17
+      },
+      {
+        "kind": "search",
+        "value": "Formalism AND siegel*",
+        "cold": 16,
+        "repeat": 0,
+        "warm": 14
+      },
+      {
+        "kind": "search",
+        "value": "map*",
+        "cold": 14,
+        "repeat": 0,
+        "warm": 12
+      },
+      {
+        "kind": "declaration",
+        "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+        "cold": 5,
+        "repeat": 0,
+        "warm": 3
+      },
+      {
+        "kind": "trail",
+        "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+        "cold": 13,
+        "repeat": 0,
+        "warm": 11
+      }
+    ]
+  }
+}

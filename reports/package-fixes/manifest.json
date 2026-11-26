@@ -1,0 +1,264 @@
+{
+  "databaseSha256": "b1f69814e75304ad01d1b1c5873e7b1d3389e2ed66bd9fd27cbe5cbfcef77af8",
+  "sqliteVersion": "3.46.1",
+  "pageBytes": 32768,
+  "pages": 12013,
+  "databaseBytes": 393641984,
+  "interiorPages": 38,
+  "interiorBytes": 1245184,
+  "interiorGzipBytes": 262865,
+  "deployFiles": 14271,
+  "deployBytes": 138781153,
+  "treeSha256": "b353f84abf89cada14418e58accff1c4873bd90e41d60f8901bbf6297f5cd367",
+  "counts": {
+    "declarations": 1063284,
+    "declarations_in_five_cones": 804912,
+    "disputes": 0,
+    "fts_declaration_offset": 184039,
+    "imports": 925310,
+    "informalizations": 3,
+    "links": 2833,
+    "modules": 184039,
+    "most_wanted": 146281,
+    "shortnames": 1247323,
+    "trace": 641100,
+    "unmatched_statements": 17
+  },
+  "tableContent": {
+    "declarations": {
+      "columns": [
+        "id",
+        "module",
+        "name",
+        "start",
+        "end",
+        "kind",
+        "kernel_mask",
+        "package"
+      ],
+      "rows": 1063284,
+      "sha256": "debf0be9e6f607bf279bd558db55c55eea6b15103a5622c4e74b78c230d8afba"
+    },
+    "disputes": {
+      "columns": [
+        "id",
+        "module",
+        "url"
+      ],
+      "rows": 0,
+      "sha256": "040a76cbbc0a6cc3a4a6c52112f104294c6fa1d05348da0194c15d6e838056e6"
+    },
+    "imports": {
+      "columns": [
+        "caller",
+        "dependency"
+      ],
+      "rows": 925310,
+      "sha256": "e5b034ff7e2a89cc35a5270073fd6d6afc3b14f7f6c6ff137603be1c99d84202"
+    },
+    "informalizations": {
+      "columns": [
+        "id",
+        "module",
+        "author",
+        "writer",
+        "kind",
+        "origin",
+        "submitted_order",
+        "license",
+        "source_commit",
+        "declarations_json",
+        "source_url",
+        "body",
+        "informalization_html",
+        "agrees_with_json"
+      ],
+      "rows": 3,
+      "sha256": "ebe878348f726728ecf03e90f4fc06814b3cae5773939a89319212c21a2c51c4"
+    },
+    "links": {
+      "columns": [
+        "module",
+        "author",
+        "url",
+        "label",
+        "declaration"
+      ],
+      "rows": 2833,
+      "sha256": "3b6fd22e18cf82a322668e255901fb6264e73dcf4221503e8e7f9301d0d72074"
+    },
+    "modules": {
+      "columns": [
+        "id",
+        "path",
+        "project",
+        "import_rank",
+        "cut",
+        "mask",
+        "trace_reached",
+        "removed_upstream",
+        "upstream_rank",
+        "spine_rank",
+        "package"
+      ],
+      "rows": 184039,
+      "sha256": "10c8d6d55e46eeb1c44b632e0899abc30e476aea6d92f9743e9fe224183e2539"
+    },
+    "most_wanted": {
+      "columns": [
+        "rank",
+        "module"
+      ],
+      "rows": 146281,
+      "sha256": "25a76d6aaf08e0d6804b261eee2b52e88845d57e75f60104d42bab736a9093d3"
+    },
+    "names": {
+      "columns": [
+        "term",
+        "doc"
+      ],
+      "rows": 7466902,
+      "sha256": "a84ac89dbbb10658bd821bf351522e790432d5fa923030fd042cd135deb97b21"
+    },
+    "search_counts": {
+      "columns": [
+        "word",
+        "prefix",
+        "total"
+      ],
+      "rows": 11061,
+      "sha256": "c555622d95166e687699a5057fd5dfd8d647e638e72228507538ee0bb7c630c2"
+    },
+    "shortnames": {
+      "columns": [
+        "short",
+        "full",
+        "kind",
+        "ref",
+        "package"
+      ],
+      "rows": 1247323,
+      "sha256": "8582f953b0c456c8de7fb0c3f2b832bd469f90f299e0d784fcf256653d7b2497"
+    },
+    "summary": {
+      "columns": [
+        "metric",
+        "value"
+      ],
+      "rows": 12,
+      "sha256": "17fa507c4b66b2cbd3a40157e893ff95b5e8d8a34407d9d7a0907c6c84dc921f"
+    },
+    "trace": {
+      "columns": [
+        "id",
+        "module",
+        "line",
+        "declaration",
+        "source_name",
+        "parent",
+        "use_line"
+      ],
+      "rows": 641100,
+      "sha256": "eb91599fd220089bc1ec3f3178454c44a1f1d9bbb2014e43227f6cab42e48a77"
+    }
+  },
+  "plans": {
+    "typeahead.matches": [
+      "SEARCH shortnames USING PRIMARY KEY (short>? AND short<?)"
+    ],
+    "module.facts": [
+      "SEARCH modules USING INTEGER PRIMARY KEY (rowid=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)"
+    ],
+    "module.informalizations": [
+      "SEARCH informalizations USING INDEX sqlite_autoindex_informalizations_1 (module=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)",
+      "USE TEMP B-TREE FOR ORDER BY"
+    ],
+    "module.links": [
+      "SEARCH links USING PRIMARY KEY (module=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)",
+      "USE TEMP B-TREE FOR DISTINCT"
+    ],
+    "module.disputes": [
+      "SEARCH disputes USING INDEX disputes_by_module (module=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)"
+    ],
+    "module.members": [
+      "SEARCH declarations USING INDEX decl_by_module (module=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)"
+    ],
+    "search.matches": [
+      "MATERIALIZE hits",
+      "SCAN names VIRTUAL TABLE INDEX 64:M2",
+      "SCAN hits",
+      "CORRELATED SCALAR SUBQUERY 2",
+      "SEARCH modules USING INTEGER PRIMARY KEY (rowid=?)",
+      "CORRELATED SCALAR SUBQUERY 3",
+      "SEARCH declarations USING INTEGER PRIMARY KEY (rowid=?)",
+      "CORRELATED SCALAR SUBQUERY 4",
+      "SEARCH modules USING INTEGER PRIMARY KEY (rowid=?)",
+      "CORRELATED SCALAR SUBQUERY 5",
+      "SEARCH declarations USING INTEGER PRIMARY KEY (rowid=?)",
+      "USE TEMP B-TREE FOR ORDER BY"
+    ],
+    "declaration.declarations": [
+      "SEARCH d USING INTEGER PRIMARY KEY (rowid=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)",
+      "SEARCH m USING INTEGER PRIMARY KEY (rowid=?)"
+    ],
+    "declaration.outside": [
+      "SEARCH links USING PRIMARY KEY (module=?)",
+      "SCALAR SUBQUERY 2",
+      "SEARCH declarations USING INTEGER PRIMARY KEY (rowid=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)"
+    ],
+    "trail.sites": [
+      "CO-ROUTINE trail",
+      "SETUP",
+      "SEARCH t USING INDEX trace_by_decl (declaration=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)",
+      "RECURSIVE STEP",
+      "SCAN c",
+      "SEARCH p USING INTEGER PRIMARY KEY (rowid=?)",
+      "SCAN trail",
+      "SEARCH m USING INTEGER PRIMARY KEY (rowid=?)",
+      "SEARCH d USING INTEGER PRIMARY KEY (rowid=?) LEFT-JOIN",
+      "USE TEMP B-TREE FOR ORDER BY"
+    ],
+    "siblings.peers": [
+      "SEARCH d USING INDEX decl_by_module (module=?)",
+      "SCALAR SUBQUERY 2",
+      "SEARCH declarations USING INTEGER PRIMARY KEY (rowid=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)"
+    ],
+    "wanted.modules": [
+      "SEARCH w USING INTEGER PRIMARY KEY (rowid>?)",
+      "SEARCH m USING INTEGER PRIMARY KEY (rowid=?)"
+    ],
+    "searchCount.totals": [
+      "SCAN CONSTANT ROW",
+      "SCALAR SUBQUERY 1",
+      "SEARCH search_counts USING PRIMARY KEY (word=? AND prefix=?)",
+      "SCALAR SUBQUERY 2",
+      "SCAN names VIRTUAL TABLE INDEX 0:M2"
+    ]
+  },
+  "outsideLinks": {
+    "startedUTC": "2026-11-23T22:07:36+00:00",
+    "finishedUTC": "2026-11-23T22:10:38+00:00",
+    "urlSetSha256": "ef20812986c3eed02c8da74991443f49fca79cc54423d5a4912c90b3ff76e1f8",
+    "checkedURLs": 2067,
+    "dead": [],
+    "unverified": []
+  }
+}

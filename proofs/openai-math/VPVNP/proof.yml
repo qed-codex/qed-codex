@@ -1,0 +1,28 @@
+{
+  "id": "openai-math/VPVNP",
+  "title": "VP and VNP are different",
+  "artifacts": "proofs/openai-math/VPVNP/source",
+  "declaration": "OAI.Computability.VPVNP.Standalone.vp_ne_vnp",
+  "root": "OAI/Computability/VPVNP/ClassSeparation.lean",
+  "statement": "ComparatorChallenges/VPVNP.lean",
+  "solution": "OAI/Computability/VPVNP/ClassSeparation.lean",
+  "scope": "docs/379.md",
+  "family": true,
+  "comparisonSource": "vp-vnp",
+  "comparisonFile": "Statement.lean",
+  "members": "proofs/openai-math/VPVNP/modules.txt",
+  "verificationRecords": [
+    {
+      "title": "Comparator challenges",
+      "who": "OpenAI",
+      "address": "https://github.com/openai/math/blob/3344da59991ed94f9ba711217b29c1d760badfa6/lean/ComparatorChallenges/README.md"
+    }
+  ],
+  "assetHashes": {
+    "comparison.lean": "f090345dafa13c7629ff0c0737bb1c2fe5d60e8b2d08372281cbb2e65b506ffd",
+    "config.json": "ca61b859dc82d64386fd93e27b8b335b30906129dba8c04938d47761efafcd87",
+    "other-challenge.lean": "808337bc2f4bc2a60d3a1971c9caa1da11ce22bcd7ad5da94a663387a9540912",
+    "scope.md": "46db2c1905f4687a732cba2eb11f50777fb5b64aefc99b9f5a3b4824cb7e1a8c",
+    "statement.lean": "61ec766b6419dbfd942001c29aa2756aab4d8290a6fedaaa46637eb297d2eb98"
+  }
+}

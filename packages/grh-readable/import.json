@@ -1,0 +1,34 @@
+{
+  "package": "grh-readable",
+  "repository": "https://github.com/lsernau/grh-lean",
+  "commit": "72fead102f663d5c7a407964a13dc0cf9d977207",
+  "folder": "grh",
+  "modulePrefix": "src/",
+  "roots": [
+    "src/Main.lean"
+  ],
+  "extraModules": [
+    "Challenge.lean"
+  ],
+  "authors": [
+    "Claude"
+  ],
+  "models": [
+    "Claude"
+  ],
+  "license": "Apache-2.0",
+  "submitter": "dial481",
+  "copyrightStatus": "absent",
+  "archiveSha256": "50d427363467b8cd83a4baf2066a1014d800f15945bad45d31e740f453c08fcc",
+  "extraFiles": [
+    "README.md",
+    "GUIDE.md",
+    "LICENSE",
+    "NOTICE",
+    "ATTRIBUTION.md",
+    "comparator.json",
+    "lakefile.toml",
+    "lean-toolchain",
+    "lake-manifest.json"
+  ]
+}

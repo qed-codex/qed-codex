@@ -1,0 +1,203 @@
+tex_line	reference	literal_candidates	evidence	witness	module
+1982	lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/landauWindow.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/landauWindow.lean
+1984	lean/src/Formalism/ProductFormula/StatementOCCM.lean	1	literal path suffix		src/Formalism/ProductFormula/StatementOCCM.lean
+1986	lean/src/Formalism/SizeWindowBrackets/FirstPrimeNeSecondPrime.lean	1	literal path suffix		src/Formalism/SizeWindowBrackets/FirstPrimeNeSecondPrime.lean
+1988	lean/src/Formalism/StatementCM.lean	1	literal path suffix		src/Formalism/StatementCM.lean
+1990	lean/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/ChTop.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/ChTop.lean
+1992	lean/src/Formalism/SizeWindowBrackets/GrowthBoundGivesRiemannHypothesis.lean	1	literal path suffix		src/Formalism/SizeWindowBrackets/GrowthBoundGivesRiemannHypothesis.lean
+1994	lean/src/Formalism/RankGapBounds/MeanBoundSecondForm.lean	1	literal path suffix		src/Formalism/RankGapBounds/MeanBoundSecondForm.lean
+1996	lean/src/Development/AutomorphicArithmetic/CharacterBoxes/ExistsPageN.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/ExistsPageN.lean
+1998	lean/src/Development/AutomorphicArithmetic/MeanSquareBounds/pairEx.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/MeanSquareBounds/pairEx.lean
+2000	lean/src/Development/AutomorphicArithmetic/CharacterBoxes/WinPairs.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/WinPairs.lean
+2002	lean/src/Development/AutomorphicArithmetic/PrimitiveCosets/CoreGm.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/PrimitiveCosets/CoreGm.lean
+2004	lean/src/Supplements/Kernels/MainTheorems.lean	1	literal path suffix		src/Supplements/Kernels/MainTheorems.lean
+2006	lean/src/Development/AutomorphicArithmetic/AdelicQuotients/ThetaLiftLinear.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/AdelicQuotients/ThetaLiftLinear.lean
+2008	lean/src/Formalism/ThetaLiftIndependence/Statement.lean	1	literal path suffix		src/Formalism/ThetaLiftIndependence/Statement.lean
+2010	lean/src/Formalism/SharpRestriction/GrowthBounds/CoarseMultiplicity/KeyMinorDvd.lean	1	literal path suffix		src/Formalism/SharpRestriction/GrowthBounds/CoarseMultiplicity/KeyMinorDvd.lean
+2012	ChowlaSelbergPeriodStatement.lean	1	literal path suffix		src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ChowlaSelbergPeriodStatement.lean
+2014	lean/src/Formalism/BehrendSets/StatementE.lean	1	literal path suffix		src/Formalism/BehrendSets/StatementE.lean
+2016	lean/src/Formalism/ThickAverageLoss/PartnersToFactorsAt.lean	1	literal path suffix		src/Formalism/ThickAverageLoss/PartnersToFactorsAt.lean
+2018	lean/src/Formalism/SharpRestriction/GlobalTheoremInputs.lean	1	literal path suffix		src/Formalism/SharpRestriction/GlobalTheoremInputs.lean
+2020	lean/src/Formalism/CorankShare/StatementFR.lean	1	literal path suffix		src/Formalism/CorankShare/StatementFR.lean
+2022	lean/src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/StatementAB.lean	1	literal path suffix		src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/StatementAB.lean
+2026	lean/src/Formalism/SharpRestriction/GlobalSchurBounds/FlipTwoThree.lean	1	literal path suffix		src/Formalism/SharpRestriction/GlobalSchurBounds/FlipTwoThree.lean
+2028	IntegrableOfContinuousCircleMeasure.lean	1	literal path suffix		src/Formalism/SharpRestriction/GlobalSchurBounds/IntegrableOfContinuousCircleMeasure.lean
+2030	lean/src/Formalism/HarderNarasimhan/StatementPl.lean	1	literal path suffix		src/Formalism/HarderNarasimhan/StatementPl.lean
+2032	lean/src/Formalism/LocalRingCardinality/Params.lean	1	literal path suffix		src/Formalism/LocalRingCardinality/Params.lean
+2034	lean/src/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/ThickExists.lean	1	literal path suffix		src/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/ThickExists.lean
+2036	lean/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LevelOfCongruence.lean	1	literal path suffix		src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LevelOfCongruence.lean
+2038	lean/src/Development/AutomorphicArithmetic/CharacterBoxes/PairGood.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/PairGood.lean
+3556	DataArith.lean	1	literal path suffix		src/Formalism/LocalRingCardinality/DataArith.lean
+3593	GlobalTheoremInputs.lean	1	literal path suffix		src/Formalism/SharpRestriction/GlobalTheoremInputs.lean
+3640	DataHost.lean	1	literal path suffix		src/Formalism/LocalRingCardinality/DataHost.lean
+3651	StatementI.lean	5	named declaration	ThmAOp	src/Formalism/GaussJetBounds/StatementI.lean
+3651	ThmAOp.lean	1	literal path suffix		src/Formalism/GaussJetBounds/GaussJetProofs/ThmAOp.lean
+3796	OneLetterRadiusIdentity.lean	1	literal path suffix		src/Formalism/GaussJetBounds/GaussJetProofs/OneLetterRadiusIdentity.lean
+3815	ConstantCoeffEvenDerivativeEqZero.lean	1	literal path suffix		src/Formalism/GaussJetBounds/GaussJetProofs/ConstantCoeffEvenDerivativeEqZero.lean
+4110	ProductZerothFirstParts.lean	1	literal path suffix		src/Formalism/SharpRestriction/Divisibility/ProductZerothFirstParts.lean
+4131	LiftSubstStart	1	short name and directory	CoarseMultiplicity	src/Formalism/SharpRestriction/GrowthBounds/CoarseMultiplicity/LiftSubstStart.lean
+4131	Loc4ResOfLine	1	short name and directory	CoarseMultiplicity	src/Formalism/SharpRestriction/GrowthBounds/CoarseMultiplicity/Loc4ResOfLine.lean
+4495	RecBridge.lean	1	literal path suffix		src/Formalism/LocalToGlobal/Divisibility/RecBridge.lean
+4495	RecBridgeTied.lean	1	literal path suffix		src/Formalism/LocalToGlobal/Divisibility/RecBridgeTied.lean
+4741	WeilJacquetShalikaLaw.lean	2	named declaration	Conclusion1	src/Formalism/SharpRestriction/GrowthBounds/WeilJacquetShalikaLaw.lean
+4904	GaussJetBounds/StatementG.lean	1	literal path suffix		src/Formalism/GaussJetBounds/StatementG.lean
+6025	KcDiff.lean	1	literal path suffix		src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/KcDiff.lean
+6631	QuadraticLogDerivCongr.lean	1	literal path suffix		src/Formalism/SharpRestriction/GlobalSchurBounds/QuadraticLogDerivCongr.lean
+6924	DesignS.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/DesignS.lean
+7005	MeanBoundSecondForm.lean	1	literal path suffix		src/Formalism/RankGapBounds/MeanBoundSecondForm.lean
+7012	LevelOfCongruence.lean	2	named declaration	each_unit_bound_statement	src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LevelOfCongruence.lean
+7016	ChTop.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/ChTop.lean
+7016	PChain.lean	2	named use in pinned source	each_unit_bound_statement	src/Formalism/SizeWindowBrackets/ChainSlopeWindows/PChain.lean
+7460	Formalism/GaloisCohomology/Statement.lean	1	literal path suffix		src/Formalism/GaloisCohomology/Statement.lean
+7464	ExistsPageN.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/ExistsPageN.lean
+7502	WinPairs.lean	2	named declaration	winPairs	src/Development/AutomorphicArithmetic/CharacterBoxes/WinPairs.lean
+7515	TwistForm.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/TwistForm.lean
+7520	PairRowIffQdRows.lean	1	literal path suffix		src/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/PairRowIffQdRows.lean
+7525	DivinNOfHypV.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/DivinNOfHypV.lean
+7560	GlobalTheoremInputs.lean	1	literal path suffix		src/Formalism/SharpRestriction/GlobalTheoremInputs.lean
+7563	DataRows.lean	1	literal path suffix		src/Formalism/LocalRingCardinality/DataRows.lean
+7565	LiftLat.lean	1	literal path suffix		src/Formalism/LocalToGlobal/Divisibility/LiftLat.lean
+7566	LiftLat.lean	1	literal path suffix		src/Formalism/LocalToGlobal/Divisibility/LiftLat.lean
+7568	LiftLatLemmas.lean	1	literal path suffix		src/Formalism/LocalToGlobal/Divisibility/LiftLatLemmas.lean
+7572	CoverAct.lean	1	literal path suffix		src/Formalism/LocalToGlobal/NormalizedHeckeFactors/CoverAct.lean
+7572	Statement.lean	86	named declaration	TieEta	src/Formalism/AdicCompletionExports/NonnegativeDivisors/Statement.lean
+7577	RowSideTie.lean	1	literal path suffix		src/Formalism/LocalToGlobal/Divisibility/RowSideTie.lean
+7597	DivinNOfHypV.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/DivinNOfHypV.lean
+7611	DesWin.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/DesWin.lean
+7640	Statement.lean	86	named declaration	PTShaAt	src/Formalism/GaloisCohomology/Statement.lean
+7679	NumberU3US.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/ThresholdArguments/DenseThresholdCases/NumberU3US.lean
+7687	WeightsConjBis.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/TypeConditions/WeightsConjBis.lean
+7801	ZeroMemUnrHom.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/AutomorphicVarieties/OddResidueBounds/ZeroMemUnrHom.lean
+7818	NumberU3US.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/ThresholdArguments/DenseThresholdCases/NumberU3US.lean
+7821	Counts.lean	2	named declaration	GD	src/Development/AutomorphicArithmetic/AutomorphicVarieties/HeightAndVanishing/Counts.lean
+7844	LemmaK.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/AutomorphicVarieties/GeneratorCountTuples/LemmaK.lean
+7862	KatoTwoW.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/KatoQuadraticCharacters/SphericalDecomposition/KatoTwoW.lean
+7874	SecondBound.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/AutomorphicVarieties/LayeredIsomorphisms/SecondBound.lean
+7886	StmtFields.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/AutomorphicVarieties/StmtFields.lean
+8077	ShaFamMono.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/AutomorphicVarieties/CharacterLevelBounds/ShaFamMono.lean
+8079	RestrictionMemInvariantH1.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/AutomorphicVarieties/GaloisLibrary/SelmerTransport/RestrictionMemInvariantH1.lean
+8080	SeparatedDvrSecondCohomologyMem.lean	1	literal path suffix		src/ReciprocityTheory/GaloisValuations/SeparatedDvrSecondCohomologyMem.lean
+8245	ExistsPageN.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/ExistsPageN.lean
+9564	DataHost	1	short name and directory	Formalism/LocalRingCardinality	src/Formalism/LocalRingCardinality/DataHost.lean
+9564	DataSpaces	1	short name and directory	Formalism/LocalRingCardinality	src/Formalism/LocalRingCardinality/DataSpaces.lean
+9564	Params	1	short name and directory	Formalism/LocalRingCardinality	src/Formalism/LocalRingCardinality/Params.lean
+9565	DataCoeff	1	short name and directory	Formalism/LocalRingCardinality	src/Formalism/LocalRingCardinality/DataCoeff.lean
+9565	DataForms	1	short name and directory	Formalism/LocalRingCardinality	src/Formalism/LocalRingCardinality/DataForms.lean
+9565	DataKernels	1	short name and directory	Formalism/LocalRingCardinality	src/Formalism/LocalRingCardinality/DataKernels.lean
+9565	DataLevel	1	short name and directory	Formalism/LocalRingCardinality	src/Formalism/LocalRingCardinality/DataLevel.lean
+9565	DataRows	1	short name and directory	Formalism/LocalRingCardinality	src/Formalism/LocalRingCardinality/DataRows.lean
+9566	DataArith	1	short name and directory	Formalism/LocalRingCardinality	src/Formalism/LocalRingCardinality/DataArith.lean
+9566	DataBu	1	short name and directory	Formalism/LocalRingCardinality	src/Formalism/LocalRingCardinality/DataBu.lean
+9566	DataJet	1	short name and directory	Formalism/LocalRingCardinality	src/Formalism/LocalRingCardinality/DataJet.lean
+9566	DataTheta	1	short name and directory	Formalism/LocalRingCardinality	src/Formalism/LocalRingCardinality/DataTheta.lean
+9566	DataTies	1	short name and directory	Formalism/LocalRingCardinality	src/Formalism/LocalRingCardinality/DataTies.lean
+9567	DataParams₂	1	short name and directory	Formalism/LocalRingCardinality	src/Formalism/LocalRingCardinality/DataParams₂.lean
+9567	PosOfIsomEmb	1	short name and directory	Formalism/LocalRingCardinality	src/Formalism/LocalRingCardinality/PosOfIsomEmb.lean
+9568	RhoDetPrimeEqMuTildeMulChiPow.lean	2	printed directory	Formalism/LocalRingCardinality	src/Formalism/LocalRingCardinality/RhoDetPrimeEqMuTildeMulChiPow.lean
+9569	ElevenLe	1	short name and directory	Formalism/SharpRestriction	src/Formalism/SharpRestriction/ElevenLe.lean
+9569	FamCore	1	short name and directory	Formalism/SharpRestriction	src/Formalism/SharpRestriction/FamCore.lean
+9569	ParConsts	1	short name and directory	Formalism/SharpRestriction	src/Formalism/SharpRestriction/ParConsts.lean
+9570	DataS	1	short name and directory	CuspSpanNormBounds	src/Formalism/SharpRestriction/CuspSpanNormBounds/DataS.lean
+9570	GlobalTheoremInputs	1	short name and directory	Formalism/SharpRestriction	src/Formalism/SharpRestriction/GlobalTheoremInputs.lean
+9571	StandardLattice	1	short name and directory	GlobalSchurBounds	src/Formalism/SharpRestriction/GlobalSchurBounds/StandardLattice.lean
+9571	TieGlobal	1	short name and directory	GlobalSchurBounds	src/Formalism/SharpRestriction/GlobalSchurBounds/TieGlobal.lean
+9572	QuadraticLogDerivCongr.lean	1	literal path suffix		src/Formalism/SharpRestriction/GlobalSchurBounds/QuadraticLogDerivCongr.lean
+9573	IsDiscriminantTwelfthRootOfIdealLattice.lean	1	literal path suffix		src/Formalism/SharpRestriction/GlobalSchurBounds/GeneralLinearActions/IsDiscriminantTwelfthRootOfIdealLattice.lean
+9574	ConjEMemHostFIff.lean	1	literal path suffix		src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/ConjEMemHostFIff.lean
+9575	DataN	1	short name and directory	LevelLetterCocycles	src/Formalism/SharpRestriction/LevelLetterCocycles/DataN.lean
+9575	HostFam	1	short name and directory	InertJacobiLevels	src/Formalism/SharpRestriction/InertJacobiLevels/HostFam.lean
+9577	Numbers	1	short name and directory	LocalToGlobal/Divisibility	src/Formalism/LocalToGlobal/Divisibility/Numbers.lean
+9577	RecBridge	1	short name and directory	LocalToGlobal/Divisibility	src/Formalism/LocalToGlobal/Divisibility/RecBridge.lean
+9577	SizeWindowBrackets/FirstPrimeNeSecondPrime.lean	1	literal path suffix		src/Formalism/SizeWindowBrackets/FirstPrimeNeSecondPrime.lean
+9578	Inputs	1	short name and directory	LocalToGlobal/Divisibility	src/Formalism/LocalToGlobal/Divisibility/Inputs.lean
+9578	TiedCH	1	short name and directory	LocalToGlobal/Columns	src/Formalism/LocalToGlobal/Columns/TiedCH.lean
+9580	PairRowIffQdRows.lean	1	literal path suffix		src/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/PairRowIffQdRows.lean
+9580	ThinScalesIffHostBound.lean	1	literal path suffix		src/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/ThinScalesIffHostBound.lean
+9581	ExistsFamPOfKits.lean	1	literal path suffix		src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/ExistsFamPOfKits.lean
+9583	PrimeDiscriminants/ExistsHostWithPrimesCyclicTwoPower.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/PrimeDiscriminants/ExistsHostWithPrimesCyclicTwoPower.lean
+9584	hostOfFieldOf.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/ShortNorms/hostOfFieldOf.lean
+9584	supplyOfAdmOf.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/ShortNorms/supplyOfAdmOf.lean
+9585	ExistsPageN.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/ExistsPageN.lean
+9585	TwistForm.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/TwistForm.lean
+9600	FrobeniusOrbits/Statement.lean	1	literal path suffix		src/Formalism/FrobeniusOrbits/Statement.lean
+9613	CharacterBoxes/DesignS.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/DesignS.lean
+9617	ThetaLiftIndependence/Statement.lean	1	literal path suffix		src/Formalism/ThetaLiftIndependence/Statement.lean
+9621	GaussJetBounds/Statement.lean	1	literal path suffix		src/Formalism/GaussJetBounds/Statement.lean
+9621	IncomingBounds/IncomingBound.lean	1	literal path suffix		src/Formalism/IncomingBounds/IncomingBound.lean
+9626	HarderNarasimhan/StatementPl.lean	1	literal path suffix		src/Formalism/HarderNarasimhan/StatementPl.lean
+9641	Formalism/GammaFactorNonvanishing/CritLine.lean	1	literal path suffix		src/Formalism/GammaFactorNonvanishing/CritLine.lean
+11118	Formalism/RankGapBounds/MeanBoundSecondForm.lean	1	literal path suffix		src/Formalism/RankGapBounds/MeanBoundSecondForm.lean
+11119	Formalism/SizeWindowBrackets/QuotientSlopeBoundsWith.lean	1	literal path suffix		src/Formalism/SizeWindowBrackets/QuotientSlopeBoundsWith.lean
+11120	Formalism/SizeWindowBrackets/ChainSlopeWindows/LevelOfCongruence.lean	1	literal path suffix		src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LevelOfCongruence.lean
+11121	Formalism/RankGapBounds/RankGapProofs/WeightedMeanData.lean	1	literal path suffix		src/Formalism/RankGapBounds/RankGapProofs/WeightedMeanData.lean
+11122	Formalism/SizeWindowBrackets/ErrorFormsWeakWindowsFalse.lean	1	literal path suffix		src/Formalism/SizeWindowBrackets/ErrorFormsWeakWindowsFalse.lean
+11123	Formalism/SizeWindowBrackets/ChainSlopeWindows/PChain.lean	1	literal path suffix		src/Formalism/SizeWindowBrackets/ChainSlopeWindows/PChain.lean
+11124	Formalism/SizeWindowBrackets/SChain.lean	1	literal path suffix		src/Formalism/SizeWindowBrackets/SChain.lean
+11125	ChCore	1	short name and directory	LandauTheorems	src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/ChCore.lean
+11125	ChTop	1	short name and directory	LandauTheorems	src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/ChTop.lean
+11125	Formalism/SizeWindowBrackets/FirstPrimeNeSecondPrime.lean	1	literal path suffix		src/Formalism/SizeWindowBrackets/FirstPrimeNeSecondPrime.lean
+11127	CoreGm	1	short name and directory	PrimitiveCosets	src/Development/AutomorphicArithmetic/PrimitiveCosets/CoreGm.lean
+11127	Development/AutomorphicArithmetic/DedekindLFunctions/SplitInertia.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/DedekindLFunctions/SplitInertia.lean
+11128	CoreAtH	1	short name and directory	PrimitiveCosets	src/Development/AutomorphicArithmetic/PrimitiveCosets/CoreAtH.lean
+11128	LevelGmLeOnFamilyScales.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/PrimitiveCosets/LevelGmLeOnFamilyScales.lean
+11129	TieGlobal	1	short name and directory	GlobalSchurBounds	src/Formalism/SharpRestriction/GlobalSchurBounds/TieGlobal.lean
+11130	LossesSmallShares.lean	1	literal path suffix		src/Formalism/SharpRestriction/GlobalSchurBounds/LossesSmallShares.lean
+11131	Formalism/SharpRestriction/GlobalTheoremInputs.lean	1	literal path suffix		src/Formalism/SharpRestriction/GlobalTheoremInputs.lean
+11132	Formalism/LocalRingCardinality/DataParams₂.lean	1	literal path suffix		src/Formalism/LocalRingCardinality/DataParams₂.lean
+11155	DataArith.lean	1	literal path suffix		src/Formalism/LocalRingCardinality/DataArith.lean
+11158	RecBridge.lean	1	literal path suffix		src/Formalism/LocalToGlobal/Divisibility/RecBridge.lean
+11159	KernelPlaceMeanBound.lean	1	literal path suffix		src/Formalism/LocalRingCardinality/KernelPlaceMeanBound.lean
+11159	RecBridge.lean	1	literal path suffix		src/Formalism/LocalToGlobal/Divisibility/RecBridge.lean
+11162	ClaimGaFree.lean	1	literal path suffix		src/Formalism/SizeWindowBrackets/ClaimGaFree.lean
+11162	LocalQuadraticParts.lean	1	literal path suffix		src/Formalism/SharpRestriction/Divisibility/LocalQuadraticParts.lean
+11162	PlacesP.lean	1	literal path suffix		src/Formalism/LocalToGlobal/GlobalTheory/PlacesP.lean
+11162	TopDensityNGeSixteen.lean	1	literal path suffix		src/Formalism/SharpRestriction/GlobalSchurBounds/TopDensityNGeSixteen.lean
+11162	WeightedSlopeExcessDecomposition.lean	1	literal path suffix		src/Formalism/SizeWindowBrackets/ChainSlopeWindows/WeightedSlopeExcessDecomposition.lean
+11163	RecBridge.lean	1	literal path suffix		src/Formalism/LocalToGlobal/Divisibility/RecBridge.lean
+11165	StatementFrameF.lean	1	literal path suffix		src/Formalism/HarderNarasimhan/StatementFrameF.lean
+11165	TopDensityNGeSixteen.lean	1	literal path suffix		src/Formalism/SharpRestriction/GlobalSchurBounds/TopDensityNGeSixteen.lean
+11166	LocalQuadraticParts.lean	1	literal path suffix		src/Formalism/SharpRestriction/Divisibility/LocalQuadraticParts.lean
+11168	Statement.lean	86	named declaration	SlopeIneq	src/Formalism/HarderNarasimhan/Statement.lean
+11168	StatementPl.lean	2	named declaration	htMap	src/Formalism/HarderNarasimhan/StatementPl.lean
+11169	StatementFrameF.lean	1	literal path suffix		src/Formalism/HarderNarasimhan/StatementFrameF.lean
+11173	SubThreeMulLogTwoLe.lean	1	literal path suffix		src/Formalism/SizeWindowBrackets/ChainSlopeWindows/SubThreeMulLogTwoLe.lean
+11177	DivinNOfHypV.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/DivinNOfHypV.lean
+11177	LinkMin.lean	1	literal path suffix		src/Formalism/SharpRestriction/GlobalSchurBounds/LinkMin.lean
+11178	DivinNOfHypV.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/DivinNOfHypV.lean
+11178	FamCore.lean	1	literal path suffix		src/Formalism/SharpRestriction/FamCore.lean
+11178	TopWin.lean	1	literal path suffix		src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/TopWin.lean
+11178	Window.lean	6	named declaration	HasWindows	src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/Window.lean
+11179	BoundedTw.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/BoundedTw.lean
+11179	FieldChi.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/FieldChi.lean
+11179	PairGood.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/PairGood.lean
+11179	TwistForm.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/TwistForm.lean
+11179	WinPairs.lean	2	named declaration	winPairs	src/Development/AutomorphicArithmetic/CharacterBoxes/WinPairs.lean
+11179	supplyOfAdmOf.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/ShortNorms/supplyOfAdmOf.lean
+11180	PairGood.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/PairGood.lean
+11181	TopWin.lean	1	literal path suffix		src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/TopWin.lean
+11181	TopWin.lean	1	literal path suffix		src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/TopWin.lean
+11181	WindowInequalityOfArtinInputs.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/PrimitiveCosets/WindowInequalityOfArtinInputs.lean
+11181	ZeroFreeAllOfTopG.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/ZeroFreeAllOfTopG.lean
+11191	LocalQuadraticParts.lean	1	literal path suffix		src/Formalism/SharpRestriction/Divisibility/LocalQuadraticParts.lean
+11193	FrameCodeOfAdditive.lean	1	literal path suffix		src/Formalism/SharpRestriction/GlobalSchurBounds/FrameCodeOfAdditive.lean
+11194	SecondKindBucket.lean	1	literal path suffix		src/Formalism/SizeWindowBrackets/SecondKindBucket.lean
+11194	WindowSettingSatisfiable.lean	1	literal path suffix		src/Formalism/SizeWindowBrackets/WindowSettingSatisfiable.lean
+11198	LocalToGlobal/GlobalTheory/IsResidueClassZero.lean	1	literal path suffix		src/Formalism/LocalToGlobal/GlobalTheory/IsResidueClassZero.lean
+11210	LinkMin.lean	1	literal path suffix		src/Formalism/SharpRestriction/GlobalSchurBounds/LinkMin.lean
+11213	LinkMin.lean	1	literal path suffix		src/Formalism/SharpRestriction/GlobalSchurBounds/LinkMin.lean
+11231	DivinNOfHypV.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/DivinNOfHypV.lean
+11245	ZsmulGeneratorEqZeroOfProjection.lean	1	literal path suffix		src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/ZsmulGeneratorEqZeroOfProjection.lean
+11247	FrameCyclicGenerator.lean	1	literal path suffix		src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/FrameCyclicGenerator.lean
+11253	ExplicitFormulaErrorOfHostConditions.lean	1	literal path suffix		src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/ExplicitFormulaErrorOfHostConditions.lean
+11262	SumLeEtaSumNum.lean	1	literal path suffix		src/Formalism/LocalToGlobal/Divisibility/SumLeEtaSumNum.lean
+11264	ConstantGeTwentyEightAlt.lean	1	literal path suffix		src/Formalism/LocalToGlobal/Divisibility/ConstantGeTwentyEightAlt.lean
+11265	LinkDef.lean	1	literal path suffix		src/Formalism/LocalToGlobal/Divisibility/LinkDef.lean
+11270	FinalAll.lean	2	named use in pinned source	ComplementTwoFamily	src/Formalism/LocalToGlobal/Divisibility/DivisibilityRemainder/RemainderBounds/FinalAll.lean
+11280	EveryCharacter.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/EveryCharacter.lean
+11282	supplyOfAdmOf.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/ShortNorms/supplyOfAdmOf.lean
+11307	OrdAny.lean	1	literal path suffix		src/Development/AutomorphicArithmetic/CharacterBoxes/OrdAny.lean
+11324	DataArith.lean	1	literal path suffix		src/Formalism/LocalRingCardinality/DataArith.lean
+12859	GenLogInverse.lean	1	literal path suffix		src/Formalism/GaussJetBounds/GenLogInverse.lean
+12860	GenLogInverse.lean	1	literal path suffix		src/Formalism/GaussJetBounds/GenLogInverse.lean
+12861	LogarithmWeightComparison.lean	1	literal path suffix		src/Formalism/GaussJetBounds/GaussJetProofs/LogarithmWeightComparison.lean
+12862	Statement.lean	86	named declaration	BHyp	src/Formalism/GaussJetBounds/Statement.lean

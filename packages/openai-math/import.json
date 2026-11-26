@@ -1,0 +1,35 @@
+{
+  "package": "openai-math",
+  "repository": "https://github.com/openai/math",
+  "commit": "3344da59991ed94f9ba711217b29c1d760badfa6",
+  "folder": "lean",
+  "roots": [
+    "OAI/Algorithms/SubexponentialSAT/SqrtLogSpace/Final.lean",
+    "OAI/Computability/VPVNP/ClassSeparation.lean",
+    "OAI/LinearAlgebra/SpectralBooks/ExactExponent.lean"
+  ],
+  "extraModules": [
+    "ComparatorChallenges/VPVNP.lean",
+    "ComparatorChallenges/SubexponentialSAT.lean",
+    "OAI/Algorithms/SubexponentialSAT/Main.lean",
+    "ComparatorChallenges/MatrixExponent.lean"
+  ],
+  "submitter": "dial481",
+  "authors": [
+    "OpenAI (unnamed internal model)"
+  ],
+  "models": [
+    "OpenAI (unnamed internal model)"
+  ],
+  "license": "Apache-2.0",
+  "copyrightStatus": "absent",
+  "credits": {
+    "OAI/Computability/VPVNP/ShiftedResidue.lean": [
+      "Note from QED Codex: the notes below name results of Kirill Khoruzhii. [Lemmata entry (CC BY 4.0)](https://github.com/ZIB-IOL/lemmata/blob/a2dd430f283febd755a6ee6932d0b0fdabfb330c/docs/crossing-decomposition/index.md)"
+    ],
+    "OAI/Computability/VPVNP/StateCount.lean": [
+      "Note from QED Codex: the notes below name results of Kirill Khoruzhii. [Lemmata entry (CC BY 4.0)](https://github.com/ZIB-IOL/lemmata/blob/a2dd430f283febd755a6ee6932d0b0fdabfb330c/docs/crossing-decomposition/index.md)"
+    ]
+  },
+  "archiveSha256": "ac15ef219228bb8e2e2331eb0231d7d36f6e9ec6066bf14d36027e480158e1be"
+}

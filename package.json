@@ -1,0 +1,13 @@
+{
+  "name": "qed-codex",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@sqlite.org/sqlite-wasm": "3.54.1-build1",
+    "pako": "3.0.3"
+  },
+  "devDependencies": {
+    "playwright": "1.65.1",
+    "wrangler": "4.166.0"
+  }
+}

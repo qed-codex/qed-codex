@@ -1,0 +1,2346 @@
+{
+  "giscus": [
+    {
+      "engine": "chromium",
+      "version": "159.0.8154.6",
+      "mode": "control",
+      "isolated": false,
+      "widgetReady": true,
+      "failedRequests": []
+    },
+    {
+      "engine": "chromium",
+      "version": "159.0.8154.6",
+      "mode": "isolated",
+      "isolated": true,
+      "widgetReady": false,
+      "failedRequests": [
+        "/default.css",
+        "/en/widget"
+      ]
+    },
+    {
+      "engine": "firefox",
+      "version": "159.0",
+      "mode": "control",
+      "isolated": false,
+      "widgetReady": true,
+      "failedRequests": []
+    },
+    {
+      "engine": "firefox",
+      "version": "159.0",
+      "mode": "isolated",
+      "isolated": true,
+      "widgetReady": false,
+      "failedRequests": [
+        "/default.css",
+        "/en/widget"
+      ]
+    },
+    {
+      "engine": "webkit",
+      "version": "27.2",
+      "mode": "control",
+      "isolated": false,
+      "widgetReady": true,
+      "failedRequests": []
+    },
+    {
+      "engine": "webkit",
+      "version": "27.2",
+      "mode": "isolated",
+      "isolated": true,
+      "widgetReady": false,
+      "failedRequests": [
+        "/default.css",
+        "/en/widget"
+      ]
+    }
+  ],
+  "http": {
+    "chromium": {
+      "browser": "159.0.8154.6",
+      "samples": [
+        {
+          "kind": "module",
+          "value": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+          "state": "cold",
+          "elapsedMs": 264.8,
+          "database": {
+            "files": 8,
+            "encodedBody": 245512,
+            "responseWire": 248913,
+            "requestWire": 3606
+          },
+          "allQueryAssets": {
+            "files": 17,
+            "encodedBody": 847621,
+            "responseWire": 855259,
+            "requestWire": 7229
+          }
+        },
+        {
+          "kind": "module",
+          "value": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+          "state": "repeat",
+          "elapsedMs": 2.9,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "module",
+          "value": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+          "state": "warm",
+          "elapsedMs": 45,
+          "database": {
+            "files": 3,
+            "encodedBody": 19880,
+            "responseWire": 21141,
+            "requestWire": 1352
+          },
+          "allQueryAssets": {
+            "files": 3,
+            "encodedBody": 19880,
+            "responseWire": 21141,
+            "requestWire": 1352
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "RowS",
+          "state": "cold",
+          "elapsedMs": 135,
+          "database": {
+            "files": 3,
+            "encodedBody": 226976,
+            "responseWire": 228262,
+            "requestWire": 1355
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 829085,
+            "responseWire": 834587,
+            "requestWire": 4978
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "RowS",
+          "state": "repeat",
+          "elapsedMs": 0.7,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "RowS",
+          "state": "warm",
+          "elapsedMs": 6.2,
+          "database": {
+            "files": 1,
+            "encodedBody": 8765,
+            "responseWire": 9183,
+            "requestWire": 452
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 8765,
+            "responseWire": 9183,
+            "requestWire": 452
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "galois",
+          "state": "cold",
+          "elapsedMs": 133.5,
+          "database": {
+            "files": 3,
+            "encodedBody": 227636,
+            "responseWire": 228943,
+            "requestWire": 1355
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 829745,
+            "responseWire": 835267,
+            "requestWire": 4978
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "galois",
+          "state": "repeat",
+          "elapsedMs": 0.9,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "galois",
+          "state": "warm",
+          "elapsedMs": 6.6,
+          "database": {
+            "files": 1,
+            "encodedBody": 9425,
+            "responseWire": 9843,
+            "requestWire": 452
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 9425,
+            "responseWire": 9843,
+            "requestWire": 452
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "zero",
+          "state": "cold",
+          "elapsedMs": 125.4,
+          "database": {
+            "files": 3,
+            "encodedBody": 227142,
+            "responseWire": 228443,
+            "requestWire": 1355
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 829251,
+            "responseWire": 834812,
+            "requestWire": 4978
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "zero",
+          "state": "repeat",
+          "elapsedMs": 0.8,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "zero",
+          "state": "warm",
+          "elapsedMs": 7,
+          "database": {
+            "files": 1,
+            "encodedBody": 8931,
+            "responseWire": 9349,
+            "requestWire": 452
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 8931,
+            "responseWire": 9349,
+            "requestWire": 452
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "siegel",
+          "state": "cold",
+          "elapsedMs": 142.3,
+          "database": {
+            "files": 3,
+            "encodedBody": 226872,
+            "responseWire": 228172,
+            "requestWire": 1355
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 828981,
+            "responseWire": 834507,
+            "requestWire": 4978
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "siegel",
+          "state": "repeat",
+          "elapsedMs": 0.5,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "siegel",
+          "state": "warm",
+          "elapsedMs": 6.1,
+          "database": {
+            "files": 1,
+            "encodedBody": 8661,
+            "responseWire": 9079,
+            "requestWire": 452
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 8661,
+            "responseWire": 9079,
+            "requestWire": 452
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "a",
+          "state": "cold",
+          "elapsedMs": 176.9,
+          "database": {
+            "files": 4,
+            "encodedBody": 232033,
+            "responseWire": 233759,
+            "requestWire": 1807
+          },
+          "allQueryAssets": {
+            "files": 13,
+            "encodedBody": 834142,
+            "responseWire": 840113,
+            "requestWire": 5430
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "a",
+          "state": "repeat",
+          "elapsedMs": 0.9,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "a",
+          "state": "warm",
+          "elapsedMs": 15.7,
+          "database": {
+            "files": 2,
+            "encodedBody": 13822,
+            "responseWire": 14664,
+            "requestWire": 904
+          },
+          "allQueryAssets": {
+            "files": 2,
+            "encodedBody": 13822,
+            "responseWire": 14664,
+            "requestWire": 904
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "Α",
+          "state": "cold",
+          "elapsedMs": 165.3,
+          "database": {
+            "files": 3,
+            "encodedBody": 228431,
+            "responseWire": 229730,
+            "requestWire": 1355
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 830540,
+            "responseWire": 836083,
+            "requestWire": 4978
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "Α",
+          "state": "repeat",
+          "elapsedMs": 0.6,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "Α",
+          "state": "warm",
+          "elapsedMs": 6.9,
+          "database": {
+            "files": 1,
+            "encodedBody": 10220,
+            "responseWire": 10638,
+            "requestWire": 452
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 10220,
+            "responseWire": 10638,
+            "requestWire": 452
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "_aux",
+          "state": "cold",
+          "elapsedMs": 156.7,
+          "database": {
+            "files": 3,
+            "encodedBody": 222397,
+            "responseWire": 223705,
+            "requestWire": 1355
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 824506,
+            "responseWire": 830046,
+            "requestWire": 4978
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "_aux",
+          "state": "repeat",
+          "elapsedMs": 0.8,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "_aux",
+          "state": "warm",
+          "elapsedMs": 18.5,
+          "database": {
+            "files": 1,
+            "encodedBody": 4186,
+            "responseWire": 4604,
+            "requestWire": 452
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 4186,
+            "responseWire": 4604,
+            "requestWire": 452
+          }
+        },
+        {
+          "kind": "search",
+          "value": "RowSrc",
+          "state": "cold",
+          "elapsedMs": 175.3,
+          "database": {
+            "files": 7,
+            "encodedBody": 270611,
+            "responseWire": 273582,
+            "requestWire": 3160
+          },
+          "allQueryAssets": {
+            "files": 16,
+            "encodedBody": 872720,
+            "responseWire": 879930,
+            "requestWire": 6783
+          }
+        },
+        {
+          "kind": "search",
+          "value": "RowSrc",
+          "state": "repeat",
+          "elapsedMs": 0.6,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "search",
+          "value": "RowSrc",
+          "state": "warm",
+          "elapsedMs": 38.4,
+          "database": {
+            "files": 5,
+            "encodedBody": 52400,
+            "responseWire": 54488,
+            "requestWire": 2257
+          },
+          "allQueryAssets": {
+            "files": 5,
+            "encodedBody": 52400,
+            "responseWire": 54488,
+            "requestWire": 2257
+          }
+        },
+        {
+          "kind": "search",
+          "value": "zero*",
+          "state": "cold",
+          "elapsedMs": 277.5,
+          "database": {
+            "files": 19,
+            "encodedBody": 386687,
+            "responseWire": 394674,
+            "requestWire": 8561
+          },
+          "allQueryAssets": {
+            "files": 28,
+            "encodedBody": 988796,
+            "responseWire": 1001021,
+            "requestWire": 12184
+          }
+        },
+        {
+          "kind": "search",
+          "value": "zero*",
+          "state": "repeat",
+          "elapsedMs": 6.4,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "search",
+          "value": "zero*",
+          "state": "warm",
+          "elapsedMs": 89.4,
+          "database": {
+            "files": 17,
+            "encodedBody": 168476,
+            "responseWire": 175580,
+            "requestWire": 7658
+          },
+          "allQueryAssets": {
+            "files": 17,
+            "encodedBody": 168476,
+            "responseWire": 175580,
+            "requestWire": 7658
+          }
+        },
+        {
+          "kind": "search",
+          "value": "Formalism AND siegel*",
+          "state": "cold",
+          "elapsedMs": 196.2,
+          "database": {
+            "files": 16,
+            "encodedBody": 373953,
+            "responseWire": 380685,
+            "requestWire": 7224
+          },
+          "allQueryAssets": {
+            "files": 25,
+            "encodedBody": 976062,
+            "responseWire": 987028,
+            "requestWire": 10847
+          }
+        },
+        {
+          "kind": "search",
+          "value": "Formalism AND siegel*",
+          "state": "repeat",
+          "elapsedMs": 3.2,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "search",
+          "value": "Formalism AND siegel*",
+          "state": "warm",
+          "elapsedMs": 71.3,
+          "database": {
+            "files": 14,
+            "encodedBody": 155742,
+            "responseWire": 161591,
+            "requestWire": 6321
+          },
+          "allQueryAssets": {
+            "files": 14,
+            "encodedBody": 155742,
+            "responseWire": 161591,
+            "requestWire": 6321
+          }
+        },
+        {
+          "kind": "search",
+          "value": "map*",
+          "state": "cold",
+          "elapsedMs": 212.1,
+          "database": {
+            "files": 14,
+            "encodedBody": 331792,
+            "responseWire": 337695,
+            "requestWire": 6311
+          },
+          "allQueryAssets": {
+            "files": 23,
+            "encodedBody": 933901,
+            "responseWire": 944044,
+            "requestWire": 9934
+          }
+        },
+        {
+          "kind": "search",
+          "value": "map*",
+          "state": "repeat",
+          "elapsedMs": 4.4,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "search",
+          "value": "map*",
+          "state": "warm",
+          "elapsedMs": 84.5,
+          "database": {
+            "files": 12,
+            "encodedBody": 113581,
+            "responseWire": 118617,
+            "requestWire": 5408
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 113581,
+            "responseWire": 118617,
+            "requestWire": 5408
+          }
+        },
+        {
+          "kind": "declaration",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "cold",
+          "elapsedMs": 157.4,
+          "database": {
+            "files": 5,
+            "encodedBody": 237732,
+            "responseWire": 239877,
+            "requestWire": 2258
+          },
+          "allQueryAssets": {
+            "files": 14,
+            "encodedBody": 839841,
+            "responseWire": 846189,
+            "requestWire": 5881
+          }
+        },
+        {
+          "kind": "declaration",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "repeat",
+          "elapsedMs": 0.5,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "declaration",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "warm",
+          "elapsedMs": 18.5,
+          "database": {
+            "files": 3,
+            "encodedBody": 19521,
+            "responseWire": 20775,
+            "requestWire": 1355
+          },
+          "allQueryAssets": {
+            "files": 3,
+            "encodedBody": 19521,
+            "responseWire": 20775,
+            "requestWire": 1355
+          }
+        },
+        {
+          "kind": "trail",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "cold",
+          "elapsedMs": 266.9,
+          "database": {
+            "files": 13,
+            "encodedBody": 321866,
+            "responseWire": 327347,
+            "requestWire": 5871
+          },
+          "allQueryAssets": {
+            "files": 22,
+            "encodedBody": 923975,
+            "responseWire": 933668,
+            "requestWire": 9494
+          }
+        },
+        {
+          "kind": "trail",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "repeat",
+          "elapsedMs": 0.8,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "trail",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "warm",
+          "elapsedMs": 71.2,
+          "database": {
+            "files": 11,
+            "encodedBody": 103655,
+            "responseWire": 108265,
+            "requestWire": 4968
+          },
+          "allQueryAssets": {
+            "files": 11,
+            "encodedBody": 103655,
+            "responseWire": 108265,
+            "requestWire": 4968
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "browser": "159.0",
+      "samples": [
+        {
+          "kind": "module",
+          "value": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+          "state": "cold",
+          "elapsedMs": 159,
+          "database": {
+            "files": 8,
+            "encodedBody": 245512,
+            "responseWire": 248899,
+            "requestWire": 3534
+          },
+          "allQueryAssets": {
+            "files": 17,
+            "encodedBody": 847621,
+            "responseWire": 855246,
+            "requestWire": 7051
+          }
+        },
+        {
+          "kind": "module",
+          "value": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+          "state": "repeat",
+          "elapsedMs": 1,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "module",
+          "value": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+          "state": "warm",
+          "elapsedMs": 21,
+          "database": {
+            "files": 3,
+            "encodedBody": 19880,
+            "responseWire": 21134,
+            "requestWire": 1325
+          },
+          "allQueryAssets": {
+            "files": 3,
+            "encodedBody": 19880,
+            "responseWire": 21134,
+            "requestWire": 1325
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "RowS",
+          "state": "cold",
+          "elapsedMs": 127,
+          "database": {
+            "files": 3,
+            "encodedBody": 226976,
+            "responseWire": 228277,
+            "requestWire": 1328
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 829085,
+            "responseWire": 834612,
+            "requestWire": 4845
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "RowS",
+          "state": "repeat",
+          "elapsedMs": 1,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "RowS",
+          "state": "warm",
+          "elapsedMs": 9,
+          "database": {
+            "files": 1,
+            "encodedBody": 8765,
+            "responseWire": 9183,
+            "requestWire": 443
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 8765,
+            "responseWire": 9183,
+            "requestWire": 443
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "galois",
+          "state": "cold",
+          "elapsedMs": 149,
+          "database": {
+            "files": 3,
+            "encodedBody": 227636,
+            "responseWire": 228960,
+            "requestWire": 1328
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 829745,
+            "responseWire": 835307,
+            "requestWire": 4845
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "galois",
+          "state": "repeat",
+          "elapsedMs": 1,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "galois",
+          "state": "warm",
+          "elapsedMs": 7,
+          "database": {
+            "files": 1,
+            "encodedBody": 9425,
+            "responseWire": 9843,
+            "requestWire": 443
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 9425,
+            "responseWire": 9843,
+            "requestWire": 443
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "zero",
+          "state": "cold",
+          "elapsedMs": 143,
+          "database": {
+            "files": 3,
+            "encodedBody": 227142,
+            "responseWire": 228450,
+            "requestWire": 1328
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 829251,
+            "responseWire": 834778,
+            "requestWire": 4845
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "zero",
+          "state": "repeat",
+          "elapsedMs": 0,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "zero",
+          "state": "warm",
+          "elapsedMs": 8,
+          "database": {
+            "files": 1,
+            "encodedBody": 8931,
+            "responseWire": 9349,
+            "requestWire": 443
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 8931,
+            "responseWire": 9349,
+            "requestWire": 443
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "siegel",
+          "state": "cold",
+          "elapsedMs": 182,
+          "database": {
+            "files": 3,
+            "encodedBody": 226872,
+            "responseWire": 228173,
+            "requestWire": 1328
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 828981,
+            "responseWire": 834494,
+            "requestWire": 4845
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "siegel",
+          "state": "repeat",
+          "elapsedMs": 2,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "siegel",
+          "state": "warm",
+          "elapsedMs": 9,
+          "database": {
+            "files": 1,
+            "encodedBody": 8661,
+            "responseWire": 9079,
+            "requestWire": 443
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 8661,
+            "responseWire": 9079,
+            "requestWire": 443
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "a",
+          "state": "cold",
+          "elapsedMs": 132,
+          "database": {
+            "files": 4,
+            "encodedBody": 232033,
+            "responseWire": 233751,
+            "requestWire": 1771
+          },
+          "allQueryAssets": {
+            "files": 13,
+            "encodedBody": 834142,
+            "responseWire": 840091,
+            "requestWire": 5288
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "a",
+          "state": "repeat",
+          "elapsedMs": 0,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "a",
+          "state": "warm",
+          "elapsedMs": 14,
+          "database": {
+            "files": 2,
+            "encodedBody": 13822,
+            "responseWire": 14657,
+            "requestWire": 886
+          },
+          "allQueryAssets": {
+            "files": 2,
+            "encodedBody": 13822,
+            "responseWire": 14657,
+            "requestWire": 886
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "Α",
+          "state": "cold",
+          "elapsedMs": 139,
+          "database": {
+            "files": 3,
+            "encodedBody": 228431,
+            "responseWire": 229732,
+            "requestWire": 1328
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 830540,
+            "responseWire": 836049,
+            "requestWire": 4845
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "Α",
+          "state": "repeat",
+          "elapsedMs": 3,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "Α",
+          "state": "warm",
+          "elapsedMs": 8,
+          "database": {
+            "files": 1,
+            "encodedBody": 10220,
+            "responseWire": 10638,
+            "requestWire": 443
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 10220,
+            "responseWire": 10638,
+            "requestWire": 443
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "_aux",
+          "state": "cold",
+          "elapsedMs": 183,
+          "database": {
+            "files": 3,
+            "encodedBody": 222397,
+            "responseWire": 223690,
+            "requestWire": 1328
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 824506,
+            "responseWire": 830006,
+            "requestWire": 4845
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "_aux",
+          "state": "repeat",
+          "elapsedMs": 1,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "_aux",
+          "state": "warm",
+          "elapsedMs": 6,
+          "database": {
+            "files": 1,
+            "encodedBody": 4186,
+            "responseWire": 4604,
+            "requestWire": 443
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 4186,
+            "responseWire": 4604,
+            "requestWire": 443
+          }
+        },
+        {
+          "kind": "search",
+          "value": "RowSrc",
+          "state": "cold",
+          "elapsedMs": 195,
+          "database": {
+            "files": 7,
+            "encodedBody": 270611,
+            "responseWire": 273575,
+            "requestWire": 3097
+          },
+          "allQueryAssets": {
+            "files": 16,
+            "encodedBody": 872720,
+            "responseWire": 879896,
+            "requestWire": 6614
+          }
+        },
+        {
+          "kind": "search",
+          "value": "RowSrc",
+          "state": "repeat",
+          "elapsedMs": 2,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "search",
+          "value": "RowSrc",
+          "state": "warm",
+          "elapsedMs": 32,
+          "database": {
+            "files": 5,
+            "encodedBody": 52400,
+            "responseWire": 54488,
+            "requestWire": 2212
+          },
+          "allQueryAssets": {
+            "files": 5,
+            "encodedBody": 52400,
+            "responseWire": 54488,
+            "requestWire": 2212
+          }
+        },
+        {
+          "kind": "search",
+          "value": "zero*",
+          "state": "cold",
+          "elapsedMs": 262,
+          "database": {
+            "files": 19,
+            "encodedBody": 386687,
+            "responseWire": 394681,
+            "requestWire": 8390
+          },
+          "allQueryAssets": {
+            "files": 28,
+            "encodedBody": 988796,
+            "responseWire": 1001010,
+            "requestWire": 11907
+          }
+        },
+        {
+          "kind": "search",
+          "value": "zero*",
+          "state": "repeat",
+          "elapsedMs": 7,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "search",
+          "value": "zero*",
+          "state": "warm",
+          "elapsedMs": 150,
+          "database": {
+            "files": 17,
+            "encodedBody": 168476,
+            "responseWire": 175580,
+            "requestWire": 7505
+          },
+          "allQueryAssets": {
+            "files": 17,
+            "encodedBody": 168476,
+            "responseWire": 175580,
+            "requestWire": 7505
+          }
+        },
+        {
+          "kind": "search",
+          "value": "Formalism AND siegel*",
+          "state": "cold",
+          "elapsedMs": 203,
+          "database": {
+            "files": 16,
+            "encodedBody": 373953,
+            "responseWire": 380690,
+            "requestWire": 7080
+          },
+          "allQueryAssets": {
+            "files": 25,
+            "encodedBody": 976062,
+            "responseWire": 987023,
+            "requestWire": 10597
+          }
+        },
+        {
+          "kind": "search",
+          "value": "Formalism AND siegel*",
+          "state": "repeat",
+          "elapsedMs": 4,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "search",
+          "value": "Formalism AND siegel*",
+          "state": "warm",
+          "elapsedMs": 117,
+          "database": {
+            "files": 14,
+            "encodedBody": 155742,
+            "responseWire": 161591,
+            "requestWire": 6195
+          },
+          "allQueryAssets": {
+            "files": 14,
+            "encodedBody": 155742,
+            "responseWire": 161591,
+            "requestWire": 6195
+          }
+        },
+        {
+          "kind": "search",
+          "value": "map*",
+          "state": "cold",
+          "elapsedMs": 277,
+          "database": {
+            "files": 14,
+            "encodedBody": 331792,
+            "responseWire": 337697,
+            "requestWire": 6185
+          },
+          "allQueryAssets": {
+            "files": 23,
+            "encodedBody": 933901,
+            "responseWire": 944019,
+            "requestWire": 9702
+          }
+        },
+        {
+          "kind": "search",
+          "value": "map*",
+          "state": "repeat",
+          "elapsedMs": 4,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "search",
+          "value": "map*",
+          "state": "warm",
+          "elapsedMs": 82,
+          "database": {
+            "files": 12,
+            "encodedBody": 113581,
+            "responseWire": 118601,
+            "requestWire": 5300
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 113581,
+            "responseWire": 118601,
+            "requestWire": 5300
+          }
+        },
+        {
+          "kind": "declaration",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "cold",
+          "elapsedMs": 142,
+          "database": {
+            "files": 5,
+            "encodedBody": 237732,
+            "responseWire": 239878,
+            "requestWire": 2213
+          },
+          "allQueryAssets": {
+            "files": 14,
+            "encodedBody": 839841,
+            "responseWire": 846202,
+            "requestWire": 5730
+          }
+        },
+        {
+          "kind": "declaration",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "repeat",
+          "elapsedMs": 1,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "declaration",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "warm",
+          "elapsedMs": 16,
+          "database": {
+            "files": 3,
+            "encodedBody": 19521,
+            "responseWire": 20775,
+            "requestWire": 1328
+          },
+          "allQueryAssets": {
+            "files": 3,
+            "encodedBody": 19521,
+            "responseWire": 20775,
+            "requestWire": 1328
+          }
+        },
+        {
+          "kind": "trail",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "cold",
+          "elapsedMs": 170,
+          "database": {
+            "files": 13,
+            "encodedBody": 321866,
+            "responseWire": 327339,
+            "requestWire": 5754
+          },
+          "allQueryAssets": {
+            "files": 22,
+            "encodedBody": 923975,
+            "responseWire": 933666,
+            "requestWire": 9271
+          }
+        },
+        {
+          "kind": "trail",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "repeat",
+          "elapsedMs": 0,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "trail",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "warm",
+          "elapsedMs": 52,
+          "database": {
+            "files": 11,
+            "encodedBody": 103655,
+            "responseWire": 108265,
+            "requestWire": 4869
+          },
+          "allQueryAssets": {
+            "files": 11,
+            "encodedBody": 103655,
+            "responseWire": 108265,
+            "requestWire": 4869
+          }
+        }
+      ]
+    },
+    "webkit": {
+      "browser": "27.2",
+      "samples": [
+        {
+          "kind": "module",
+          "value": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+          "state": "cold",
+          "elapsedMs": 267,
+          "database": {
+            "files": 8,
+            "encodedBody": 245512,
+            "responseWire": 248897,
+            "requestWire": 3758
+          },
+          "allQueryAssets": {
+            "files": 17,
+            "encodedBody": 847621,
+            "responseWire": 855240,
+            "requestWire": 7392
+          }
+        },
+        {
+          "kind": "module",
+          "value": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+          "state": "repeat",
+          "elapsedMs": 2,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "module",
+          "value": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+          "state": "warm",
+          "elapsedMs": 18,
+          "database": {
+            "files": 3,
+            "encodedBody": 19880,
+            "responseWire": 21134,
+            "requestWire": 1409
+          },
+          "allQueryAssets": {
+            "files": 3,
+            "encodedBody": 19880,
+            "responseWire": 21134,
+            "requestWire": 1409
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "RowS",
+          "state": "cold",
+          "elapsedMs": 126,
+          "database": {
+            "files": 3,
+            "encodedBody": 226976,
+            "responseWire": 228284,
+            "requestWire": 1412
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 829085,
+            "responseWire": 834606,
+            "requestWire": 5046
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "RowS",
+          "state": "repeat",
+          "elapsedMs": 2,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "RowS",
+          "state": "warm",
+          "elapsedMs": 6,
+          "database": {
+            "files": 1,
+            "encodedBody": 8765,
+            "responseWire": 9183,
+            "requestWire": 471
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 8765,
+            "responseWire": 9183,
+            "requestWire": 471
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "galois",
+          "state": "cold",
+          "elapsedMs": 133,
+          "database": {
+            "files": 3,
+            "encodedBody": 227636,
+            "responseWire": 228944,
+            "requestWire": 1412
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 829745,
+            "responseWire": 835275,
+            "requestWire": 5046
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "galois",
+          "state": "repeat",
+          "elapsedMs": 2,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "galois",
+          "state": "warm",
+          "elapsedMs": 6,
+          "database": {
+            "files": 1,
+            "encodedBody": 9425,
+            "responseWire": 9843,
+            "requestWire": 471
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 9425,
+            "responseWire": 9843,
+            "requestWire": 471
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "zero",
+          "state": "cold",
+          "elapsedMs": 146,
+          "database": {
+            "files": 3,
+            "encodedBody": 227142,
+            "responseWire": 228434,
+            "requestWire": 1412
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 829251,
+            "responseWire": 834769,
+            "requestWire": 5046
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "zero",
+          "state": "repeat",
+          "elapsedMs": 2,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "zero",
+          "state": "warm",
+          "elapsedMs": 8,
+          "database": {
+            "files": 1,
+            "encodedBody": 8931,
+            "responseWire": 9349,
+            "requestWire": 471
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 8931,
+            "responseWire": 9349,
+            "requestWire": 471
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "siegel",
+          "state": "cold",
+          "elapsedMs": 155,
+          "database": {
+            "files": 3,
+            "encodedBody": 226872,
+            "responseWire": 228187,
+            "requestWire": 1412
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 828981,
+            "responseWire": 834496,
+            "requestWire": 5046
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "siegel",
+          "state": "repeat",
+          "elapsedMs": 2,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "siegel",
+          "state": "warm",
+          "elapsedMs": 8,
+          "database": {
+            "files": 1,
+            "encodedBody": 8661,
+            "responseWire": 9079,
+            "requestWire": 471
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 8661,
+            "responseWire": 9079,
+            "requestWire": 471
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "a",
+          "state": "cold",
+          "elapsedMs": 190,
+          "database": {
+            "files": 4,
+            "encodedBody": 232033,
+            "responseWire": 233751,
+            "requestWire": 1883
+          },
+          "allQueryAssets": {
+            "files": 13,
+            "encodedBody": 834142,
+            "responseWire": 840092,
+            "requestWire": 5517
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "a",
+          "state": "repeat",
+          "elapsedMs": 1,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "a",
+          "state": "warm",
+          "elapsedMs": 12,
+          "database": {
+            "files": 2,
+            "encodedBody": 13822,
+            "responseWire": 14657,
+            "requestWire": 942
+          },
+          "allQueryAssets": {
+            "files": 2,
+            "encodedBody": 13822,
+            "responseWire": 14657,
+            "requestWire": 942
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "Α",
+          "state": "cold",
+          "elapsedMs": 151,
+          "database": {
+            "files": 3,
+            "encodedBody": 228431,
+            "responseWire": 229741,
+            "requestWire": 1412
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 830540,
+            "responseWire": 836055,
+            "requestWire": 5046
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "Α",
+          "state": "repeat",
+          "elapsedMs": 1,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "Α",
+          "state": "warm",
+          "elapsedMs": 7,
+          "database": {
+            "files": 1,
+            "encodedBody": 10220,
+            "responseWire": 10638,
+            "requestWire": 471
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 10220,
+            "responseWire": 10638,
+            "requestWire": 471
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "_aux",
+          "state": "cold",
+          "elapsedMs": 158,
+          "database": {
+            "files": 3,
+            "encodedBody": 222397,
+            "responseWire": 223698,
+            "requestWire": 1412
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 824506,
+            "responseWire": 830030,
+            "requestWire": 5046
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "_aux",
+          "state": "repeat",
+          "elapsedMs": 1,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "typeahead",
+          "value": "_aux",
+          "state": "warm",
+          "elapsedMs": 6,
+          "database": {
+            "files": 1,
+            "encodedBody": 4186,
+            "responseWire": 4604,
+            "requestWire": 471
+          },
+          "allQueryAssets": {
+            "files": 1,
+            "encodedBody": 4186,
+            "responseWire": 4604,
+            "requestWire": 471
+          }
+        },
+        {
+          "kind": "search",
+          "value": "RowSrc",
+          "state": "cold",
+          "elapsedMs": 203,
+          "database": {
+            "files": 7,
+            "encodedBody": 270611,
+            "responseWire": 273574,
+            "requestWire": 3293
+          },
+          "allQueryAssets": {
+            "files": 16,
+            "encodedBody": 872720,
+            "responseWire": 879919,
+            "requestWire": 6927
+          }
+        },
+        {
+          "kind": "search",
+          "value": "RowSrc",
+          "state": "repeat",
+          "elapsedMs": 1,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "search",
+          "value": "RowSrc",
+          "state": "warm",
+          "elapsedMs": 35,
+          "database": {
+            "files": 5,
+            "encodedBody": 52400,
+            "responseWire": 54496,
+            "requestWire": 2352
+          },
+          "allQueryAssets": {
+            "files": 5,
+            "encodedBody": 52400,
+            "responseWire": 54496,
+            "requestWire": 2352
+          }
+        },
+        {
+          "kind": "search",
+          "value": "zero*",
+          "state": "cold",
+          "elapsedMs": 311,
+          "database": {
+            "files": 19,
+            "encodedBody": 386687,
+            "responseWire": 394688,
+            "requestWire": 8922
+          },
+          "allQueryAssets": {
+            "files": 28,
+            "encodedBody": 988796,
+            "responseWire": 1001017,
+            "requestWire": 12556
+          }
+        },
+        {
+          "kind": "search",
+          "value": "zero*",
+          "state": "repeat",
+          "elapsedMs": 8,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "search",
+          "value": "zero*",
+          "state": "warm",
+          "elapsedMs": 87,
+          "database": {
+            "files": 17,
+            "encodedBody": 168476,
+            "responseWire": 175594,
+            "requestWire": 7981
+          },
+          "allQueryAssets": {
+            "files": 17,
+            "encodedBody": 168476,
+            "responseWire": 175594,
+            "requestWire": 7981
+          }
+        },
+        {
+          "kind": "search",
+          "value": "Formalism AND siegel*",
+          "state": "cold",
+          "elapsedMs": 223,
+          "database": {
+            "files": 16,
+            "encodedBody": 373953,
+            "responseWire": 380682,
+            "requestWire": 7528
+          },
+          "allQueryAssets": {
+            "files": 25,
+            "encodedBody": 976062,
+            "responseWire": 986991,
+            "requestWire": 11162
+          }
+        },
+        {
+          "kind": "search",
+          "value": "Formalism AND siegel*",
+          "state": "repeat",
+          "elapsedMs": 4,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "search",
+          "value": "Formalism AND siegel*",
+          "state": "warm",
+          "elapsedMs": 115,
+          "database": {
+            "files": 14,
+            "encodedBody": 155742,
+            "responseWire": 161615,
+            "requestWire": 6587
+          },
+          "allQueryAssets": {
+            "files": 14,
+            "encodedBody": 155742,
+            "responseWire": 161615,
+            "requestWire": 6587
+          }
+        },
+        {
+          "kind": "search",
+          "value": "map*",
+          "state": "cold",
+          "elapsedMs": 192,
+          "database": {
+            "files": 14,
+            "encodedBody": 331792,
+            "responseWire": 337717,
+            "requestWire": 6577
+          },
+          "allQueryAssets": {
+            "files": 23,
+            "encodedBody": 933901,
+            "responseWire": 944062,
+            "requestWire": 10211
+          }
+        },
+        {
+          "kind": "search",
+          "value": "map*",
+          "state": "repeat",
+          "elapsedMs": 6,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "search",
+          "value": "map*",
+          "state": "warm",
+          "elapsedMs": 101,
+          "database": {
+            "files": 12,
+            "encodedBody": 113581,
+            "responseWire": 118610,
+            "requestWire": 5636
+          },
+          "allQueryAssets": {
+            "files": 12,
+            "encodedBody": 113581,
+            "responseWire": 118610,
+            "requestWire": 5636
+          }
+        },
+        {
+          "kind": "declaration",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "cold",
+          "elapsedMs": 157,
+          "database": {
+            "files": 5,
+            "encodedBody": 237732,
+            "responseWire": 239876,
+            "requestWire": 2353
+          },
+          "allQueryAssets": {
+            "files": 14,
+            "encodedBody": 839841,
+            "responseWire": 846224,
+            "requestWire": 5987
+          }
+        },
+        {
+          "kind": "declaration",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "repeat",
+          "elapsedMs": 1,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "declaration",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "warm",
+          "elapsedMs": 18,
+          "database": {
+            "files": 3,
+            "encodedBody": 19521,
+            "responseWire": 20775,
+            "requestWire": 1412
+          },
+          "allQueryAssets": {
+            "files": 3,
+            "encodedBody": 19521,
+            "responseWire": 20775,
+            "requestWire": 1412
+          }
+        },
+        {
+          "kind": "trail",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "cold",
+          "elapsedMs": 207,
+          "database": {
+            "files": 13,
+            "encodedBody": 321866,
+            "responseWire": 327330,
+            "requestWire": 6118
+          },
+          "allQueryAssets": {
+            "files": 22,
+            "encodedBody": 923975,
+            "responseWire": 933670,
+            "requestWire": 9752
+          }
+        },
+        {
+          "kind": "trail",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "repeat",
+          "elapsedMs": 3,
+          "database": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          },
+          "allQueryAssets": {
+            "files": 0,
+            "encodedBody": 0,
+            "responseWire": 0,
+            "requestWire": 0
+          }
+        },
+        {
+          "kind": "trail",
+          "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "state": "warm",
+          "elapsedMs": 48,
+          "database": {
+            "files": 11,
+            "encodedBody": 103655,
+            "responseWire": 108259,
+            "requestWire": 5177
+          },
+          "allQueryAssets": {
+            "files": 11,
+            "encodedBody": 103655,
+            "responseWire": 108259,
+            "requestWire": 5177
+          }
+        }
+      ]
+    }
+  }
+}

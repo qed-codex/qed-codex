@@ -1,0 +1,18 @@
+{
+  "unmatchedStatements": 92,
+  "withInformalization": 1,
+  "withOutsideLink": 1833,
+  "withSpineRank": 200,
+  "qualifyingModules": 1989,
+  "sampleModulesOutsideSelection": 1,
+  "standaloneModules": 1990,
+  "htmlFiles": 2000,
+  "sqlitePages": 9827,
+  "files": 11850,
+  "bytes": 116062322,
+  "fileCap": 20000,
+  "remainingFiles": 8150,
+  "mostWanted": 146283,
+  "withMeasuredCut": 146283,
+  "disputes": 0
+}

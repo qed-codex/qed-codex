@@ -1,0 +1,47 @@
+{
+  "typeahead": {
+    "matches": "SELECT full AS name,kind,ref,package, CASE WHEN kind='module' THEN (SELECT path FROM modules WHERE id=ref) END AS path FROM shortnames WHERE ?1<>'' AND short>=?1 AND short<(?1 || x'ff') ORDER BY short,full,kind,package LIMIT 20",
+    "proofs": "SELECT a.name AS name, 'proof' AS kind,p.source AS package,p.id AS proof FROM proof_names a JOIN proofs p ON p.id=a.proof WHERE a.lookup=?1 ORDER BY p.rowid LIMIT 20",
+    "notes": "SELECT h.name, 'source note' AS kind,m.package,m.path,h.anchor FROM note_headings h JOIN modules m ON m.id=h.module WHERE ?1<>'' AND h.lookup>=?1 AND h.lookup<(?1 || x'ff') ORDER BY h.lookup,h.id LIMIT 20"
+  },
+  "module": {
+    "memberships": "SELECT p.id,'uses' AS role,p.title FROM proof_modules m JOIN proofs p ON p.id=m.proof WHERE m.module=(SELECT ref FROM shortnames WHERE short=?1 AND full=?2 AND kind='module' AND package=?3) UNION ALL SELECT p.id,r.role,p.title FROM proof_roles r JOIN proofs p ON p.id=r.proof WHERE r.module=(SELECT ref FROM shortnames WHERE short=?1 AND full=?2 AND kind='module' AND package=?3) ORDER BY 1,2",
+    "facts": "SELECT id,package,path,import_rank,cut,mask,trace_reached,removed_upstream,upstream_rank,spine_rank FROM modules WHERE id=(SELECT ref FROM shortnames WHERE short=?1 AND full=?2 AND kind='module' AND package=?3)",
+    "informalizations": "SELECT author,writer,kind,origin,license,copyright,license_source,notice,changes,entry_type,source_url,informalization_html,agrees_with_json,declarations_json FROM informalizations WHERE module=(SELECT ref FROM shortnames WHERE short=?1 AND full=?2 AND kind='module' AND package=?3) ORDER BY submitted_order,author COLLATE BINARY,writer COLLATE BINARY",
+    "links": "SELECT DISTINCT author,url,label FROM links WHERE module=(SELECT ref FROM shortnames WHERE short=?1 AND full=?2 AND kind='module' AND package=?3)",
+    "disputes": "SELECT url FROM disputes WHERE module=(SELECT ref FROM shortnames WHERE short=?1 AND full=?2 AND kind='module' AND package=?3)",
+    "members": "SELECT name FROM declarations WHERE module=(SELECT ref FROM shortnames WHERE short=?1 AND full=?2 AND kind='module' AND package=?3) ORDER BY start,id"
+  },
+  "search": {
+    "matches": "WITH candidates(id,priority) AS ( SELECT ((CASE WHEN m.project THEN 1 ELSE 2 END)<<40)+m.id, CASE WHEN m.path=?4 OR m.path=?4||'.lean' THEN 0 ELSE 2 END FROM shortnames s JOIN modules m ON m.id=s.ref WHERE ?1<>'' AND s.short=?5 AND s.full=?6 AND s.kind='module' AND (m.path=?4 OR m.path=?4||'.lean' OR s.full=?4) UNION ALL SELECT ?2+ref,1 FROM shortnames WHERE ?1<>'' AND short=?7 AND full=?4 AND kind='declaration' UNION ALL SELECT CASE WHEN kind='declaration' THEN ?2+ref ELSE ((SELECT CASE WHEN project THEN 1 ELSE 2 END FROM modules WHERE id=ref)<<40)+ref END,3 FROM shortnames WHERE short=?8 AND ?1<>'' UNION ALL SELECT (3<<40)+id,4 FROM note_headings WHERE lookup=?8 AND ?8<>'' UNION ALL SELECT -p.rowid,-1 FROM proof_names a JOIN proofs p ON p.id=a.proof WHERE a.lookup=?8 AND ?1<>'' ), exact AS MATERIALIZED (SELECT id,min(priority) AS priority FROM candidates GROUP BY id), hits AS MATERIALIZED ( SELECT id FROM (SELECT id FROM exact ORDER BY priority, CASE WHEN id<0 THEN -id ELSE id END) UNION ALL SELECT id FROM (SELECT rowid AS id FROM names WHERE ?1<>'' AND names MATCH ?1 AND rowid NOT IN (SELECT id FROM exact) ORDER BY rowid) LIMIT 20 OFFSET ?3) SELECT coalesce(a.name,h.name,m.path,d.name) AS name, CASE WHEN p.id IS NOT NULL THEN 'proof' WHEN h.id IS NOT NULL THEN 'source note' WHEN m.id IS NOT NULL THEN 'module' ELSE 'declaration' END AS kind, coalesce(p.source,m.package,d.package) AS package, CASE WHEN h.id IS NOT NULL THEN m.path END AS path, h.anchor, p.id AS proof FROM hits LEFT JOIN proofs p ON hits.id<0 AND p.rowid=-hits.id LEFT JOIN proof_names a ON a.proof=p.id AND a.lookup=?8 LEFT JOIN note_headings h ON hits.id>=(3<<40) AND h.id=hits.id-(3<<40) LEFT JOIN modules m ON m.id=CASE WHEN h.id IS NOT NULL THEN h.module WHEN hits.id>(1<<40) THEN hits.id%(1<<40) END LEFT JOIN declarations d ON hits.id BETWEEN 1 AND (1<<40)-1 AND d.id=hits.id-?2"
+  },
+  "declaration": {
+    "declarations": "SELECT m.package,d.name,m.path,d.start,d.end,d.kind,d.kernel_mask FROM declarations d JOIN modules m ON m.id=d.module WHERE d.id=(SELECT ref FROM shortnames WHERE short=?1 AND full=?2 AND kind='declaration' AND package=?3)",
+    "outside": "SELECT author,url,label FROM links WHERE declaration=?2 AND ?1<>'' AND module=(SELECT module FROM declarations WHERE id=(SELECT ref FROM shortnames WHERE short=?1 AND full=?2 AND kind='declaration' AND package=?3)) ORDER BY url"
+  },
+  "trail": {
+    "sites": "WITH RECURSIVE trail(id,parent,module,line,use_line,declaration,source_name,step) AS (SELECT t.id,t.parent,t.module,t.line,t.use_line,t.declaration,t.source_name,0 FROM trace t WHERE t.declaration=(SELECT ref FROM shortnames WHERE short=?1 AND full=?2 AND kind='declaration' AND package=?3) UNION ALL SELECT p.id,p.parent,p.module,p.line,p.use_line,p.declaration,p.source_name,c.step+1 FROM trail c JOIN trace p ON p.id=c.parent) SELECT trail.step,m.package,m.path,trail.line,trail.use_line,(d.id IS NOT NULL) AS indexed,COALESCE(d.name,trail.source_name) AS name FROM trail JOIN modules m ON m.id=trail.module LEFT JOIN declarations d ON d.id=trail.declaration ORDER BY trail.step"
+  },
+  "siblings": {
+    "peers": "SELECT d.name,d.start,d.kernel_mask FROM declarations d WHERE d.module=(SELECT module FROM declarations WHERE id=(SELECT ref FROM shortnames WHERE short=?1 AND full=?2 AND kind='declaration' AND package=?3)) AND d.name<>?2 ORDER BY d.start,d.id"
+  },
+  "wantedSource": {
+    "modules": "SELECT w.rank,m.package,m.path,m.cut,m.spine_rank FROM wanted_source w JOIN modules m ON m.id=w.module WHERE w.package=?1 AND w.rank>=?2 ORDER BY w.rank LIMIT 51",
+    "total": "SELECT rank AS n FROM wanted_source WHERE package=?1 AND ?2>=1 ORDER BY rank DESC LIMIT 1"
+  },
+  "wanted": {
+    "modules": "SELECT w.rank, m.package, m.path, m.cut, m.spine_rank FROM most_wanted w JOIN modules m ON m.id=w.module WHERE w.rank >= ?1 ORDER BY w.rank LIMIT 51"
+  },
+  "searchCount": {
+    "totals": "WITH candidates(id,priority) AS ( SELECT ((CASE WHEN m.project THEN 1 ELSE 2 END)<<40)+m.id, CASE WHEN m.path=?4 OR m.path=?4||'.lean' THEN 0 ELSE 2 END FROM shortnames s JOIN modules m ON m.id=s.ref WHERE ?1<>'' AND s.short=?5 AND s.full=?6 AND s.kind='module' AND (m.path=?4 OR m.path=?4||'.lean' OR s.full=?4) UNION ALL SELECT ?2+ref,1 FROM shortnames WHERE ?1<>'' AND short=?7 AND full=?4 AND kind='declaration' UNION ALL SELECT CASE WHEN kind='declaration' THEN ?2+ref ELSE ((SELECT CASE WHEN project THEN 1 ELSE 2 END FROM modules WHERE id=ref)<<40)+ref END,3 FROM shortnames WHERE short=?8 AND ?1<>'' UNION ALL SELECT (3<<40)+id,4 FROM note_headings WHERE lookup=?8 AND ?8<>'' UNION ALL SELECT -p.rowid,-1 FROM proof_names a JOIN proofs p ON p.id=a.proof WHERE a.lookup=?8 AND ?1<>'' ), exact AS MATERIALIZED (SELECT id,min(priority) AS priority FROM candidates GROUP BY id) SELECT (SELECT count(*) FROM exact)+(SELECT count(*) FROM names WHERE ?1<>'' AND names MATCH ?1 AND rowid NOT IN (SELECT id FROM exact)) AS total"
+  },
+  "declarationHead": {
+    "declarations": "SELECT m.package,d.name,m.path,d.start,d.end,d.kind,d.kernel_mask FROM declarations d JOIN modules m ON m.id=d.module WHERE d.id=(SELECT ref FROM shortnames WHERE short=?1 AND full=?2 AND kind='declaration' AND package=?3)"
+  },
+  "declarationOutside": {
+    "outside": "SELECT author,url,label FROM links WHERE declaration=?2 AND ?1<>'' AND module=(SELECT module FROM declarations WHERE id=(SELECT ref FROM shortnames WHERE short=?1 AND full=?2 AND kind='declaration' AND package=?3)) ORDER BY url"
+  },
+  "tracePosition": {
+    "positions": "SELECT id FROM trace WHERE declaration=(SELECT ref FROM shortnames WHERE short=?1 AND full=?2 AND kind='declaration' AND package=?3)"
+  }
+}

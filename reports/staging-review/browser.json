@@ -1,0 +1,215 @@
+{
+  "chromium": {
+    "version": "159.0.8154.6",
+    "fixtures": 14,
+    "cacheStates": [
+      "cold",
+      "repeat",
+      "warm"
+    ],
+    "routes": [
+      "anygeometry",
+      "d1",
+      "galois",
+      "home",
+      "rh",
+      "rowsrc",
+      "slope"
+    ],
+    "pageConfigurations": 28,
+    "interactions": {
+      "typeahead": true,
+      "fullText": true,
+      "sourceSlices": [
+        {
+          "declaration": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "start": 6,
+          "end": 6
+        },
+        {
+          "declaration": "GlobalTheory.Mem.Top.Bl.anyGeometry",
+          "start": 19,
+          "end": 19
+        },
+        {
+          "declaration": "riemannHypothesis",
+          "start": 4,
+          "end": 4
+        }
+      ],
+      "sourceFallback": true,
+      "linkedDeclaration": true,
+      "linkedModule": true,
+      "typeaheadModulePath": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+      "newFilePrefill": true
+    },
+    "boardRanks": [
+      1,
+      51,
+      146251,
+      146283
+    ],
+    "unknown": {
+      "/qed-unlisted-test-path/": {
+        "status": 200,
+        "heading": "Search the proof"
+      },
+      "/m/?p=src%2FQEDUnknownModule.lean": {
+        "status": 200,
+        "heading": "Module not found"
+      },
+      "/d/?n=QED.UnknownDeclaration": {
+        "status": 200,
+        "heading": "Declaration not found"
+      }
+    },
+    "console": {
+      "latencyPerNumberedPageMs": 50,
+      "indexedModuleCount": 184039,
+      "scanMessage": "Query stopped after 30 seconds. A whole-table scan was reading pages over the network. Row counts are in summary. Filter on an indexed column for other lookups.",
+      "remainingChecks": "passed"
+    }
+  },
+  "firefox": {
+    "version": "159.0",
+    "fixtures": 14,
+    "cacheStates": [
+      "cold",
+      "repeat",
+      "warm"
+    ],
+    "routes": [
+      "anygeometry",
+      "d1",
+      "galois",
+      "home",
+      "rh",
+      "rowsrc",
+      "slope"
+    ],
+    "pageConfigurations": 7,
+    "interactions": {
+      "typeahead": true,
+      "fullText": true,
+      "sourceSlices": [
+        {
+          "declaration": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "start": 6,
+          "end": 6
+        },
+        {
+          "declaration": "GlobalTheory.Mem.Top.Bl.anyGeometry",
+          "start": 19,
+          "end": 19
+        },
+        {
+          "declaration": "riemannHypothesis",
+          "start": 4,
+          "end": 4
+        }
+      ],
+      "sourceFallback": true,
+      "linkedDeclaration": true,
+      "linkedModule": true,
+      "typeaheadModulePath": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+      "newFilePrefill": true
+    },
+    "boardRanks": [
+      1,
+      51,
+      146251,
+      146283
+    ],
+    "unknown": {
+      "/qed-unlisted-test-path/": {
+        "status": 200,
+        "heading": "Search the proof"
+      },
+      "/m/?p=src%2FQEDUnknownModule.lean": {
+        "status": 200,
+        "heading": "Module not found"
+      },
+      "/d/?n=QED.UnknownDeclaration": {
+        "status": 200,
+        "heading": "Declaration not found"
+      }
+    },
+    "console": {
+      "latencyPerNumberedPageMs": 50,
+      "indexedModuleCount": 184039,
+      "scanMessage": "Query stopped after 30 seconds. A whole-table scan was reading pages over the network. Row counts are in summary. Filter on an indexed column for other lookups.",
+      "remainingChecks": "passed"
+    }
+  },
+  "webkit": {
+    "version": "27.2",
+    "fixtures": 14,
+    "cacheStates": [
+      "cold",
+      "repeat",
+      "warm"
+    ],
+    "routes": [
+      "anygeometry",
+      "d1",
+      "galois",
+      "home",
+      "rh",
+      "rowsrc",
+      "slope"
+    ],
+    "pageConfigurations": 7,
+    "interactions": {
+      "typeahead": true,
+      "fullText": true,
+      "sourceSlices": [
+        {
+          "declaration": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+          "start": 6,
+          "end": 6
+        },
+        {
+          "declaration": "GlobalTheory.Mem.Top.Bl.anyGeometry",
+          "start": 19,
+          "end": 19
+        },
+        {
+          "declaration": "riemannHypothesis",
+          "start": 4,
+          "end": 4
+        }
+      ],
+      "sourceFallback": true,
+      "linkedDeclaration": true,
+      "linkedModule": true,
+      "typeaheadModulePath": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+      "newFilePrefill": true
+    },
+    "boardRanks": [
+      1,
+      51,
+      146251,
+      146283
+    ],
+    "unknown": {
+      "/qed-unlisted-test-path/": {
+        "status": 200,
+        "heading": "Search the proof"
+      },
+      "/m/?p=src%2FQEDUnknownModule.lean": {
+        "status": 200,
+        "heading": "Module not found"
+      },
+      "/d/?n=QED.UnknownDeclaration": {
+        "status": 200,
+        "heading": "Declaration not found"
+      }
+    },
+    "console": {
+      "latencyPerNumberedPageMs": 50,
+      "indexedModuleCount": 184039,
+      "scanMessage": "Query stopped after 30 seconds. A whole-table scan was reading pages over the network. Row counts are in summary. Filter on an indexed column for other lookups.",
+      "remainingChecks": "passed"
+    }
+  }
+}

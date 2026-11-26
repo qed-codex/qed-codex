@@ -1,0 +1,9 @@
+{
+  "url": "https://github.com/leanprover-community/riemann-hypothesis",
+  "commit": "40e56bab026552e089d7afcfeff08d2defb9c005",
+  "sourceRoot": "src/",
+  "credit": "Levent Alpöge’s formalization",
+  "hasDeclarationIndex": true,
+  "proofFile": "proofs/rh/proof.yml",
+  "license": null
+}

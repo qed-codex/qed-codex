@@ -1,0 +1,68 @@
+{
+  "id": "openai-math/MatrixExponent",
+  "title": "The matrix multiplication exponent is nine fourths",
+  "artifacts": "proofs/openai-math/MatrixExponent/source",
+  "root": "OAI/LinearAlgebra/SpectralBooks/ExactExponent.lean",
+  "statement": "ComparatorChallenges/MatrixExponent.lean",
+  "solution": "OAI/LinearAlgebra/SpectralBooks/ExactExponent.lean",
+  "scope": "docs/379.md",
+  "family": true,
+  "members": "proofs/openai-math/MatrixExponent/modules.txt",
+  "verificationRecords": [
+    {
+      "title": "Comparator challenges",
+      "who": "OpenAI",
+      "address": "https://github.com/openai/math/blob/3344da59991ed94f9ba711217b29c1d760badfa6/lean/ComparatorChallenges/README.md"
+    }
+  ],
+  "assetHashes": {
+    "config.json": "bf7bd1e681b75f1664d93eaaeefa583024b0133f436f59c4a179d84b1b6a3699",
+    "scope.md": "46db2c1905f4687a732cba2eb11f50777fb5b64aefc99b9f5a3b4824cb7e1a8c",
+    "statement.lean": "a56cd2267e261903bb62e18eaa4f4663c81dfea83510f20eb19617a42e640534"
+  },
+  "declarations": [
+    "OAI.LinearAlgebra.SpectralBooks.square_exponent",
+    "OAI.LinearAlgebra.SpectralBooks.dual_exponent",
+    "OAI.LinearAlgebra.SpectralBooks.rectangular_exponent"
+  ],
+  "papersHeading": "Papers on the bound ω ≤ 9/4",
+  "papers": [
+    {
+      "title": "Matrix Multiplication from Polynomial Packings: A Constructive and Elementary Proof of ω ≤ 9/4",
+      "authors": [
+        "Rafael Pass"
+      ],
+      "arxiv": "2610.28627",
+      "submitted": "2026-10-20"
+    },
+    {
+      "title": "Multiplying matrices via polynomials: exposition and barriers",
+      "authors": [
+        "Alimzhan Amanov",
+        "Maxim van den Berg",
+        "Jeroen Zuiddam"
+      ],
+      "arxiv": "2610.30054",
+      "submitted": "2026-10-21"
+    },
+    {
+      "title": "Semidirect sums of tensors and the matrix multiplication exponent",
+      "authors": [
+        "Baitian Li"
+      ],
+      "arxiv": "2611.04175",
+      "submitted": "2026-11-03"
+    },
+    {
+      "title": "Tensor value and the 9/4 bound for matrix multiplication",
+      "authors": [
+        "Mahmut Levent Doğan",
+        "Vladimir Lysikov",
+        "Keiya Sakabe",
+        "Michael Walter"
+      ],
+      "arxiv": "2611.09716",
+      "submitted": "2026-11-06"
+    }
+  ]
+}

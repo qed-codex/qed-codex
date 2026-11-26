@@ -1,0 +1,10 @@
+{
+  "source": {
+    "url": "https://andrewodesky.com/rh/lean-map.tsv",
+    "utc": "2026-11-26T20:04:44+00:00",
+    "bytes": 772396,
+    "sha256": "1ff4d15d32a9224dd4a3ed1b8a3703056b5f4ac7ca7287ca2d07b2dfc99405f6"
+  },
+  "cardsSha256": "9e09c65dfd0a406a41fecba248116540c7aab5da81959d01aa1929a156e46f5e",
+  "constantMatchesSha256": "473b222d8af931705b538aef745c2c1a4a57ee112a3adfa12488db1b269b8dbe"
+}

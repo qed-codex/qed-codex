@@ -1,0 +1,38 @@
+[
+  {
+    "id": "rowsrc",
+    "type": "module",
+    "value": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+    "package": "riemann-hypothesis"
+  },
+  {
+    "id": "slope",
+    "type": "module",
+    "value": "src/Formalism/HarderNarasimhan/HarderNarasimhanProofs/FrameLinearAlgebraFirst.lean",
+    "package": "riemann-hypothesis"
+  },
+  {
+    "id": "d1",
+    "type": "module",
+    "value": "src/BuildAid/D1.lean",
+    "package": "riemann-hypothesis"
+  },
+  {
+    "id": "galois",
+    "type": "declaration",
+    "value": "UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
+    "package": "riemann-hypothesis"
+  },
+  {
+    "id": "anygeometry",
+    "type": "declaration",
+    "value": "GlobalTheory.Mem.Top.Bl.anyGeometry",
+    "package": "riemann-hypothesis"
+  },
+  {
+    "id": "rh",
+    "type": "declaration",
+    "value": "riemannHypothesis",
+    "package": "riemann-hypothesis"
+  }
+]

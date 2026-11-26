@@ -1,0 +1,17 @@
+{
+  "withReading": 1,
+  "withOutsideLink": 1888,
+  "withSpineRank": 200,
+  "qualifyingModules": 2047,
+  "sampleModulesOutsideSelection": 1,
+  "standaloneModules": 2048,
+  "htmlFiles": 2057,
+  "sqlitePages": 9823,
+  "files": 11903,
+  "bytes": 113228229,
+  "fileCap": 20000,
+  "remainingFiles": 8097,
+  "mostWanted": 146283,
+  "withMeasuredCut": 146283,
+  "disputes": 0
+}

@@ -1,0 +1,434 @@
+{
+  "databaseSha256": "1e47feeaf7452ca7dfa67b3007331eccbaa3779765b6e05dd956100a405589ba",
+  "sqliteVersion": "3.46.1",
+  "pageBytes": 32768,
+  "pages": 16027,
+  "pagesPerPiece": 4,
+  "pieceFiles": 4007,
+  "databaseBytes": 525172736,
+  "interiorPages": 45,
+  "interiorBytes": 1474560,
+  "interiorGzipBytes": 292794,
+  "deployFiles": 7746,
+  "deployBytes": 240181128,
+  "treeSha256": "db80d53143ed5ec3075753785d5c7774932853ed27d3dd827e53a097e71a9f57",
+  "counts": {
+    "declarations": 1063284,
+    "declarations_in_five_cones": 804912,
+    "disputes": 0,
+    "fts_declaration_offset": 193333,
+    "imports": 925310,
+    "informalizations": 2194,
+    "links": 3392,
+    "modules": 193333,
+    "most_wanted": 153409,
+    "shortnames": 1256617,
+    "source_documentation": 9025,
+    "trace": 641100,
+    "unmatched_statements": 17
+  },
+  "tableContent": {
+    "declarations": {
+      "columns": [
+        "id",
+        "module",
+        "name",
+        "start",
+        "end",
+        "kind",
+        "kernel_mask",
+        "package"
+      ],
+      "rows": 1063284,
+      "sha256": "debf0be9e6f607bf279bd558db55c55eea6b15103a5622c4e74b78c230d8afba"
+    },
+    "disputes": {
+      "columns": [
+        "id",
+        "module",
+        "url"
+      ],
+      "rows": 0,
+      "sha256": "040a76cbbc0a6cc3a4a6c52112f104294c6fa1d05348da0194c15d6e838056e6"
+    },
+    "imports": {
+      "columns": [
+        "caller",
+        "dependency"
+      ],
+      "rows": 925310,
+      "sha256": "e5b034ff7e2a89cc35a5270073fd6d6afc3b14f7f6c6ff137603be1c99d84202"
+    },
+    "informalizations": {
+      "columns": [
+        "id",
+        "module",
+        "author",
+        "writer",
+        "kind",
+        "origin",
+        "submitted_order",
+        "license",
+        "source_commit",
+        "declarations_json",
+        "source_url",
+        "body",
+        "informalization_html",
+        "agrees_with_json",
+        "copyright",
+        "license_source",
+        "notice",
+        "changes",
+        "entry_type"
+      ],
+      "rows": 11219,
+      "sha256": "fc994c12fd882ffbf77e67aa3fc4684998f31c7fd8865e80f2ed5bb6604b6b41"
+    },
+    "links": {
+      "columns": [
+        "module",
+        "author",
+        "url",
+        "label",
+        "declaration"
+      ],
+      "rows": 3392,
+      "sha256": "d13a28daf4f2973f4fd7bc08b8f53d2a5590a8061f95330296bf3cb8afabaab0"
+    },
+    "modules": {
+      "columns": [
+        "id",
+        "path",
+        "project",
+        "import_rank",
+        "cut",
+        "mask",
+        "trace_reached",
+        "removed_upstream",
+        "upstream_rank",
+        "spine_rank",
+        "package"
+      ],
+      "rows": 193333,
+      "sha256": "92bfa42f9aa9f799ec5bebe3b4871f68a2060f844bfcf6d2c2be8ac008178659"
+    },
+    "most_wanted": {
+      "columns": [
+        "rank",
+        "module"
+      ],
+      "rows": 153409,
+      "sha256": "ca863b5020ea20355526099c818fef56b16f3ac3fd6adcf9f169993ed6d8b44d"
+    },
+    "names": {
+      "columns": [
+        "term",
+        "doc"
+      ],
+      "rows": 7703168,
+      "sha256": "f831bc9845b4e4af4ea991045d7dd9432f2ebbdda306cec028dde0f4c093b578"
+    },
+    "note_headings": {
+      "columns": [
+        "id",
+        "module",
+        "name",
+        "lookup",
+        "anchor"
+      ],
+      "rows": 78467,
+      "sha256": "d0b068d31601cf72f18039cda8e89c093e850f5d157d4aa390a2bf47e87bac39"
+    },
+    "proof_modules": {
+      "columns": [
+        "proof",
+        "module"
+      ],
+      "rows": 184477,
+      "sha256": "0cb75727902dd0c20350fff096ce69182a42b57a3e134ef83bec3dc33a4f14cd"
+    },
+    "proof_names": {
+      "columns": [
+        "lookup",
+        "proof",
+        "name"
+      ],
+      "rows": 16,
+      "sha256": "405cd7bfafc9af6166eadb1c322b1b2f5e4d627fde6af261d92407a4b3f6efe2"
+    },
+    "proof_roles": {
+      "columns": [
+        "module",
+        "proof",
+        "role"
+      ],
+      "rows": 23,
+      "sha256": "49f9883e5a12a23b488790586a87d39bea48c2ac944fd52b67e3bac059e4b7d2"
+    },
+    "proofs": {
+      "columns": [
+        "id",
+        "source",
+        "root_decl",
+        "root_module",
+        "statement_module",
+        "solution_module",
+        "title"
+      ],
+      "rows": 9,
+      "sha256": "976da6d7e2adf9b4963983afb05c48723f647fbe892075a524896b4477717f13"
+    },
+    "search_counts": {
+      "columns": [
+        "word",
+        "prefix",
+        "total"
+      ],
+      "rows": 11171,
+      "sha256": "56db57084a86db1d699dd81725c1de610554e76db522bec4ae71ccfd4a767ca0"
+    },
+    "shortnames": {
+      "columns": [
+        "short",
+        "full",
+        "kind",
+        "ref",
+        "package"
+      ],
+      "rows": 1256617,
+      "sha256": "5abc2f9ff1c9ef4fcee98d2fde9e3538f6855e73c5e06bf5b95de607b35ee7ff"
+    },
+    "summary": {
+      "columns": [
+        "metric",
+        "value"
+      ],
+      "rows": 13,
+      "sha256": "8bd49253b015003c9fd67fe6b6c43edf4b34a80d9aa198dbf22617a966457ffd"
+    },
+    "trace": {
+      "columns": [
+        "id",
+        "module",
+        "line",
+        "declaration",
+        "source_name",
+        "parent",
+        "use_line"
+      ],
+      "rows": 641100,
+      "sha256": "eb91599fd220089bc1ec3f3178454c44a1f1d9bbb2014e43227f6cab42e48a77"
+    },
+    "wanted_source": {
+      "columns": [
+        "package",
+        "rank",
+        "module"
+      ],
+      "rows": 153409,
+      "sha256": "686523d6b5b0ba0ba1f81873e95e4316d71519f729600ad58d7e3014096ecade"
+    }
+  },
+  "plans": {
+    "typeahead.matches": [
+      "SEARCH shortnames USING PRIMARY KEY (short>? AND short<?)",
+      "CORRELATED SCALAR SUBQUERY 1",
+      "SEARCH modules USING INTEGER PRIMARY KEY (rowid=?)"
+    ],
+    "typeahead.proofs": [
+      "SEARCH a USING PRIMARY KEY (lookup=?)",
+      "SEARCH p USING INDEX sqlite_autoindex_proofs_1 (id=?)",
+      "USE TEMP B-TREE FOR ORDER BY"
+    ],
+    "typeahead.notes": [
+      "SEARCH h USING INDEX note_heading_lookup (lookup>? AND lookup<?)",
+      "SEARCH m USING INTEGER PRIMARY KEY (rowid=?)"
+    ],
+    "module.memberships": [
+      "MERGE (UNION ALL)",
+      "LEFT",
+      "SEARCH m USING COVERING INDEX proof_by_module (module=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)",
+      "SEARCH p USING INDEX sqlite_autoindex_proofs_1 (id=?)",
+      "USE TEMP B-TREE FOR ORDER BY",
+      "RIGHT",
+      "SEARCH r USING PRIMARY KEY (module=?)",
+      "SCALAR SUBQUERY 3",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)",
+      "SEARCH p USING INDEX sqlite_autoindex_proofs_1 (id=?)",
+      "USE TEMP B-TREE FOR ORDER BY"
+    ],
+    "module.facts": [
+      "SEARCH modules USING INTEGER PRIMARY KEY (rowid=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)"
+    ],
+    "module.informalizations": [
+      "SEARCH informalizations USING INDEX sqlite_autoindex_informalizations_1 (module=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)",
+      "USE TEMP B-TREE FOR ORDER BY"
+    ],
+    "module.links": [
+      "SEARCH links USING PRIMARY KEY (module=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)",
+      "USE TEMP B-TREE FOR DISTINCT"
+    ],
+    "module.disputes": [
+      "SEARCH disputes USING INDEX disputes_by_module (module=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)"
+    ],
+    "module.members": [
+      "SEARCH declarations USING INDEX decl_by_module (module=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)"
+    ],
+    "search.matches": [
+      "MATERIALIZE hits",
+      "COMPOUND QUERY",
+      "LEFT-MOST SUBQUERY",
+      "MATERIALIZE exact",
+      "MATERIALIZE candidates",
+      "COMPOUND QUERY",
+      "LEFT-MOST SUBQUERY",
+      "SEARCH s USING PRIMARY KEY (short=? AND full=? AND kind=?)",
+      "SEARCH m USING INTEGER PRIMARY KEY (rowid=?)",
+      "UNION ALL",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=?)",
+      "UNION ALL",
+      "SEARCH shortnames USING PRIMARY KEY (short=?)",
+      "CORRELATED SCALAR SUBQUERY 3",
+      "SEARCH modules USING INTEGER PRIMARY KEY (rowid=?)",
+      "UNION ALL",
+      "SEARCH note_headings USING COVERING INDEX note_heading_lookup (lookup=?)",
+      "UNION ALL",
+      "SEARCH a USING PRIMARY KEY (lookup=?)",
+      "SEARCH p USING COVERING INDEX sqlite_autoindex_proofs_1 (id=?)",
+      "SCAN candidates",
+      "USE TEMP B-TREE FOR GROUP BY",
+      "SCAN exact",
+      "USE TEMP B-TREE FOR ORDER BY",
+      "UNION ALL",
+      "SCAN names VIRTUAL TABLE INDEX 64:M2",
+      "LIST SUBQUERY 10",
+      "SCAN exact",
+      "SCAN hits",
+      "SEARCH p USING INTEGER PRIMARY KEY (rowid=?) LEFT-JOIN",
+      "SEARCH a USING PRIMARY KEY (lookup=? AND proof=?) LEFT-JOIN",
+      "SEARCH h USING INTEGER PRIMARY KEY (rowid=?) LEFT-JOIN",
+      "SEARCH m USING INTEGER PRIMARY KEY (rowid=?) LEFT-JOIN",
+      "SEARCH d USING INTEGER PRIMARY KEY (rowid=?) LEFT-JOIN"
+    ],
+    "declaration.declarations": [
+      "SEARCH d USING INTEGER PRIMARY KEY (rowid=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)",
+      "SEARCH m USING INTEGER PRIMARY KEY (rowid=?)"
+    ],
+    "declaration.outside": [
+      "SEARCH links USING PRIMARY KEY (module=?)",
+      "SCALAR SUBQUERY 2",
+      "SEARCH declarations USING INTEGER PRIMARY KEY (rowid=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)"
+    ],
+    "trail.sites": [
+      "CO-ROUTINE trail",
+      "SETUP",
+      "SEARCH t USING INDEX trace_by_decl (declaration=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)",
+      "RECURSIVE STEP",
+      "SCAN c",
+      "SEARCH p USING INTEGER PRIMARY KEY (rowid=?)",
+      "SCAN trail",
+      "SEARCH m USING INTEGER PRIMARY KEY (rowid=?)",
+      "SEARCH d USING INTEGER PRIMARY KEY (rowid=?) LEFT-JOIN",
+      "USE TEMP B-TREE FOR ORDER BY"
+    ],
+    "siblings.peers": [
+      "SEARCH d USING INDEX decl_by_module (module=?)",
+      "SCALAR SUBQUERY 2",
+      "SEARCH declarations USING INTEGER PRIMARY KEY (rowid=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)"
+    ],
+    "wantedSource.modules": [
+      "SEARCH w USING PRIMARY KEY (package=? AND rank>?)",
+      "SEARCH m USING INTEGER PRIMARY KEY (rowid=?)"
+    ],
+    "wantedSource.total": [
+      "SEARCH wanted_source USING PRIMARY KEY (package=?)"
+    ],
+    "wanted.modules": [
+      "SEARCH w USING INTEGER PRIMARY KEY (rowid>?)",
+      "SEARCH m USING INTEGER PRIMARY KEY (rowid=?)"
+    ],
+    "searchCount.totals": [
+      "SCAN CONSTANT ROW",
+      "SCALAR SUBQUERY 8",
+      "MATERIALIZE exact",
+      "MATERIALIZE candidates",
+      "COMPOUND QUERY",
+      "LEFT-MOST SUBQUERY",
+      "SEARCH s USING PRIMARY KEY (short=? AND full=? AND kind=?)",
+      "SEARCH m USING INTEGER PRIMARY KEY (rowid=?)",
+      "UNION ALL",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=?)",
+      "UNION ALL",
+      "SEARCH shortnames USING PRIMARY KEY (short=?)",
+      "CORRELATED SCALAR SUBQUERY 3",
+      "SEARCH modules USING INTEGER PRIMARY KEY (rowid=?)",
+      "UNION ALL",
+      "SEARCH note_headings USING COVERING INDEX note_heading_lookup (lookup=?)",
+      "UNION ALL",
+      "SEARCH a USING PRIMARY KEY (lookup=?)",
+      "SEARCH p USING COVERING INDEX sqlite_autoindex_proofs_1 (id=?)",
+      "SCAN candidates",
+      "USE TEMP B-TREE FOR GROUP BY",
+      "SCAN exact",
+      "SCALAR SUBQUERY 10",
+      "SCAN names VIRTUAL TABLE INDEX 0:M2",
+      "LIST SUBQUERY 9",
+      "SCAN exact"
+    ],
+    "declarationHead.declarations": [
+      "SEARCH d USING INTEGER PRIMARY KEY (rowid=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)",
+      "SEARCH m USING INTEGER PRIMARY KEY (rowid=?)"
+    ],
+    "declarationOutside.outside": [
+      "SEARCH links USING PRIMARY KEY (module=?)",
+      "SCALAR SUBQUERY 2",
+      "SEARCH declarations USING INTEGER PRIMARY KEY (rowid=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)"
+    ],
+    "tracePosition.positions": [
+      "SEARCH trace USING COVERING INDEX trace_by_decl (declaration=?)",
+      "SCALAR SUBQUERY 1",
+      "SEARCH shortnames USING PRIMARY KEY (short=? AND full=? AND kind=? AND package=?)"
+    ]
+  },
+  "outsideLinks": {
+    "startedUTC": "2026-11-25T06:13:11+00:00",
+    "finishedUTC": "2026-11-26T20:07:19+00:00",
+    "urlSetSha256": "67ce3609eb2a948bbbb1c3a1a9731599343debad5bc5b6b544857512461099a9",
+    "checkedURLs": 2143,
+    "dead": [],
+    "unverified": [
+      {
+        "url": "https://github.com/harrytong/rh-verification/blob/16b88c701bd7abddd93d49a9896cd4daab41f680/stage1/code/RH_critics_dependency_findings.md#exact-witness-paths",
+        "reason": "fragment could not be resolved"
+      },
+      {
+        "url": "https://philarchive.org/rec/NIEIOT-2",
+        "reason": "403"
+      }
+    ]
+  }
+}

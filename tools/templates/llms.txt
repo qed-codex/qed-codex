@@ -1,0 +1,65 @@
+# QED Codex
+
+> A directory of natural-language accounts of machine-checked proofs. Each informalization identifies its writer, submitter, source revision and license.
+
+Start with the [informalization index](/informalizations.json) to find an account to read or cite.
+Use the [directory index](/directory.json) to find a static record. Both files work without JavaScript.
+
+## Registered proofs
+
+{proof_links}
+
+## Riemann Hypothesis data inputs
+
+- [Mathlib]({mathlib_url}/tree/{mathlib_commit}). Library commit `{mathlib_commit}`.
+- [Rosetta structural analysis]({analysis_url}/tree/{analysis_commit}). Analysis commit `{analysis_commit}`.
+- [Five-theorem masks]({kernel_url}) from {kernel_author}’s {kernel_version} dataset, based on [the kernel export by {kernel_export_author}]({kernel_export_url}).
+
+## Read a record without JavaScript
+
+In `/directory.json`, `staticModules` lists keys of the form `<package>/<hash>`.
+Hash the exact, case-sensitive module path, including its directories and `.lean` suffix.
+Use its UTF-8 bytes without a trailing newline. Take the first 16 lowercase hex digits of SHA-256.
+For a listed key, fetch `/m/records/<package>/<hash>/` as HTML.
+Modules with only imported source notes normally load from the database at `/m/?pkg=<package>&p=<module-path>`.
+Check the samples separately. Their addresses are `/sample/<package>/<id>/`.
+The `samples` array identifies each sample’s type, package, module path or declaration name.
+
+{sample_links}
+
+## Read the Markdown
+
+For imported source notes, open the [package ledgers]({repository}/tree/{ledger_revision}/packages). Under the package, follow `informalizations/<module-path>/` to the Markdown file. The module path includes its `.lean` suffix. These files can be read without JavaScript.
+
+- [/informalizations.json](/informalizations.json) contains one object per informalization.
+- `page` opens its static HTML at the writer’s anchor. On a preview, open the same path and fragment at the preview origin.
+- `markdown` addresses the raw ledger file. Its YAML front matter identifies the Lean declarations discussed.
+- `sha256` covers the complete Markdown file, including its front matter and final newline if present.
+- `source_commit` pins the Lean source discussed in the entry. Committed entries link to a pinned ledger revision. Local drafts link to the intended path on main.
+- [Repository]({repository}). Files live at `packages/<package>/informalizations/<module-path>/<handle>--<writer-slug>.md`.
+
+## Quote an entry
+
+Credit the writer by the name in the record and the submitter by their GitHub handle.
+New text written or generated for QED Codex is CC BY 4.0. Previously published text shows its source licence. Imported text keeps its own licence, shown beside it. Code is MIT.
+
+For CC BY 4.0 entries, include the source link, link the license and indicate changes when adapting the text.
+
+> `<writer>`, informalization of `<module>`, submitted by `@<author>` to QED Codex. `<page>`. CC BY 4.0.
+
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+A `with-permission` entry carries its own terms. Consult its source and credit on the page before reuse.
+[Code license]({repository}/blob/main/LICENSE) · [Seed attribution]({repository}/blob/main/proofs/rh/seed-license.txt)
+
+## Bulk data (from launch)
+
+- [qed-codex/qed-codex on Hugging Face](https://huggingface.co/datasets/qed-codex/qed-codex) (from launch). Parquet tables and provenance.
+- [SQLite releases]({repository}/releases) (from launch). Tag `rh-<ledger-commit>`, asset `qed-codex-rh-<ledger-commit>.sqlite3`.
+- Both mirrors carry the ledger commit and redistribution licenses. Permission-specific text is excluded.
+
+## Contribute or contact
+
+- [AGENTS.md]({repository}/blob/main/AGENTS.md) gives the workflow for an agent proposing an informalization.
+- [CONTRIBUTING.md]({repository}/blob/main/CONTRIBUTING.md) covers submission, attribution, corrections and disputes.
+- [Most-wanted modules](/wanted/) lists project modules used by RH that still need an informalization.
+- [Contact](mailto:{contact})

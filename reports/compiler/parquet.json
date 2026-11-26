@@ -1,0 +1,166 @@
+{
+  "databaseSha256": "afb84a9a8eefd52467efe6ef77e2a9db7a792c7900e71123f78eb63cfe6633c8",
+  "pyarrow": "24.0.0",
+  "tables": {
+    "declarations": {
+      "file": "declarations.parquet",
+      "bytes": 18176589,
+      "sha256": "dcd078fc164ff17b8394a9b6cd21677efcddd851ecdd4a2f04aa2d294839e55d",
+      "content": {
+        "columns": [
+          "id",
+          "module",
+          "name",
+          "start",
+          "end",
+          "kind",
+          "kernel_mask"
+        ],
+        "rows": 1063284,
+        "sha256": "7effb029d056ba4194b7e717b16d3fe22e1a4853554d10cc4ef05f78d17b35ef"
+      }
+    },
+    "disputes": {
+      "file": "disputes.parquet",
+      "bytes": 437,
+      "sha256": "8ec381f1345dff6fb05d1e8012391e4f3fe40e17c88eb4c53449e9f4874a2040",
+      "content": {
+        "columns": [
+          "id",
+          "module",
+          "url"
+        ],
+        "rows": 0,
+        "sha256": "040a76cbbc0a6cc3a4a6c52112f104294c6fa1d05348da0194c15d6e838056e6"
+      }
+    },
+    "imports": {
+      "file": "imports.parquet",
+      "bytes": 3090984,
+      "sha256": "556c0367937aaed04f07f6b9269340c3ee7e7c418d7b55aa93dc676b3e8321d6",
+      "content": {
+        "columns": [
+          "caller",
+          "dependency"
+        ],
+        "rows": 925310,
+        "sha256": "e5b034ff7e2a89cc35a5270073fd6d6afc3b14f7f6c6ff137603be1c99d84202"
+      }
+    },
+    "links": {
+      "file": "links.parquet",
+      "bytes": 35904,
+      "sha256": "e42469241a510423287d31cb5b31fe1a0a4ccb4c550e3f8765274bf7543fde36",
+      "content": {
+        "columns": [
+          "module",
+          "author",
+          "url"
+        ],
+        "rows": 2189,
+        "sha256": "8d8b80ae1e2c0338fb7892f6746fcfa69d12f0cf1c4d0fb49ed0ffcc8bdcf646"
+      }
+    },
+    "modules": {
+      "file": "modules.parquet",
+      "bytes": 4362212,
+      "sha256": "74c3681d5f6a50e8e3da98c26830355c5772359b75cbcd5c98fd349306f49dce",
+      "content": {
+        "columns": [
+          "id",
+          "path",
+          "project",
+          "import_rank",
+          "cut",
+          "mask",
+          "trace_reached",
+          "removed_upstream",
+          "upstream_rank",
+          "spine_rank"
+        ],
+        "rows": 184039,
+        "sha256": "ee268ed3c10cbc82400e4cf96e18d14e161f353d68f18792bc6f5913c4c9ab70"
+      }
+    },
+    "names": {
+      "file": "names.parquet",
+      "bytes": 29099907,
+      "sha256": "29627a63c918e174036144240d7095688a5466dd744b3efead9851b4c62d5dbc",
+      "content": {
+        "columns": [
+          "term",
+          "doc"
+        ],
+        "rows": 7466902,
+        "sha256": "f24ae8ac4cdbbe8e7e4fd5cb60bde86d9f24732dc353c01fcbaefd7db47e2aae"
+      }
+    },
+    "readings": {
+      "file": "readings.parquet",
+      "bytes": 9744,
+      "sha256": "ee7248238772b261e4e3b93a626a88e17306224a60f8dd731fd0e9df2b5cf4f1",
+      "content": {
+        "columns": [
+          "id",
+          "module",
+          "author",
+          "kind",
+          "tool",
+          "license",
+          "source_commit",
+          "declarations_json",
+          "source_url",
+          "body"
+        ],
+        "rows": 1,
+        "sha256": "7a164fbeec8ea4bec8ce145a44ca0f22f9af57aa96c19ae27e0b8b8088759a47"
+      }
+    },
+    "shortnames": {
+      "file": "shortnames.parquet",
+      "bytes": 32198382,
+      "sha256": "ec725ac6c3626096157caaae64e8663d1908d2aba674a9d98f0231c652ae2721",
+      "content": {
+        "columns": [
+          "short",
+          "full",
+          "kind",
+          "ref"
+        ],
+        "rows": 1247323,
+        "sha256": "f17ad76b8c6c4ee7d6508001380882980f3d22260ae23382a289da5291719d8a"
+      }
+    },
+    "summary": {
+      "file": "summary.parquet",
+      "bytes": 941,
+      "sha256": "e877e7494b72214646748000d416f8df4e0226c63610299e6266edaac57fc028",
+      "content": {
+        "columns": [
+          "metric",
+          "value"
+        ],
+        "rows": 10,
+        "sha256": "e7f84ae2f91eb3fd286f6b2562597380627dd05ab9ece81df8706e527e2ec43d"
+      }
+    },
+    "trace": {
+      "file": "trace.parquet",
+      "bytes": 9586622,
+      "sha256": "f7b581b1b8952b121d49ce32a9d5902487324c4deaf5d390e72721e8b59f5e78",
+      "content": {
+        "columns": [
+          "id",
+          "module",
+          "line",
+          "declaration",
+          "source_name",
+          "parent",
+          "use_line"
+        ],
+        "rows": 641100,
+        "sha256": "eb91599fd220089bc1ec3f3178454c44a1f1d9bbb2014e43227f6cab42e48a77"
+      }
+    }
+  }
+}

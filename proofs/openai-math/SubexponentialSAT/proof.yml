@@ -1,0 +1,28 @@
+{
+  "id": "openai-math/SubexponentialSAT",
+  "title": "The Exponential Time Hypothesis is False",
+  "artifacts": "proofs/openai-math/SubexponentialSAT/source",
+  "declaration": "OAI.Algorithms.SubexponentialSAT.SqrtLogSpace.exact_count_and_sat",
+  "root": "OAI/Algorithms/SubexponentialSAT/SqrtLogSpace/Final.lean",
+  "statement": "ComparatorChallenges/SubexponentialSAT.lean",
+  "solution": "OAI/Algorithms/SubexponentialSAT/Main.lean",
+  "scope": "docs/378.md",
+  "family": false,
+  "comparisonSource": "eth",
+  "comparisonFile": "MainResults.lean",
+  "members": "proofs/openai-math/SubexponentialSAT/modules.txt",
+  "verificationRecords": [
+    {
+      "title": "Comparator challenges",
+      "who": "OpenAI",
+      "address": "https://github.com/openai/math/blob/3344da59991ed94f9ba711217b29c1d760badfa6/lean/ComparatorChallenges/README.md"
+    }
+  ],
+  "assetHashes": {
+    "comparison.lean": "47f78a9550d95b37d8718dd1ee16ae824da893a5e17c319f737e6d0a5ed24944",
+    "config.json": "debbfdc9c01104d2369be80da5180978275106df8b685f693fba7ce7da7c5b19",
+    "other-challenge.lean": "63f54edafad0b4d1a4184c6279dc2fea4d8b3a6ef39fa04ab7fa72e86bfbb39e",
+    "scope.md": "a2f7b390d6308997350b903be02c40a1227ebd2b9376982da528574500531f79",
+    "statement.lean": "4183b2057cff350d66848215ff7167196dfc20e1891b598fdddea59077a76685"
+  }
+}

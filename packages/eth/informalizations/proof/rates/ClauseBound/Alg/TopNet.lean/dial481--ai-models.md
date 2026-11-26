@@ -1,0 +1,50 @@
+---
+{
+  "module": "proof/rates/ClauseBound/Alg/TopNet.lean",
+  "declarations": [],
+  "author": "dial481",
+  "writer": "AI models",
+  "origin": "other-author",
+  "entry_type": "source-documentation",
+  "license": "Apache-2.0",
+  "copyright": "Copyright (c) 2026 Anthropic, PBC. All rights reserved.",
+  "source": "https://github.com/anthropics/formal-math/blob/11b6c7e3c927df2658f513b6b68ea7f8929c62c5/eth/proof/rates/ClauseBound/Alg/TopNet.lean",
+  "source_commit": "11b6c7e3c927df2658f513b6b68ea7f8929c62c5",
+  "kind": "ai"
+}
+---
+
+Documentation comments extracted from this file at [11b6c7e](https://github.com/anthropics/formal-math/blob/11b6c7e3c927df2658f513b6b68ea7f8929c62c5/eth/proof/rates/ClauseBound/Alg/TopNet.lean). Any heading that names a declaration was added by QED Codex. The text is otherwise unchanged.
+
+```text
+/-
+Copyright (c) 2026 Anthropic, PBC. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+SPDX-License-Identifier: Apache-2.0
+-/
+```
+
+ # Any network on 3K⁸ nodes through a clique solver: definitions and the interface statements
+
+What a top network other than that of Section 6 (for example the network of marks of the theorem on
+n variables) plugs into: the network is rebalanced to K nodes with labels of a length that is
+computed from bounds Ub ≥ U and P, and handed to the solver. `countG` of Alg/Top.lean is the case of
+the network of a formula. 
+
+### `lamS`
+
+ An upper bound for the label length of the instance on K nodes that a network on g nodes with U
+≤ Ub and size P is rebalanced to. 
+
+### `bitsS`
+
+ An upper bound for the bit length of the entries of that instance, if the values of the network
+have at most B bits. 
+
+### `valS`
+
+ The value of the network that F presents in the context c, through the solver at the index i. 
+
+### `needNet`
+
+ The exponent of a pad that suffices for that. 

@@ -1,0 +1,17 @@
+{
+  "package": "vp-vnp",
+  "readmeOpening": "packages/vp-vnp/readme-opening.md",
+  "readmeSHA256": "25ae4c61e91fa1e04cedeecf2ea41a3d5c134d56462d5aa959534d5248c7965a",
+  "openingSHA256": "881d9bf29c596ebf04b7d431043a9107462d2d205eeb015fcb4a1b63266d81eb",
+  "writer": "AI models",
+  "creditSource": "https://github.com/anthropics/formal-math/blob/11b6c7e3c927df2658f513b6b68ea7f8929c62c5/vp-vnp/README.md",
+  "verificationRecords": [
+    {
+      "title": "Lean proof",
+      "who": "vp-vnp project",
+      "address": "https://github.com/anthropics/formal-math/blob/11b6c7e3c927df2658f513b6b68ea7f8929c62c5/vp-vnp/README.md#lean-proof"
+    }
+  ],
+  "statement": "Challenge.lean",
+  "solution": "Solution.lean"
+}

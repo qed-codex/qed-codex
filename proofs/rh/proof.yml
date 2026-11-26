@@ -1,0 +1,52 @@
+{
+  "source_commit": "40e56bab026552e089d7afcfeff08d2defb9c005",
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "analysis_commit": "d41bfe7e03a311b8340cbfcebbb3c5fc62ff3dd1",
+  "source_url": "https://github.com/leanprover-community/riemann-hypothesis",
+  "mathlib_url": "https://github.com/leanprover-community/mathlib4",
+  "analysis_url": "https://github.com/qed-codex/riemann-hypothesis-rosetta",
+  "kernel_url": "https://github.com/james-shore/rh-proof-dependencies/releases/tag/v0.2.1",
+  "kernel_author": "James Shore",
+  "source_author": "Levent Alpöge",
+  "kernel_version": "v0.2.1",
+  "kernel_export_author": "Andrew Sutherland",
+  "kernel_export_url": "https://math.mit.edu/~drew/grh/",
+  "verificationRecords": [
+    {
+      "title": "Verification files for the Lean proof of the Riemann Hypothesis",
+      "who": "Andrew Sutherland",
+      "address": "https://math.mit.edu/~drew/grh/"
+    }
+  ],
+  "title": "Riemann Hypothesis",
+  "authors": [
+    "Levent Alpöge",
+    "Claude"
+  ],
+  "creditSource": "https://alpo.ge/remark.pdf",
+  "license": null,
+  "sourceKeys": [
+    "riemann-hypothesis",
+    "zeta23",
+    "eth",
+    "vp-vnp",
+    "3sum-apsp",
+    "openai-math",
+    "mathlib",
+    "grh-readable"
+  ],
+  "root": "src/Main.lean",
+  "declaration": "riemannHypothesis",
+  "statement": "src/Statements.lean",
+  "solution": "src/Main.lean",
+  "otherVersions": [
+    {
+      "label": "Readable rewrite, about 300,000 lines of code",
+      "url": "/proofs/grh-readable/"
+    },
+    {
+      "label": "Compact edition, about 76,000 lines of code (outside this directory)",
+      "url": "https://github.com/lsernau/grh-lean/tree/72fead102f663d5c7a407964a13dc0cf9d977207/grh-compact"
+    }
+  ]
+}

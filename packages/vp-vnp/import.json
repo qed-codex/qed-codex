@@ -1,0 +1,15 @@
+{
+  "package": "vp-vnp",
+  "repository": "https://github.com/anthropics/formal-math",
+  "commit": "11b6c7e3c927df2658f513b6b68ea7f8929c62c5",
+  "folder": "vp-vnp",
+  "archiveSha256": "fef395e1935e0cb15fe2cd58cc14f1e5f8f68b8bf818eeab2504a741ea7c51bd",
+  "submitter": "dial481",
+  "authors": [
+    "AI models"
+  ],
+  "license": "Apache-2.0",
+  "models": [
+    "AI models"
+  ]
+}

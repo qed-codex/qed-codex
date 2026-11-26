@@ -1,0 +1,639 @@
+{
+  "robots.txt": {
+    "url": "https://andrewodesky.com/robots.txt",
+    "utc": "2026-11-26T19:59:25+00:00",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "status": 404
+  },
+  "index.html": {
+    "url": "https://andrewodesky.com/rh/",
+    "utc": "2026-11-26T19:59:28+00:00",
+    "bytes": 1085974,
+    "sha256": "1173bee9939ce66e9d4512ae52c402d5df12dc5b915a2c75cca56363f952c264",
+    "status": 200
+  },
+  "definitions.html": {
+    "url": "https://andrewodesky.com/rh/definitions.html",
+    "utc": "2026-11-26T19:59:30+00:00",
+    "bytes": 366277,
+    "sha256": "cb6687143e9db5f36d9d8aacda2ea8a2819a76a6ab293a5e5e5754c8978e02f4",
+    "status": 200
+  },
+  "cards/theorem-analytic-0.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-analytic-0.html",
+    "utc": "2026-11-26T19:59:33+00:00",
+    "bytes": 160818,
+    "sha256": "2f1343d15a5b555ce11e32b214a7046007a2f5021079bb55220d68fdca54d5b8",
+    "status": 200
+  },
+  "cards/theorem-analytic-1.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-analytic-1.html",
+    "utc": "2026-11-26T19:59:35+00:00",
+    "bytes": 108351,
+    "sha256": "fb6fbba16389295d862a4ec5e7472546d58f5dcc0fd674ff596bc701821e0c8f",
+    "status": 200
+  },
+  "cards/theorem-analytic-2.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-analytic-2.html",
+    "utc": "2026-11-26T19:59:37+00:00",
+    "bytes": 104661,
+    "sha256": "19912484465051ca49374fbf7f35693103610a6b05c027c275943352942de41f",
+    "status": 200
+  },
+  "cards/theorem-analytic-3.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-analytic-3.html",
+    "utc": "2026-11-26T19:59:39+00:00",
+    "bytes": 107617,
+    "sha256": "8f4c899c7ba17cece7300598416304772461c856bcdb564c3cada8679a49bf72",
+    "status": 200
+  },
+  "cards/theorem-analytic-4.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-analytic-4.html",
+    "utc": "2026-11-26T19:59:41+00:00",
+    "bytes": 105440,
+    "sha256": "b31494209480faf5c30bafc6c9f5de9d114ce5392bf5669dec413241c93e623e",
+    "status": 200
+  },
+  "cards/theorem-analytic-5.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-analytic-5.html",
+    "utc": "2026-11-26T19:59:43+00:00",
+    "bytes": 108407,
+    "sha256": "bfb3b36df5b3e82bf800c6c1a03ded47f506f7277ff28bda1545e06e06cbd63f",
+    "status": 200
+  },
+  "cards/theorem-analytic-6.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-analytic-6.html",
+    "utc": "2026-11-26T19:59:46+00:00",
+    "bytes": 128756,
+    "sha256": "1538e7358b0a98daf4755653756af78edbaf12989cb5e9123b7030c064555da7",
+    "status": 200
+  },
+  "cards/theorem-count-0.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-count-0.html",
+    "utc": "2026-11-26T19:59:48+00:00",
+    "bytes": 152158,
+    "sha256": "28d381580cd5025a8702413fd256e6229c56ddc44f7913b6f6222db2427ce334",
+    "status": 200
+  },
+  "cards/theorem-count-1.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-count-1.html",
+    "utc": "2026-11-26T19:59:50+00:00",
+    "bytes": 108196,
+    "sha256": "9f14127eb7b596206ce49913049433f64b900f075abbd3b58d1353873d7ce981",
+    "status": 200
+  },
+  "cards/theorem-count-2.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-count-2.html",
+    "utc": "2026-11-26T19:59:53+00:00",
+    "bytes": 108189,
+    "sha256": "8225ef0003d87fdc6702ef3982bd128ba979bd648c5b864628530f02e13c23c0",
+    "status": 200
+  },
+  "cards/theorem-count-3.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-count-3.html",
+    "utc": "2026-11-26T19:59:55+00:00",
+    "bytes": 39107,
+    "sha256": "01b80be5b5ad744268df5c7699aebf010d6733179d7c1050dfac44221d60e467",
+    "status": 200
+  },
+  "cards/theorem-theta-0.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-theta-0.html",
+    "utc": "2026-11-26T19:59:57+00:00",
+    "bytes": 223366,
+    "sha256": "5677e39557006ce12c739818db28131f2b990fab61c47f99a361438677f02fb6",
+    "status": 200
+  },
+  "cards/theorem-theta-1.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-theta-1.html",
+    "utc": "2026-11-26T19:59:59+00:00",
+    "bytes": 134025,
+    "sha256": "209ca359d611d29fde774fd7b8a6425ea669b5280577825286f7394482ebae8b",
+    "status": 200
+  },
+  "cards/theorem-theta-2.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-theta-2.html",
+    "utc": "2026-11-26T20:00:01+00:00",
+    "bytes": 116066,
+    "sha256": "2b8eb7c405601c24f88408c3343029f932828e2a7d3ac0b07e4ff5a248542e51",
+    "status": 200
+  },
+  "cards/theorem-theta-3.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-theta-3.html",
+    "utc": "2026-11-26T20:00:04+00:00",
+    "bytes": 125678,
+    "sha256": "8d52fdd338c26ef8403495c8fb411df32570761a27b5f39b39543e43f6e7571a",
+    "status": 200
+  },
+  "cards/theorem-theta-4.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-theta-4.html",
+    "utc": "2026-11-26T20:00:06+00:00",
+    "bytes": 125632,
+    "sha256": "731985c068c7a88700d2fb89fc8a1d2d8f561f3db956e915c1e01982b084cf75",
+    "status": 200
+  },
+  "cards/theorem-theta-5.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-theta-5.html",
+    "utc": "2026-11-26T20:00:08+00:00",
+    "bytes": 124312,
+    "sha256": "23fa95a6c5097c6d2ea277e6d0121b7bf90eb841f7a8e37408d97fae1e38d324",
+    "status": 200
+  },
+  "cards/theorem-theta-6.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-theta-6.html",
+    "utc": "2026-11-26T20:00:10+00:00",
+    "bytes": 136600,
+    "sha256": "55da3d52433faf756d83375efad2faef7f3e442d1663f7ac5fddcbaa1ef03dfc",
+    "status": 200
+  },
+  "cards/theorem-theta-7.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-theta-7.html",
+    "utc": "2026-11-26T20:00:13+00:00",
+    "bytes": 134436,
+    "sha256": "677e6a2026f16eb6058f30779d91b044c14a2e5024d4368d89c003906045f1e8",
+    "status": 200
+  },
+  "cards/theorem-theta-8.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-theta-8.html",
+    "utc": "2026-11-26T20:00:15+00:00",
+    "bytes": 137630,
+    "sha256": "5eb6cf5abcc8e1f4ff455d1a9d17953b9f1d9ce409c62c24f9dd6a024ae54f1d",
+    "status": 200
+  },
+  "cards/theorem-theta-9.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-theta-9.html",
+    "utc": "2026-11-26T20:00:17+00:00",
+    "bytes": 136871,
+    "sha256": "282a3a3abb75f8a8c568153eca684718a0f4c14bcfe4367aee0024a577e0f07a",
+    "status": 200
+  },
+  "cards/theorem-theta-10.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-theta-10.html",
+    "utc": "2026-11-26T20:00:20+00:00",
+    "bytes": 155857,
+    "sha256": "75df4182298a331ce8e759527b917bd1e3471dcefd4b48a813073b7fef686788",
+    "status": 200
+  },
+  "cards/theorem-slope-0.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-slope-0.html",
+    "utc": "2026-11-26T20:00:22+00:00",
+    "bytes": 155478,
+    "sha256": "349aef7c9ef55f842443cb241cef25c8a272374ed0d859625a237848cb0104f3",
+    "status": 200
+  },
+  "cards/theorem-slope-1.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-slope-1.html",
+    "utc": "2026-11-26T20:00:24+00:00",
+    "bytes": 151382,
+    "sha256": "b837e1786154f40f275e3ac02df17542516c4b8f9e5088e56d214884ea8d042d",
+    "status": 200
+  },
+  "cards/theorem-geometry-0.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-0.html",
+    "utc": "2026-11-26T20:00:26+00:00",
+    "bytes": 197381,
+    "sha256": "e4bac673fc1cf86b467c30ff217b2d383c8fbed7b211acc49df29230f5aea2cc",
+    "status": 200
+  },
+  "cards/theorem-geometry-1.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-1.html",
+    "utc": "2026-11-26T20:00:29+00:00",
+    "bytes": 136022,
+    "sha256": "50a9234611f65ed051ed14c3cd3e5d492ba2e8f63f9397c2a7ff056f6bc275bb",
+    "status": 200
+  },
+  "cards/theorem-geometry-2.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-2.html",
+    "utc": "2026-11-26T20:00:31+00:00",
+    "bytes": 111882,
+    "sha256": "db763e3eb98f8175ec4e9d5b6b003b1fdb637c3b13042a427d1fec534a9263af",
+    "status": 200
+  },
+  "cards/theorem-geometry-3.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-3.html",
+    "utc": "2026-11-26T20:00:35+00:00",
+    "bytes": 111472,
+    "sha256": "018f71895e7d182b8f06ba4d992a813f0679af47f23b65e9eff8dabb6c606ea5",
+    "status": 200
+  },
+  "cards/theorem-geometry-4.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-4.html",
+    "utc": "2026-11-26T20:00:37+00:00",
+    "bytes": 105154,
+    "sha256": "3326514d61fbef50aa179bf0cf7f8d407790c14583b55fd15b3e26e8075db319",
+    "status": 200
+  },
+  "cards/theorem-geometry-5.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-5.html",
+    "utc": "2026-11-26T20:00:39+00:00",
+    "bytes": 114505,
+    "sha256": "7c1eda49a9d8ffca21bd3389627ada6c917fad1eb4c78f10a244a70b5e413582",
+    "status": 200
+  },
+  "cards/theorem-geometry-6.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-6.html",
+    "utc": "2026-11-26T20:00:41+00:00",
+    "bytes": 120471,
+    "sha256": "7f175d63f8c3efb3dfc0ccfb37b635b6345c1b1abc3bf8b279bcb8cfd8fcab4b",
+    "status": 200
+  },
+  "cards/theorem-geometry-7.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-7.html",
+    "utc": "2026-11-26T20:00:44+00:00",
+    "bytes": 113319,
+    "sha256": "badc3727e58f7e9dede18402fe44627552b23712f1e8352ff43dfe73fb9be978",
+    "status": 200
+  },
+  "cards/theorem-geometry-8.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-8.html",
+    "utc": "2026-11-26T20:00:46+00:00",
+    "bytes": 118453,
+    "sha256": "1651a4446d3f6344cc96866e0c6f1924ce7dd7b8b236698a79f0f2824024dea8",
+    "status": 200
+  },
+  "cards/theorem-geometry-9.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-9.html",
+    "utc": "2026-11-26T20:00:48+00:00",
+    "bytes": 116580,
+    "sha256": "59e39d3cd20fa52b08b44c394754ed5711276f0f91d5c38e12bb2be332c30774",
+    "status": 200
+  },
+  "cards/theorem-geometry-10.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-10.html",
+    "utc": "2026-11-26T20:00:50+00:00",
+    "bytes": 117478,
+    "sha256": "4506952d8d3b6cf2a7a8d259c6d768e49e4724b418f3b8baa55fe189b3cc8cc8",
+    "status": 200
+  },
+  "cards/theorem-geometry-11.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-11.html",
+    "utc": "2026-11-26T20:00:52+00:00",
+    "bytes": 110649,
+    "sha256": "71bedbf2165e0f07e423a954f3348e065a6350e80754076a55f2fdb7bdcbabac",
+    "status": 200
+  },
+  "cards/theorem-geometry-12.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-12.html",
+    "utc": "2026-11-26T20:00:54+00:00",
+    "bytes": 119647,
+    "sha256": "329eb33536172ebf37dc65a23708aa3523fd40b1971162f7223184557d2f52aa",
+    "status": 200
+  },
+  "cards/theorem-geometry-13.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-13.html",
+    "utc": "2026-11-26T20:00:57+00:00",
+    "bytes": 130043,
+    "sha256": "371b35b211abe94c4538caf75d82cb5ed5ac2211c6e83f08ca5b0cef1917f948",
+    "status": 200
+  },
+  "cards/theorem-geometry-14.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-14.html",
+    "utc": "2026-11-26T20:00:59+00:00",
+    "bytes": 134342,
+    "sha256": "52a4030a308823fc5c39185a7ca035a4c2b991bafe9c35d2fe804fef5dd9355d",
+    "status": 200
+  },
+  "cards/theorem-geometry-15.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-15.html",
+    "utc": "2026-11-26T20:01:01+00:00",
+    "bytes": 123156,
+    "sha256": "e8f742b95e22ff950d0f83dc9fe329710800840265b3a926eaeb4077c3fa86a2",
+    "status": 200
+  },
+  "cards/theorem-geometry-16.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-16.html",
+    "utc": "2026-11-26T20:01:03+00:00",
+    "bytes": 125531,
+    "sha256": "d5c9c10added6e7f568311af93cca1a3920afc71a8e67f09f53e2bd568e4c661",
+    "status": 200
+  },
+  "cards/theorem-geometry-17.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-17.html",
+    "utc": "2026-11-26T20:01:06+00:00",
+    "bytes": 123785,
+    "sha256": "6976fec496eb48ffe9b05a9c47cab691ef5f59a84fc13612c1569a5a492f4e68",
+    "status": 200
+  },
+  "cards/theorem-geometry-18.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-18.html",
+    "utc": "2026-11-26T20:01:08+00:00",
+    "bytes": 124754,
+    "sha256": "ea6d85d5c2931c121fd1ea43a07c4bebbe3a7517021b2e9140397dec6fb0e250",
+    "status": 200
+  },
+  "cards/theorem-geometry-19.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-geometry-19.html",
+    "utc": "2026-11-26T20:01:10+00:00",
+    "bytes": 101976,
+    "sha256": "1fffd5d7ca827da8d03421c0dab3e31a24bdf9a9b48107cfa5227974d749fd81",
+    "status": 200
+  },
+  "cards/theorem-cohomology-0.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-cohomology-0.html",
+    "utc": "2026-11-26T20:01:12+00:00",
+    "bytes": 243999,
+    "sha256": "b069f17b0369ebd69bf55d71c0640eca4dd4a992691fa727e178f5a035009b55",
+    "status": 200
+  },
+  "cards/theorem-cohomology-1.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-cohomology-1.html",
+    "utc": "2026-11-26T20:01:15+00:00",
+    "bytes": 118303,
+    "sha256": "682ac0efc5ea640b3d6156d59d0a72a077cc245325d44c7fd0aee91f14e420df",
+    "status": 200
+  },
+  "cards/theorem-cohomology-2.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-cohomology-2.html",
+    "utc": "2026-11-26T20:01:17+00:00",
+    "bytes": 118870,
+    "sha256": "d7814a86f8cc7443357d27726123883fbcf358a3ef08c2b380ee3900ca7ab1d2",
+    "status": 200
+  },
+  "cards/theorem-cohomology-3.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-cohomology-3.html",
+    "utc": "2026-11-26T20:01:19+00:00",
+    "bytes": 114268,
+    "sha256": "f4e98d8beadf11c791cd0a9de5bc01a4e1286e1b652bdb16b4ef7536738073ea",
+    "status": 200
+  },
+  "cards/theorem-cohomology-4.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-cohomology-4.html",
+    "utc": "2026-11-26T20:01:22+00:00",
+    "bytes": 117087,
+    "sha256": "5e4518f7b41ba110c9da5fb2453b967728374193a7d3a5e96fedc38dcd710920",
+    "status": 200
+  },
+  "cards/theorem-cohomology-5.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-cohomology-5.html",
+    "utc": "2026-11-26T20:01:24+00:00",
+    "bytes": 144657,
+    "sha256": "0bed56e7f143be0a792c68ccaa7373bf80a26ff07b0b88442a8215be2ca0bcaf",
+    "status": 200
+  },
+  "cards/theorem-cohomology-6.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-cohomology-6.html",
+    "utc": "2026-11-26T20:01:26+00:00",
+    "bytes": 124237,
+    "sha256": "aa4ac92eb54c21018026fc3f11884bc9e27aef420cb186bd684fe398508954b4",
+    "status": 200
+  },
+  "cards/theorem-cohomology-7.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-cohomology-7.html",
+    "utc": "2026-11-26T20:01:28+00:00",
+    "bytes": 122615,
+    "sha256": "510b0fbcf941fc2062f734c7311b0dda8257fc82274e24318817441f0d925c67",
+    "status": 200
+  },
+  "cards/theorem-cohomology-8.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-cohomology-8.html",
+    "utc": "2026-11-26T20:01:31+00:00",
+    "bytes": 169655,
+    "sha256": "7e5437a391d4b38d8620fe025a3e3deb0a0833068093ff30176795d2a25f7e80",
+    "status": 200
+  },
+  "cards/theorem-cohomology-9.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-cohomology-9.html",
+    "utc": "2026-11-26T20:01:32+00:00",
+    "bytes": 10714,
+    "sha256": "0811a2c4512a0237fd3038c918c5bf1c5f56a5d3f6788e899786fb4c63a2dc55",
+    "status": 200
+  },
+  "cards/theorem-automorphic-0.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-0.html",
+    "utc": "2026-11-26T20:01:35+00:00",
+    "bytes": 189225,
+    "sha256": "5e6bc356174f0043f5491037a702e4c4b86bcd33b1379f8a85417021a82999ea",
+    "status": 200
+  },
+  "cards/theorem-automorphic-1.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-1.html",
+    "utc": "2026-11-26T20:01:37+00:00",
+    "bytes": 126160,
+    "sha256": "fc31ae2e388ed1c56c7660aaa71221c27ab8e708c5803797b9d8a44458c21360",
+    "status": 200
+  },
+  "cards/theorem-automorphic-2.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-2.html",
+    "utc": "2026-11-26T20:01:39+00:00",
+    "bytes": 109723,
+    "sha256": "ee40e2405cdaeec987b9b97cc599e2e66475e2e2bba78a2fb7b6108db62d1d07",
+    "status": 200
+  },
+  "cards/theorem-automorphic-3.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-3.html",
+    "utc": "2026-11-26T20:01:41+00:00",
+    "bytes": 110713,
+    "sha256": "d78578c7f52d9ec3976b8d88de685097cc3d3e3f25126e3ca51c329ba4998dc8",
+    "status": 200
+  },
+  "cards/theorem-automorphic-4.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-4.html",
+    "utc": "2026-11-26T20:01:44+00:00",
+    "bytes": 112437,
+    "sha256": "b2ee1e4e5d2d688a3090f646f5c41632e06896307464a464ca3e3a9d5bae68a0",
+    "status": 200
+  },
+  "cards/theorem-automorphic-5.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-5.html",
+    "utc": "2026-11-26T20:01:46+00:00",
+    "bytes": 115176,
+    "sha256": "33c053b1c145cc2496a8a37919954612b796bd66bd81f113e10bead450012100",
+    "status": 200
+  },
+  "cards/theorem-automorphic-6.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-6.html",
+    "utc": "2026-11-26T20:01:48+00:00",
+    "bytes": 111903,
+    "sha256": "263e337f65eecf4dccb2c727bcd6700c41cfb700846413dd9d34f79ed40aedb2",
+    "status": 200
+  },
+  "cards/theorem-automorphic-7.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-7.html",
+    "utc": "2026-11-26T20:01:51+00:00",
+    "bytes": 123153,
+    "sha256": "cada402bd53ce5ed189cf89b24f8e0f906ddbccfe8bfce6eac56507f9580e259",
+    "status": 200
+  },
+  "cards/theorem-automorphic-8.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-8.html",
+    "utc": "2026-11-26T20:01:53+00:00",
+    "bytes": 116473,
+    "sha256": "725f845d8dbd185bb4dc07efdb8172caa681cfe4c2f9d26dbc8b4bb7ff3f96bc",
+    "status": 200
+  },
+  "cards/theorem-automorphic-9.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-9.html",
+    "utc": "2026-11-26T20:01:55+00:00",
+    "bytes": 125426,
+    "sha256": "0dc6e2a25829d06e283b6f7d9517001515bbe5d52b5b14fedc21ebbd55561bd2",
+    "status": 200
+  },
+  "cards/theorem-automorphic-10.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-10.html",
+    "utc": "2026-11-26T20:01:57+00:00",
+    "bytes": 124079,
+    "sha256": "1ca5a1e6d99393d259312ae71cc471d5d5a3e8c7bf1cd465123d4815b7600f26",
+    "status": 200
+  },
+  "cards/theorem-automorphic-11.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-11.html",
+    "utc": "2026-11-26T20:01:59+00:00",
+    "bytes": 122885,
+    "sha256": "70cd89e95d12673d57fb8fa33abb8e44de8da72f8e02637a0a49feac07bc550c",
+    "status": 200
+  },
+  "cards/theorem-automorphic-12.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-12.html",
+    "utc": "2026-11-26T20:02:02+00:00",
+    "bytes": 121014,
+    "sha256": "a38a9ffd9eac5a48078af7e88fb0d1632e0e0389e76747d2437771f4b65a1bdf",
+    "status": 200
+  },
+  "cards/theorem-automorphic-13.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-13.html",
+    "utc": "2026-11-26T20:02:04+00:00",
+    "bytes": 126137,
+    "sha256": "ecb371eb076086bae3cdad65120aaea16366c32cc56b91a7d6f07500a7b060ff",
+    "status": 200
+  },
+  "cards/theorem-automorphic-14.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-14.html",
+    "utc": "2026-11-26T20:02:06+00:00",
+    "bytes": 124900,
+    "sha256": "c3d90aae050933159240eb0e117cff574f75a324640b5132e147547f7faf03dc",
+    "status": 200
+  },
+  "cards/theorem-automorphic-15.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-15.html",
+    "utc": "2026-11-26T20:02:08+00:00",
+    "bytes": 124229,
+    "sha256": "60947cd977dff9f4f94591e2e3723c6853435285e83b6182be922f7323d4192d",
+    "status": 200
+  },
+  "cards/theorem-automorphic-16.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-16.html",
+    "utc": "2026-11-26T20:02:10+00:00",
+    "bytes": 119179,
+    "sha256": "b1b59b9ac31e0369055e6071905abba656b50fdbac27e27d8c94b3d388ef865b",
+    "status": 200
+  },
+  "cards/theorem-automorphic-17.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-17.html",
+    "utc": "2026-11-26T20:02:13+00:00",
+    "bytes": 159727,
+    "sha256": "9b4aeb5581aa68998cea08da7785dd21af2810c28191b339d7fc756e29a5fa82",
+    "status": 200
+  },
+  "cards/theorem-automorphic-18.html": {
+    "url": "https://andrewodesky.com/rh/cards/theorem-automorphic-18.html",
+    "utc": "2026-11-26T20:02:15+00:00",
+    "bytes": 22449,
+    "sha256": "3615557ba7d215ffcfc7fcda0511d9da1247ea31218d36fa92f443938b6ef7dc",
+    "status": 200
+  },
+  "cards/definition-analytic-0.html": {
+    "url": "https://andrewodesky.com/rh/cards/definition-analytic-0.html",
+    "utc": "2026-11-26T20:02:17+00:00",
+    "bytes": 155192,
+    "sha256": "ead51ffa8de435073b5bafdb5b1f85e86d16942ddf42c3115625bcfb47869ca3",
+    "status": 200
+  },
+  "cards/definition-count-0.html": {
+    "url": "https://andrewodesky.com/rh/cards/definition-count-0.html",
+    "utc": "2026-11-26T20:02:19+00:00",
+    "bytes": 6551,
+    "sha256": "0a69edd4faf32860e68206e78eb5216f3543b6db004b8b796e43bfb483931621",
+    "status": 200
+  },
+  "cards/definition-theta-0.html": {
+    "url": "https://andrewodesky.com/rh/cards/definition-theta-0.html",
+    "utc": "2026-11-26T20:02:21+00:00",
+    "bytes": 292223,
+    "sha256": "b5cd4f0ad6088f00384fcdfaa5b83c96cb1a1ef6130783e02bf3c9516e68ae73",
+    "status": 200
+  },
+  "cards/definition-theta-1.html": {
+    "url": "https://andrewodesky.com/rh/cards/definition-theta-1.html",
+    "utc": "2026-11-26T20:02:24+00:00",
+    "bytes": 301858,
+    "sha256": "6c3613cb13dc4f1eea6efbb4b21f42c9620c53221ab782f873a2bf189a5fd7e7",
+    "status": 200
+  },
+  "cards/definition-theta-2.html": {
+    "url": "https://andrewodesky.com/rh/cards/definition-theta-2.html",
+    "utc": "2026-11-26T20:02:27+00:00",
+    "bytes": 297501,
+    "sha256": "0fe420b6b8a48688f30e75e9be439aa4215f4db58047bd4a6974d69eab48bb2c",
+    "status": 200
+  },
+  "cards/definition-theta-3.html": {
+    "url": "https://andrewodesky.com/rh/cards/definition-theta-3.html",
+    "utc": "2026-11-26T20:02:30+00:00",
+    "bytes": 281974,
+    "sha256": "7cd4924d606edb591773f0a650a7d09f78e24235ef57b8b05b3cc7bed12da30a",
+    "status": 200
+  },
+  "cards/definition-theta-4.html": {
+    "url": "https://andrewodesky.com/rh/cards/definition-theta-4.html",
+    "utc": "2026-11-26T20:02:32+00:00",
+    "bytes": 301263,
+    "sha256": "5f23cd3e224d8aaf923571692c67140bb19a551a3bbb87582d1d32691b9362df",
+    "status": 200
+  },
+  "cards/definition-theta-5.html": {
+    "url": "https://andrewodesky.com/rh/cards/definition-theta-5.html",
+    "utc": "2026-11-26T20:02:35+00:00",
+    "bytes": 215485,
+    "sha256": "b56e4e39477c5d6acd7dfbbbf5a909272c7154093dce7e9eef6d8dbf121dc11d",
+    "status": 200
+  },
+  "cards/definition-slope-0.html": {
+    "url": "https://andrewodesky.com/rh/cards/definition-slope-0.html",
+    "utc": "2026-11-26T20:02:37+00:00",
+    "bytes": 82617,
+    "sha256": "f077d3412338e17c002a696ad6c78a78ddb45f21e793cddf38db55aa0747d18a",
+    "status": 200
+  },
+  "cards/definition-geometry-0.html": {
+    "url": "https://andrewodesky.com/rh/cards/definition-geometry-0.html",
+    "utc": "2026-11-26T20:02:39+00:00",
+    "bytes": 269287,
+    "sha256": "8b466e556bc3bc52ecd137bb3b5eabcde9405ae61034ba55cb4d13809c19c298",
+    "status": 200
+  },
+  "cards/definition-geometry-1.html": {
+    "url": "https://andrewodesky.com/rh/cards/definition-geometry-1.html",
+    "utc": "2026-11-26T20:02:42+00:00",
+    "bytes": 248875,
+    "sha256": "cba3c52e69075a66386cb9939db0a2131d49be84c046f59f8c7bc079c4a79426",
+    "status": 200
+  },
+  "cards/definition-geometry-2.html": {
+    "url": "https://andrewodesky.com/rh/cards/definition-geometry-2.html",
+    "utc": "2026-11-26T20:02:44+00:00",
+    "bytes": 209949,
+    "sha256": "6b568226f596c93108623e878760ed2fb752bb64f0dc64fd7679228d56594fc8",
+    "status": 200
+  },
+  "cards/definition-cohomology-0.html": {
+    "url": "https://andrewodesky.com/rh/cards/definition-cohomology-0.html",
+    "utc": "2026-11-26T20:02:47+00:00",
+    "bytes": 299231,
+    "sha256": "f1c1952a9e5edb3a1599ec978281c6775a2a5e4f48cb4f842aadc52126327f3f",
+    "status": 200
+  },
+  "cards/definition-cohomology-1.html": {
+    "url": "https://andrewodesky.com/rh/cards/definition-cohomology-1.html",
+    "utc": "2026-11-26T20:02:49+00:00",
+    "bytes": 69506,
+    "sha256": "1eb944225e3e02a62c291a4c6dabac4cb7c8d99a401c86e017fb11d4856843fd",
+    "status": 200
+  },
+  "cards/definition-automorphic-0.html": {
+    "url": "https://andrewodesky.com/rh/cards/definition-automorphic-0.html",
+    "utc": "2026-11-26T20:02:51+00:00",
+    "bytes": 275320,
+    "sha256": "5adabb373c00f29589f91540b1c6ab0b53744c944dbf8a60748bf3b7a19fd5b6",
+    "status": 200
+  }
+}

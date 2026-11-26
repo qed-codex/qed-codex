@@ -1,0 +1,29 @@
+<h1>About QED Codex</h1>
+<p>QED Codex brings credited informalizations by people and AI alongside the Lean source and dependency data. The <a href="/">front page</a> lists the proofs in the directory.</p>
+<p>QED Codex does not verify proofs. Where a verification record exists for a proof, its page links to it.</p>
+<h2>Sources and credits</h2>
+<p>The Riemann Hypothesis pages use {{formalization}}. The <a href="https://github.com/anthropics/formal-math/tree/11b6c7e3c927df2658f513b6b68ea7f8929c62c5">formal-math research artifacts</a> supply their own Lean documentation under the <a href="/LICENSES/Apache-2.0.txt">Apache License 2.0</a>. Each module credits the source of its notes.</p>
+{{kernel}}
+<p>Outside links lead to <a href="https://andrewodesky.com/rh/">Andrew O’Desky’s Statements of the Lean RH project</a> and <a href="https://github.com/nasqret/riemann-rev/tree/d53b3804">Bartosz Naskręcki’s atlas</a>. Module rankings and source trails come from the <a href="https://github.com/qed-codex/riemann-hypothesis-rosetta/tree/d41bfe7">pinned Rosetta analysis</a>.</p>
+<p>QED Codex displays Andrew O’Desky’s statements with his permission, outside the CC BY 4.0 license.</p>
+<h2>Contributing and licenses</h2>
+<p><a href="/sources/">Sources, licences and import register</a></p>
+<p>New text written or generated for QED Codex is CC BY 4.0. Previously published text shows its source licence. Imported text keeps its own licence, shown beside it. Code is MIT.</p>
+<p>On a module, select “Add an informalization” to open a file on GitHub and propose it by pull request. The <a href="{{repository}}/blob/main/CONTRIBUTING.md">contribution guide</a> explains attribution, licensing and how to flag a problem. Public submissions use <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The directory code uses the <a href="{{repository}}/blob/main/LICENSE">MIT License</a>. Permission-only text credits its writer, links the source and is excluded from the downloadable mirrors. Outside resources retain their authors’ terms.</p>
+<p>Informalizations appear in ledger arrival order, oldest first.</p>
+<p>The submitter is responsible for the statement and the right to publish it under the displayed licence. Maintainers may decline or remove any text and will remove it in good faith on a takedown request sent to <a href="mailto:{{email}}">{{email}}</a> or when a problem is found.</p>
+<h2 id="glossary">Glossary</h2>
+<dl><dt>Import rank</dt><dd>Ranks reachable project modules by PageRank, the number of direct project dependents and the size of the cut. Rank 1 is highest.</dd>
+<dt>Cut</dt><dd>The number of other project modules that become unreachable from Main when this module is removed from the original import graph.</dd>
+<dt>Spine rank</dt><dd>Position on Rosetta’s 200-module review list. A dash means the module is outside that list.</dd>
+<dt>Upstream</dt><dd>Whether the original file was retained or removed in the pinned upstream comparison. Mathlib files are outside the project.</dd>
+<dt>The five yes/no badges</dt><dd>RH denotes the Riemann Hypothesis. Zeta zero, L nonvanishing, L zero and Primitive L zero denote the other four compiled targets. Yes means the declaration occurs in that target’s dependency closure. For a module, yes means at least one of its declarations occurs there.</dd>
+<dt>Used by</dt><dd>The subset of those five theorems whose dependency closures include a declaration. A search of source mentions can miss a route that the compiled data records.</dd></dl>
+<h2>Featured elsewhere</h2>
+<ul>
+<li>Andrew O’Desky, <a href="https://andrewodesky.com/rh/">Statements of the Lean RH project</a>. Mathematical statements for the theorems and definitions of the proof, with written proofs for some principal results. Start with “<a href="https://andrewodesky.com/rh/lean/riemannHypothesis/">Riemann hypothesis for Dirichlet L-functions</a>” and “<a href="https://andrewodesky.com/rh/lean/UpperTheory.FinalTheorems.everyCharacter/">Zero-freeness for all Dirichlet characters</a>”.</li>
+<li>Bartosz Naskręcki, “<a href="https://nasqret.github.io/riemann-rev/atlas/">How the announced proof of the Riemann hypothesis is put together</a>”. An illustrated atlas and Lean blueprint: the argument mapped component by component, every step linked to pinned Lean source, with a record of what has been machine-checked.</li>
+<li>Michael O. Rubinstein, “<a href="https://github.com/mrubinst/alpoge-claude-rh-explained">The Alpöge–Claude proof of the Riemann hypothesis explained for the Riemann zeta function</a>”. A guide written by Claude Fable 5.2, Codex Astra 6.2 and Gemini Carbon at his request.</li>
+<li>Jimmie Adriazola, “<a href="https://github.com/jimjamzola/RH-Alpoge-Reconstruction">An End-to-End Reconstruction of the Alpöge–Claude Route to the Riemann Hypothesis</a>”. A reconstruction of the argument in conventional mathematical language.</li>
+</ul>
+<h2>Contact</h2><p><a href="mailto:{{email}}">{{email}}</a> · <a href="{{repository}}">GitHub repository</a></p>

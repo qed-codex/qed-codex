@@ -1,0 +1,16 @@
+<h1>SQL console</h1>
+    <p>Query the proof directory in your browser. Each read-only query returns up to 200 rows. Whole-table scans read pages over the network, so use <code>summary</code> for row counts and filter other queries on an indexed column.</p>
+    <form id="console">
+      <label for="sql">SQL query</label>
+      <textarea id="sql" spellcheck="false" rows="5" maxlength="12000">SELECT metric, value FROM summary
+WHERE metric IN ('modules', 'declarations', 'imports', 'trace')
+ORDER BY metric;</textarea>
+      <div class="controls"><button id="run" type="submit">Run query</button><button id="cancel" type="button" disabled>Cancel</button><a id="share" href="/sql/">Link to this query</a></div>
+    </form>
+    <p id="result-status" role="status" aria-live="polite"></p>
+    <div id="output" tabindex="0" aria-label="Query results"></div>
+    <details><summary>Tables and examples</summary>
+      <p>Explore <code>modules</code>, <code>imports</code>, <code>declarations</code>, <code>trace</code>, <code>informalizations</code>, <code>links</code>, <code>disputes</code> and <code>summary</code>. Inspect table definitions in <code>sqlite_schema</code>.</p>
+      <ul id="examples"><li><button type="button" data-sql="SELECT path, cut, spine_rank FROM modules WHERE path = 'src/Main.lean';">Look up Main.lean</button></li>
+        <li><button type="button" data-sql="SELECT full, kind FROM shortnames WHERE short = 'anygeometry' ORDER BY full, kind;">Find anyGeometry</button></li></ul>
+    </details>

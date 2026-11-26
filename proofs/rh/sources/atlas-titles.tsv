@@ -1,0 +1,110 @@
+atlas_id	label
+all-chi	All-character half-plane theorem
+alternate-rh	A second zeta deduction
+artin-window	Estimate the weighted level on a window
+behrend	Behrend’s collision-free indices
+bundle-zeta	Zeta component of the conjunction
+ch-core	Average over characters
+ch-top	Bound the discrepancy per index
+claim-all	Three endpoint propositions
+core-gm	From the height discrepancy to the prime sum
+counts-common-integer	A nonzero integer controls one character orbit
+counts-height	Evaluate the pointwise estimate on admissible windows
+counts-i	Case I gives one bound across coefficient primes
+counts-ii-iii	Cases II and III from the rank-four symplectic argument
+counts-inside	Add contributions inside the exceptional set
+counts-joint	Reuse the tower interval for the positive part
+counts-outside	Bound the sum over arbitrary finite sets of other primes
+counts-pointwise	Combine the two prime sums at a point
+counts-v	Case V at twist one
+counts-window	Convert the joint window into VWin
+covol	Produce the covolume bound
+crit-all	Primitive critical-line wrapper
+definite	Build a nonempty definite-side package
+depth-window	Build the rank-N package
+divin	Control the local divisibility loss
+eigen-package	The unitary and eigenvalue package
+empty-data	An existence check on a period identity
+every	Closed half-plane assembly
+every-green	Pass from primitive to all characters
+factor	Nonzero removed Euler factor
+family-design	Combine divisibility, slopes and windows
+form-b	The analytic criterion for a level
+four-produce	Produce the four counting bounds
+four-use	Combine the cohomology counts
+from-row	The half-plane theorem from one row
+g-m	The weighted prime sum
+gamma	Gamma factors in the strip
+geo-one	Weight-one geometric realization
+goal-shape	Apply the shape to the same chosen data
+green	Regular characters yield the Green input
+hodge-package	The Hodge-bundle package
+imprimitive	Restore all characters
+landau	The character-family power-window theorem
+landau-lemma	Apply the pole obstruction
+linked-two-three	Bind the estimates at 2 and 3
+lit	Assemble the automorphic inputs
+lit-window	Window from rank-N automorphy
+local-rec	The local parameter input at the call site
+local-rec-proj	Read the parameter field
+main-prim	Primitive critical-strip zeros
+main-rh	Mathlib RH
+main-right	Nonvanishing right of one half
+main-strip	Dirichlet GRH in the open strip
+main-zeta	Zeta in expanded form
+minor	A local source of divisibility
+moment-calculation	Match the two limits at one
+moment-dominated	Pass the Mellin integral to σ = 1
+moment-laurent	Read Euler’s constant from the logarithmic derivative
+moment-majorant	Dominate the centered character sum
+moment-target	The first moment of the Chebyshev error
+moment-theorem	Evaluate the first moment
+open-record	Three fields in the literature input
+oscillation	Rule out a pole right of θ
+paper-behrend	The tower selection in the timeline
+paper-chain	The square-root multiplicity analogy
+patch-window	Pass through the descent hypotheses
+pole	Poles of the finite-family transform
+prim-reflect	Transfer a primitive zero to 1−s
+prim-zero	Remove imprimitive Euler factors
+prime-bound	The prime-sum inequality on tied families
+rank	The geometric ranks
+rec	Existence of local Langlands parameters
+rh-all	The two zeta exports share a proof
+rh-every	Specialize at modulus one
+rh-right	Reflect a zeta zero
+row-def	The local–global Galois row
+row-geo	Galois representations from theta lifting
+row-prod	Producer of the Galois row
+seven	Seven inputs for every character
+shape	Choose a common geometric family
+shape-fields	Supply the actual fields of the shape
+slope	The lattice slope inequality
+stmt-prim	Primitive strip target type
+stmt-right	Half-plane target type
+stmt-strip	Dirichlet strip target type
+stmt-zeta	Zeta target type
+strip	Reflect an arbitrary character
+supply	Produce cyclic character hosts
+theta-match	Match global integrals and local data
+theta-package	The local theta package
+tied	Pass from levels to characters
+tied-cyc	Assemble the cyclic levels
+tlift	Theta-lift existence at high rank
+tlift-def	Quantifiers of the theta lift
+tower-bound-from-rank	From a finitely generated tower to two length bounds
+tower-class-rank	Uniform ℓ-rank of class groups in the tower
+tower-fixed-growth	Supply the absolute bound for the reference layer
+tower-operator-bound	Control exceptional twists by the fixed layer
+tower-window-constants	Choose one set of tower constants
+tower-window-from-lemma-k	Assemble the arithmetic tower window
+vv	Weighted lengths of local-global kernels
+vv-sum	Sum the local losses
+vw-crit	Reflect a primitive character
+vwin-def	The cohomological window
+vwin-row	Cohomological window from the row
+window-consumer	Choose epsilon after a candidate zero
+window-def	Uniform families on power windows
+window-inputs	Supply the automorphic window inputs
+zero-green	Select the window width 3/2
+zero-top	Produce primitive zero-free levels
