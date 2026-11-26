@@ -65,7 +65,7 @@ const home = `<div class="home-intro"><h1>Search the proofs</h1><p>QED Codex pre
 <nav aria-labelledby="proofs-heading"><h2 id="proofs-heading">Proofs</h2><ul class="proof-list">${projectLinks}</ul><a href="/proofs/">All proofs</a></nav>
 <section><h2>Example modules from the Riemann Hypothesis proof</h2>${sampleLinks(samples.filter(s => s.type === "module"))}</section>
 <section><h2>Example declarations from the Riemann Hypothesis proof</h2>${sampleLinks(samples.filter(s => s.type === "declaration"))}</section>
-<nav class="directory-tools"><a href="/wanted/">Most-wanted informalizations</a> · <a href="/sql/">SQL console</a> · <a href="/unmatched/">Unmatched statements</a></nav>`;
+<nav class="directory-tools"><a href="/wanted/">Most-wanted informalizations</a> · <a href="/sql/">SQL console</a> · <a href="/unmatched/">Unmatched statements</a> · <a href="/llms.txt">Guide for AI agents</a></nav>`;
 await page("/", "Search the proofs", "Browse registered Lean proofs or search for a module or declaration.", home);
 const proofsById = new Map(catalogue.map(p => [p.package, p]));
 const indexRows = proofRows.map(({id, source, modules, documented, contributed}) => {
@@ -294,7 +294,14 @@ await page("/about/", "About QED Codex", "Sources, licenses, contribution guidel
 await page("/404.html","Page not found","This address has no directory page.",
   '<h1>Page not found</h1><p><a href="/">Search the directory</a></p>', {attrs:'data-static-page="true"', noindex:true,indexable:false});
 if (baseURL) {
-  await writeFile(join(out,"robots.txt"),"User-agent: *\nAllow: /\nSitemap: " + new URL("/sitemap.xml",baseURL).href + "\n");
+  const robots = [
+    "User-agent: *",
+    "Allow: /",
+    `Sitemap: ${new URL("/sitemap.xml", baseURL).href}`,
+    `# Guide for AI agents: ${new URL("/llms.txt", baseURL).href}`,
+    `# Informalization index: ${new URL("/informalizations.json", baseURL).href}`,
+  ];
+  await writeFile(join(out, "robots.txt"), robots.join("\n") + "\n");
   const entries = sitemap.sort().map(address => `  <url><loc>${escape(address)}</loc></url>`);
   await writeFile(join(out, "sitemap.xml"), '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + entries.join("\n") + "\n</urlset>\n");
 }
