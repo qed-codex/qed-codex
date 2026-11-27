@@ -1,17 +1,17 @@
 {
-  "databaseSha256": "c59f1741f22f3257656b6f2988d52843ade4e95af96fc6e788217075c17a6186",
+  "databaseSha256": "1a5a05fc056f6eacbf935d9d02c83739c6ce6e97527aa7a17303b0055bdb358d",
   "sqliteVersion": "3.46.1",
   "pageBytes": 32768,
-  "pages": 16043,
+  "pages": 15429,
   "pagesPerPiece": 4,
-  "pieceFiles": 4011,
-  "databaseBytes": 525697024,
-  "interiorPages": 45,
-  "interiorBytes": 1474560,
-  "interiorGzipBytes": 292863,
-  "deployFiles": 7764,
-  "deployBytes": 240733322,
-  "treeSha256": "9cb22158e20d0e0e916cb937cc6f7eb4015b262a7b2fdb3c7aa1d2a1fd1a246d",
+  "pieceFiles": 3858,
+  "databaseBytes": 505577472,
+  "interiorPages": 44,
+  "interiorBytes": 1441792,
+  "interiorGzipBytes": 288739,
+  "deployFiles": 7611,
+  "deployBytes": 231977717,
+  "treeSha256": "9aa5d1b5a4c7506857275d4ecb1d7aaef762668edf48f54399fdfa5450823d56",
   "counts": {
     "declarations": 1063284,
     "declarations_in_five_cones": 804912,
@@ -177,15 +177,6 @@
       ],
       "rows": 9,
       "sha256": "976da6d7e2adf9b4963983afb05c48723f647fbe892075a524896b4477717f13"
-    },
-    "search_counts": {
-      "columns": [
-        "word",
-        "prefix",
-        "total"
-      ],
-      "rows": 11171,
-      "sha256": "56db57084a86db1d699dd81725c1de610554e76db522bec4ae71ccfd4a767ca0"
     },
     "shortnames": {
       "columns": [
