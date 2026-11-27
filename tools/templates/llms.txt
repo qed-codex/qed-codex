@@ -53,6 +53,8 @@ A `with-permission` entry carries its own terms. Consult its source and credit o
 
 ## Bulk data (from launch)
 
+The host refuses some default script clients (Python’s urllib returned HTTP 403), but `curl https://qedcodex.org/llms.txt` returned HTTP 200, and the two mirrors below provide another way to read the data.
+
 - [qed-codex/qed-codex on Hugging Face](https://huggingface.co/datasets/qed-codex/qed-codex) (from launch). Parquet tables and provenance.
 - [SQLite releases]({repository}/releases) (from launch). Tag `rh-<ledger-commit>`, asset `qed-codex-rh-<ledger-commit>.sqlite3`.
 - Both mirrors carry the ledger commit and redistribution licenses. Permission-specific text is excluded.

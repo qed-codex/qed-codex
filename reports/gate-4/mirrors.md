@@ -28,3 +28,12 @@ for name, rows in expected.items():
     assert (next(iter(split), None) is None) == (rows == 0)
 PY
 ```
+
+## Publish the Hub cards
+
+The [dataset card template](../../tools/templates/hf-dataset-card.md) is filled by the mirror staging tool. The [organization card](../../tools/templates/hf-org-card.md) is the README of the static Space. A maintainer can publish either from the repository root using the authenticated Hugging Face CLI.
+
+```bash
+hf upload qed-codex/qed-codex build/mirror-replay/huggingface . --repo-type dataset
+hf upload qed-codex/README tools/templates/hf-org-card.md README.md --repo-type space
+```

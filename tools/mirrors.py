@@ -65,16 +65,8 @@ def dataset_card(names, attribution):
             config["default"] = True
         configs.append(config)
     header = yaml.safe_dump({"license": "other", "configs": configs}, sort_keys=False)
-    return f"""---
-{header}---
-
-# QED Codex proof directory
-
-Select a configuration to read a table. Its `train` split contains all rows in canonical order. The `names` configuration records term and document-ID pairs from the contentless FTS5 index. The other configurations use their SQLite column names and primary-key order. [File and content provenance](manifest.json)
-
-In Hugging Face `datasets` 4.8.4, use `streaming=True` or read the Parquet file directly for a zero-row table. The materialized reader in that version raises an empty-split error.
-
-{attribution}"""
+    template = Path(__file__).with_name("templates") / "hf-dataset-card.md"
+    return template.read_text(encoding="utf-8").format(header=header, attribution=attribution)
 
 
 def stage(database, reference_path, parquet_dir, out, commit):
