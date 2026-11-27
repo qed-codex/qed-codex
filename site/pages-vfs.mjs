@@ -58,6 +58,7 @@ export async function openProof(sqlite, manifest, interior) {
     io: { struct: io, methods: {
       xClose: () => 0,
       xRead(_file, ptr, n, offset) {
+        readError = undefined;
         let pos = Number(offset);
         const heap = wasm.heap8u();
         try {

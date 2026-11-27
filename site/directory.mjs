@@ -37,15 +37,6 @@ function prime() {
     });
   return warmup;
 }
-if ("requestIdleCallback" in window)
-  requestIdleCallback(() => prime().catch(() => {}), { timeout: 1500 });
-else
-  window.addEventListener(
-    "load",
-    () => setTimeout(() => prime().catch(() => {}), 32),
-    { once: true },
-  );
-
 async function query(kind, value) {
   if (!worker) {
     worker = new Worker("/query-thread.mjs", { type: "module" });
@@ -267,6 +258,11 @@ main.addEventListener("submit", event => {
 
 const search = document.querySelector(".search-box");
 if (search) {
+  const warmSearch = () => prime().catch(() => {});
+  if ("requestIdleCallback" in window)
+    requestIdleCallback(warmSearch, {timeout:1500});
+  else
+    window.addEventListener("load", () => setTimeout(warmSearch, 32), {once:true});
   const input = search.querySelector("input"),
     output = document.querySelector("#matches");
   let version = 0,
@@ -279,11 +275,11 @@ if (search) {
   }
   async function searchFor(kind, id, page = 1) {
     const term = input.value.trim();
-    if (!term) {
+    const prefix = term.replace(/\.lean$/, "").split(/[./]/).filter(Boolean).at(-1) || "";
+    if (!term || (kind === "typeahead" && !prefix)) {
       output.innerHTML = kind === "search" ? '<p class="search-total" role="status">0 results</p><p>No matches on this page.</p>' : "";
       return;
     }
-    const prefix = term.replace(/\.lean$/, "").split(/[./]/).at(-1);
     const full = kind === "search";
     try {
       const results = await query(kind, full ? {term, offset:20*(page-1)} : prefix);

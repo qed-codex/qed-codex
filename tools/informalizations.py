@@ -166,8 +166,11 @@ def agreement_json(note, agreements, ledger_hashes):
     """Store agreement with identified versions of other informalizations of this module."""
     if not isinstance(agreements, dict):
         raise ValueError(f"agrees_with must map handle--writer-slug keys to SHA-256 digests in {note}")
+    current = {}
     for author, digest in agreements.items():
         key = (note.parent, author)
-        if author == note.stem or key not in ledger_hashes or ledger_hashes[key] != digest:
+        if author == note.stem:
             raise ValueError(f"Invalid agrees_with reference to {author!r} in {note}")
-    return json.dumps(agreements, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+        if key in ledger_hashes and ledger_hashes[key] == digest:
+            current[author] = digest
+    return json.dumps(current, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
