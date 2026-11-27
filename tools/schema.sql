@@ -39,16 +39,12 @@ CREATE TABLE links (module INTEGER NOT NULL REFERENCES modules, author TEXT NOT 
 CREATE INDEX links_by_declaration ON links(declaration,url);
 CREATE TABLE disputes (id INTEGER PRIMARY KEY, module INTEGER NOT NULL REFERENCES modules, url TEXT NOT NULL);
 CREATE TABLE summary (metric TEXT PRIMARY KEY, value INTEGER NOT NULL) WITHOUT ROWID;
-CREATE VIRTUAL TABLE names USING fts5(module_path, declaration_name, content='',prefix='3 4 6',detail=none,columnsize=0);
+CREATE VIRTUAL TABLE names USING fts5(module_path, declaration_name, content='',detail=none,columnsize=0);
 CREATE TABLE shortnames (
   short TEXT NOT NULL, full TEXT NOT NULL, kind TEXT NOT NULL, ref INTEGER NOT NULL,
   package TEXT NOT NULL, PRIMARY KEY(short,full,kind,package)
 ) WITHOUT ROWID;
 CREATE TABLE most_wanted (rank INTEGER PRIMARY KEY, module INTEGER NOT NULL UNIQUE REFERENCES modules);
-CREATE TABLE search_counts (
-  word TEXT NOT NULL, prefix TEXT NOT NULL, total INTEGER NOT NULL,
-  PRIMARY KEY(word,prefix)
-) WITHOUT ROWID;
 CREATE TABLE proofs (id TEXT PRIMARY KEY, source TEXT NOT NULL, root_decl TEXT,
  root_module INTEGER REFERENCES modules, statement_module INTEGER REFERENCES modules, solution_module INTEGER REFERENCES modules,title TEXT NOT NULL);
 CREATE TABLE proof_roles (module INTEGER REFERENCES modules, proof TEXT REFERENCES proofs, role TEXT NOT NULL CHECK(role IN ('statement','solution')), PRIMARY KEY(module,proof,role)) WITHOUT ROWID;
