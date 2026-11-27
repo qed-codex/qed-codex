@@ -316,10 +316,80 @@ main[data-board] .record-list li > div > a { display: block; max-width: 100%; ov
 }
 .proof-source pre { white-space:pre-wrap; overflow-wrap:anywhere }
 
-main:has(.proof-index) { width: min(calc(100% - 2 * var(--gutter)), 80rem); }
-.proof-index { overflow-x: auto; }
-.proof-index table { width: 100%; min-width: 56rem; border-collapse: collapse; }
-.proof-index :is(th, td) { padding: .6rem; text-align: start; vertical-align: top; border-bottom: 1px solid var(--rule); }
-.proof-index thead { font: 600 .875rem/1.45 var(--sans); }
-.proof-index td > .record-list { margin: 0; }
-.proof-index td > .record-list > li:first-child { padding-block-start: 0; }
+.proof-index { margin-top: 1.5rem; overflow-wrap: normal; }
+.proof-index a { overflow-wrap: normal; }
+.proof-index table { width: 100%; border-collapse: collapse; font-size: .9375rem; line-height: 1.45; }
+.proof-index thead th {
+  padding: .55rem .45rem;
+  color: var(--muted);
+  font: 600 .875rem/1.35 var(--sans);
+  text-align: start;
+  vertical-align: bottom;
+  border-bottom: 2px solid var(--rule);
+}
+.proof-index tbody :is(th, td) {
+  padding: .65rem .45rem;
+  text-align: start;
+  vertical-align: top;
+  border-bottom: 1px solid var(--rule);
+}
+.proof-index tbody th { font-weight: 600; }
+.proof-index .proof-count { text-align: end; font-variant-numeric: tabular-nums; }
+.proof-index .record-list { list-style: none; margin: 0; padding: 0; }
+.proof-index .record-list li { padding: 0; margin: 0; }
+.proof-index .record-list li + li { margin-top: .35rem; }
+
+@media (min-width: 72rem) {
+  main:has(.proof-index) { width: min(calc(100% - 2 * var(--gutter)), 80rem); }
+  .proof-index :is(th, td):first-child { padding-inline-start: 0; }
+  .proof-index :is(th, td):last-child { padding-inline-end: 0; }
+}
+
+@media (max-width: 71.999rem) {
+  .proof-index table, .proof-index tbody { display: block; }
+  .proof-index thead { display: none; }
+  .proof-index tbody tr {
+    display: block;
+    padding: .9rem 1rem;
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-radius: .3rem;
+  }
+  .proof-index tbody tr + tr { margin-top: 1rem; }
+  .proof-index tbody th {
+    display: block;
+    padding: 0 0 .6rem;
+    margin-bottom: .35rem;
+    font-size: 1.0625rem;
+    line-height: 1.3;
+    border-bottom: 1px solid var(--rule);
+  }
+  .proof-index tbody td {
+    display: grid;
+    grid-template-columns: 15rem minmax(0, 1fr);
+    gap: .15rem 1rem;
+    align-items: baseline;
+    padding: .35rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .proof-index tbody td:last-child { padding-bottom: 0; border-bottom: 0; }
+  .proof-index tbody td::before {
+    content: attr(data-label);
+    color: var(--muted);
+    font: 600 .875rem/1.4 var(--sans);
+  }
+  .proof-index tbody td > * { min-width: 0; }
+  .proof-index tbody td.proof-count { text-align: start; }
+}
+
+@media (max-width: 31.999rem) {
+  .proof-index tbody td {
+    grid-template-columns: minmax(6.5rem, 38%) minmax(0, 1fr);
+    gap: .15rem .75rem;
+  }
+  .proof-index tbody td.proof-count {
+    grid-template-columns: minmax(0, 1fr) auto;
+    text-align: end;
+  }
+  .proof-index tbody td.proof-count::before { text-align: start; }
+}
