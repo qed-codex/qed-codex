@@ -70,24 +70,43 @@ const home = `<div class="home-intro"><h1>Search the proofs</h1><p>QED Codex pre
 <nav class="directory-tools"><a href="/wanted/">Most-wanted informalizations</a> · <a href="/sql/">SQL console</a> · <a href="/unmatched/">Unmatched statements</a> · <a href="/llms.txt">Guide for AI agents</a></nav>`;
 await page("/", "Search the proofs", "Browse registered Lean proofs or search for a module or declaration.", home);
 const proofsById = new Map(catalogue.map(p => [p.package, p]));
+const indexHeaders = [
+  ["Formalization", false],
+  ["Source and pin", false],
+  ["Licence", false],
+  ["Modules", true],
+  ["Modules with source notes", true],
+  ["Contributed informalizations", true],
+  ["Statements by Andrew O’Desky", true],
+  ["Verification records", false],
+];
 const indexRows = proofRows.map(({id, source, modules, documented, contributed}) => {
   const p = proofsById.get(id);
   const pinURL = proof.packages[source].url + "/tree/" + p.commit;
-  const numbers = [modules, documented, contributed].map(n => `<td>${n.toLocaleString("en-US")}</td>`).join("");
   const statements = id === "riemann-hypothesis" ? totals.statements : 0;
   const records = (p.verificationRecords || []).map(({who, address}) =>
     `<li><a href="${escape(address)}">${escape(who)}</a></li>`).join("");
-  return `<tr><th scope="row"><a href="/proofs/${escape(id)}/">${p.titleHTML}</a></th>
-    <td><a href="${escape(p.creditSource)}">${escape(p.listCredit ?? p.credit)}</a></td>
-    <td>${escape(source)}<br><a href="${escape(pinURL)}"><code>${escape(p.commit.slice(0, 8))}</code></a></td>
-    <td>${escape(p.license || "Not stated")}</td>${numbers}<td>${number(statements)}</td><td>${records && `<ul class="record-list">${records}</ul>`}</td></tr>`;
+  const values = [
+    `<a href="${escape(p.creditSource)}">${escape(p.listCredit ?? p.credit)}</a>`,
+    `${escape(source)}<br><a href="${escape(pinURL)}"><code>${escape(p.commit.slice(0, 8))}</code></a>`,
+    escape(p.license || "Not stated"),
+    number(modules),
+    number(documented),
+    number(contributed),
+    number(statements),
+    records ? `<ul class="record-list">${records}</ul>` : "",
+  ];
+  const cells = indexHeaders.map(([label, numeric], i) => {
+    const inner = i === 7 ? (values[i] || "<span></span>") : `<span>${values[i]}</span>`;
+    return `<td${numeric ? ' class="proof-count"' : ""} data-label="${escape(label)}">${inner}</td>`;
+  }).join("");
+  return `<tr><th scope="row"><a href="/proofs/${escape(id)}/">${p.titleHTML}</a></th>${cells}</tr>`;
 }).join("");
+const indexHead = `<th scope="col">Proof</th>` + indexHeaders.map(([label, numeric]) =>
+  `<th scope="col"${numeric ? ' class="proof-count"' : ""}>${escape(label)}</th>`).join("");
 await page("/proofs/", "All proofs", "Registered proofs, pinned sources and contributions.",
-  `<h1 id="index-title">All proofs</h1><div class="proof-index" role="region" aria-labelledby="index-title" tabindex="0">
-  <table aria-labelledby="index-title"><thead><tr><th scope="col">Proof</th><th scope="col">Formalization</th>
-  <th scope="col">Source and pin</th><th scope="col">Licence</th><th scope="col">Modules</th>
-  <th scope="col">Modules with source notes</th><th scope="col">Contributed informalizations</th>
-  <th scope="col">Statements by Andrew O’Desky</th><th scope="col">Verification records</th></tr></thead><tbody>${indexRows}</tbody></table></div>`,
+  `<h1 id="index-title">All proofs</h1><div class="proof-index">
+  <table aria-labelledby="index-title"><thead><tr>${indexHead}</tr></thead><tbody>${indexRows}</tbody></table></div>`,
   {attrs:'data-static-page="true"'});
 
 // Render source metadata as data. URLs are links and all other values are escaped text.
