@@ -87,7 +87,14 @@ jobs:
       - name: Check grouped pieces and install browser engines
         run: |
           node tools/test-piece-cache.mjs build/preview build/rh.sqlite3
-          npx --no-install playwright install --with-deps chromium firefox webkit
+          install_browsers() {
+            npx --no-install playwright install --with-deps chromium firefox webkit
+          }
+          if ! install_browsers; then
+            echo "Browser installation failed. Retrying once in 10 seconds."
+            sleep 10
+            install_browsers
+          fi
       - name: Run browser checks against the packaged site
         run: |
           .venv/bin/python tools/fixtures.py build/rh.sqlite3 > inputs/fixtures.json
