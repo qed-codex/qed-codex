@@ -313,7 +313,7 @@ async function sweepStaticPages(context, name, version) {
         const start = performance.now();
         try {
           const response = await page.goto(new URL(path,origin).href, {waitUntil:"load"});
-          assert.ok(response?.ok() || (path === "/404.html" && response?.status() === 404),
+          assert.ok(response?.ok() || response?.status() === 304 || (path === "/404.html" && response?.status() === 404),
             "HTTP " + response?.status() + " for " + path);
           if (await page.locator(".lean-source").count()) {
             await page.waitForFunction(() => {
