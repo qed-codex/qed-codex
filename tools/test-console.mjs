@@ -1,12 +1,16 @@
 import {reviewOrigin} from "./review-origin.mjs";
 // Replay the console checks against a packaged QED Codex site served on loopback.
 import assert from "node:assert/strict";
+import {DatabaseSync} from "node:sqlite";
 import {chromium, firefox, webkit} from "playwright";
 
 const [origin, ...selected] = process.argv.slice(2);
 reviewOrigin(origin);
 const engines = {chromium, firefox, webkit};
-const sample = "SELECT path, cut FROM modules WHERE path = 'src/Main.lean'";
+const native = new DatabaseSync(process.env.QED_TEST_DATABASE || "build/rh.sqlite3", {readOnly:true});
+const moduleCount = String(native.prepare("SELECT count(*) AS n FROM modules").get().n);
+native.close();
+const sample = "SELECT path, cut FROM modules WHERE package = 'riemann-hypothesis' AND path = 'src/Main.lean'";
 for (const name of selected.length ? selected : Object.keys(engines)) {
   const browser = await engines[name].launch(name === "webkit" && process.env.WEBKIT_EXECUTABLE ?
     {executablePath:process.env.WEBKIT_EXECUTABLE} : {});
@@ -49,9 +53,9 @@ for (const name of selected.length ? selected : Object.keys(engines)) {
       assert.doesNotMatch(plan, /SCAN /);
     }
     assert.equal(await execute("SELECT value FROM summary WHERE metric = 'modules'"),"1 row.");
-    assert.equal(await page.locator("tbody td").innerText(),"184039");
+    assert.equal(await page.locator("tbody td").innerText(),moduleCount);
     const scanned = await execute("SELECT count(*) FROM modules");
-    if (scanned === "1 row.") assert.equal(await page.locator("tbody td").innerText(), "184039");
+    if (scanned === "1 row.") assert.equal(await page.locator("tbody td").innerText(), moduleCount);
     else assert.equal(scanned, "Query stopped after 30 seconds. A whole-table scan was reading pages over the network. Row counts are in summary. Filter on an indexed column for other lookups.");
     console.log(name, "full scan with 50 ms per page:", scanned);
     assert.equal(await execute("SELECT rowid FROM names WHERE names MATCH 'geometry' LIMIT 3"),"3 rows.");

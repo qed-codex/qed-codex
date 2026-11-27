@@ -1,5 +1,6 @@
-// Signed-out reads. With --fixture, serve the public example discussion inside the real iframe.
+// Fixture mode exercises our integration offline. Live mode uses the real widget.
 import assert from "node:assert/strict";
+import {fileURLToPath} from "node:url";
 import {chromium, firefox, webkit} from "playwright";
 
 const [address, mode] = process.argv.slice(2);
@@ -17,14 +18,20 @@ for (const [engine, launcher] of Object.entries({chromium,firefox,webkit})) {
         window.parentViolations = [];
         document.addEventListener("securitypolicyviolation", e => window.parentViolations.push(e.effectiveDirective));
       });
+      if (mode === "--fixture") {
+        await page.route("**/*", route => new URL(route.request().url()).origin === origin.origin
+          ? route.continue() : route.abort());
+        await page.route("https://giscus.app/client.js", route => route.fulfill({
+          path:fileURLToPath(new URL("./fixtures/giscus-client.js",import.meta.url)),
+          contentType:"text/javascript", headers:{"Access-Control-Allow-Origin":"*"},
+        }));
+      }
       await page.route("https://giscus.app/**/widget?**", async route => {
         const url = new URL(route.request().url());
         mapped.push({term:url.searchParams.get("term"), repo:url.searchParams.get("repo"), strict:url.searchParams.get("strict")});
         if (mode === "--live") return route.continue();
-        for (const [k,v] of Object.entries({repo:"giscus/react-giscus",repoId:"MDEwOlJlcG9zaXRvcnkzODMxNjMyOTY=",
-          category:"General",categoryId:"DIC_kwDOFtaboM4B-N2d",number:"1"})) url.searchParams.set(k,v);
-        url.searchParams.delete("term");
-        await route.continue({url:url.href});
+        await route.fulfill({path:fileURLToPath(new URL("./fixtures/giscus-widget.html",import.meta.url)),
+          contentType:"text/html"});
       });
       const response = await page.goto(new URL(path,origin).href,{waitUntil:"domcontentloaded"});
       assert.match(response.headers()["content-security-policy"], /script-src[^;]* https:\/\/giscus\.app;/);
@@ -38,6 +45,8 @@ for (const [engine, launcher] of Object.entries({chromium,firefox,webkit})) {
     }
     if (mode === "--fixture") {
       const page = await browser.newPage();
+      await page.route("**/*", route => new URL(route.request().url()).origin === origin.origin
+        ? route.continue() : route.abort());
       const errors = [];
       page.on("pageerror", error => errors.push(error.message));
       const pending = Promise.withResolvers();
