@@ -1,27 +1,27 @@
 {
-  "databaseSha256": "1e47feeaf7452ca7dfa67b3007331eccbaa3779765b6e05dd956100a405589ba",
+  "databaseSha256": "c59f1741f22f3257656b6f2988d52843ade4e95af96fc6e788217075c17a6186",
   "sqliteVersion": "3.46.1",
   "pageBytes": 32768,
-  "pages": 16027,
+  "pages": 16043,
   "pagesPerPiece": 4,
-  "pieceFiles": 4007,
-  "databaseBytes": 525172736,
+  "pieceFiles": 4011,
+  "databaseBytes": 525697024,
   "interiorPages": 45,
   "interiorBytes": 1474560,
-  "interiorGzipBytes": 292794,
-  "deployFiles": 7748,
-  "deployBytes": 240237016,
-  "treeSha256": "5c304aa89a646dacada3af5fe6fd782b142f84a1c45eabc60b5a91412741f854",
+  "interiorGzipBytes": 292863,
+  "deployFiles": 7764,
+  "deployBytes": 240733322,
+  "treeSha256": "9cb22158e20d0e0e916cb937cc6f7eb4015b262a7b2fdb3c7aa1d2a1fd1a246d",
   "counts": {
     "declarations": 1063284,
     "declarations_in_five_cones": 804912,
     "disputes": 0,
     "fts_declaration_offset": 193333,
     "imports": 925310,
-    "informalizations": 2194,
+    "informalizations": 2218,
     "links": 3392,
     "modules": 193333,
-    "most_wanted": 153409,
+    "most_wanted": 153397,
     "shortnames": 1256617,
     "source_documentation": 9025,
     "trace": 641100,
@@ -81,8 +81,8 @@
         "changes",
         "entry_type"
       ],
-      "rows": 11219,
-      "sha256": "fc994c12fd882ffbf77e67aa3fc4684998f31c7fd8865e80f2ed5bb6604b6b41"
+      "rows": 11243,
+      "sha256": "4c7d9e056dafb8401e1920b642d18af5bae537f03fb645f10b4b6146c04f119a"
     },
     "links": {
       "columns": [
@@ -117,8 +117,8 @@
         "rank",
         "module"
       ],
-      "rows": 153409,
-      "sha256": "ca863b5020ea20355526099c818fef56b16f3ac3fd6adcf9f169993ed6d8b44d"
+      "rows": 153397,
+      "sha256": "f9412ec84b5ef68c31daeb792a37a3a17baf1b453de1a5a1d43a3eef8a4c917c"
     },
     "names": {
       "columns": [
@@ -204,7 +204,7 @@
         "value"
       ],
       "rows": 13,
-      "sha256": "8bd49253b015003c9fd67fe6b6c43edf4b34a80d9aa198dbf22617a966457ffd"
+      "sha256": "54bb95fff35534825ac5bb5cc16e816eeb23dfe8f983c9b23903520ce6dec249"
     },
     "trace": {
       "columns": [
@@ -225,8 +225,8 @@
         "rank",
         "module"
       ],
-      "rows": 153409,
-      "sha256": "686523d6b5b0ba0ba1f81873e95e4316d71519f729600ad58d7e3014096ecade"
+      "rows": 153397,
+      "sha256": "c6d6ec453621cc369573457d18c9d954ba6a5632bb02334c8e3b8f69713fa9ea"
     }
   },
   "plans": {
