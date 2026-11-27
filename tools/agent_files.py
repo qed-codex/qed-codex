@@ -38,9 +38,10 @@ def write_agent_files(db, stage, proof, settings, samples, module_pages, base_ur
         file = ledger / package / "informalizations" / module / (key + ".md")
         entry["declarations"] = json.loads(entry.pop("declarations_json"))
         entry["page"] = site_root + module_pages[package, module] + "#informalization-" + quote(key)
-        # An uncommitted local draft has a prospective main address until it lands.
-        ref = "refs/heads/main" if file.as_posix() in drafts else revision
-        entry["markdown"] = f"{raw_root}/{ref}/{quote(file.as_posix())}"
+        if entry["license"] != "with-permission":
+            # An uncommitted local draft has a prospective main address until it lands.
+            ref = "refs/heads/main" if file.as_posix() in drafts else revision
+            entry["markdown"] = f"{raw_root}/{ref}/{quote(file.as_posix())}"
         entry["sha256"] = hashlib.sha256(file.read_bytes()).hexdigest()
         entries.append(entry)
     (stage / "informalizations.json").write_text(

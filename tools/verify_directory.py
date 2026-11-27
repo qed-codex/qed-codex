@@ -74,11 +74,15 @@ def check_agent_entry_points(db, site):
     assert "/informalizations.json" in guide, "Missing index link in llms.txt"
     entries = json.loads((site / "informalizations.json").read_text(encoding="utf-8"))
     assert isinstance(entries, list)
-    expected = set(db.execute("""SELECT m.package, m.path, i.author, i.writer
+    expected = set(db.execute("""SELECT m.package, m.path, i.author, i.writer, i.license
                                  FROM informalizations i JOIN modules m ON m.id=i.module WHERE i.entry_type='informalization'"""))
     assert len(entries) == len(expected)
-    assert {(e["package"], e["module"], e["author"], e["writer"]) for e in entries} == expected
+    assert {(e["package"], e["module"], e["author"], e["writer"], e["license"]) for e in entries} == expected
     for entry in entries:
+        if entry["license"] == "with-permission":
+            assert "markdown" not in entry, entry["page"]
+        else:
+            assert urlsplit(entry["markdown"]).hostname == "raw.githubusercontent.com", entry["page"]
         address = urlsplit(entry["page"])
         page = site / unquote(address.path).lstrip("/") / "index.html"
         assert f'id="{unquote(address.fragment)}"' in page.read_text(encoding="utf-8"), entry["page"]

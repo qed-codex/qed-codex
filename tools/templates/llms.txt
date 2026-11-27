@@ -33,7 +33,7 @@ For imported source notes, open the [package ledgers]({repository}/tree/{ledger_
 
 - [/informalizations.json](/informalizations.json) contains one object per informalization.
 - `page` opens its static HTML at the writer’s anchor. On a preview, open the same path and fragment at the preview origin.
-- `markdown` addresses the raw ledger file. Its YAML front matter identifies the Lean declarations discussed.
+- For entries other than `with-permission`, `markdown` addresses the raw ledger file. Its YAML front matter identifies the Lean declarations discussed.
 - `sha256` covers the complete Markdown file, including its front matter and final newline if present.
 - `source_commit` pins the Lean source discussed in the entry. Committed entries link to a pinned ledger revision. Local drafts link to the intended path on main.
 - [Repository]({repository}). Files live at `packages/<package>/informalizations/<module-path>/<handle>--<writer-slug>.md`.
