@@ -190,6 +190,20 @@ def render(database, stage, base_url=None, preview_probe=False, *, database_sour
             raise ValueError("Unmatched statement page differs from the compiled summary")
         catalogue = registered_proofs(db, proof["packages"])
         proof_rows = proof_index_rows(db)
+        # O’Desky’s RH collection also has entries attached to Mathlib modules.
+        contributed, permission_entries, statements = db.execute("""
+            SELECT count(*) FILTER (WHERE license != 'with-permission'),
+                   count(*) FILTER (WHERE license = 'with-permission'),
+                   count(*) FILTER (WHERE license = 'with-permission' AND writer = ?
+                                      AND source_url = ?)
+            FROM informalizations WHERE entry_type = 'informalization'
+        """, ("Andrew O'Desky", "https://andrewodesky.com/rh/")).fetchone()
+        if permission_entries != statements:
+            raise ValueError(
+                f"Proofs index accounts for {statements} of {permission_entries} permission-only entries"
+            )
+        totals = dict(proofs=len(proof_rows), files=counts["modules"], declarations=counts["declarations"],
+                      contributed=contributed, statements=statements)
         board = record("wanted", 1)["modules"]
         write_agent_files(db, stage, proof, settings, samples, module_pages, base_url, catalogue)
     with Path("imports.tsv").open(encoding="utf-8", newline="") as ledger:
@@ -205,4 +219,4 @@ def render(database, stage, base_url=None, preview_probe=False, *, database_sour
         if part and not Path(part).resolve().is_relative_to(runtimes)
     )
     subprocess.run(["node", "tools/prerender.mjs", str(stage)], check=True, text=True, env=env,
-                   input=json.dumps({**config, "catalogue": catalogue, "proofRows": proof_rows, "settings": settings, "baseURL": base_url, "previewProbe": preview_probe, "imports": imports, "records": records, "extra": extra, "board": board, "unmatched": unmatched}, ensure_ascii=False))
+                   input=json.dumps({**config, "catalogue": catalogue, "proofRows": proof_rows, "totals": totals, "settings": settings, "baseURL": base_url, "previewProbe": preview_probe, "imports": imports, "records": records, "extra": extra, "board": board, "unmatched": unmatched}, ensure_ascii=False))

@@ -321,3 +321,5 @@ main:has(.proof-index) { width: min(calc(100% - 2 * var(--gutter)), 80rem); }
 .proof-index table { width: 100%; min-width: 56rem; border-collapse: collapse; }
 .proof-index :is(th, td) { padding: .6rem; text-align: start; vertical-align: top; border-bottom: 1px solid var(--rule); }
 .proof-index thead { font: 600 .875rem/1.45 var(--sans); }
+.proof-index td > .record-list { margin: 0; }
+.proof-index td > .record-list > li:first-child { padding-block-start: 0; }

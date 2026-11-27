@@ -10,8 +10,8 @@
   "interiorBytes": 1474560,
   "interiorGzipBytes": 292794,
   "deployFiles": 7748,
-  "deployBytes": 240233173,
-  "treeSha256": "ca7a03fcdc870dc050280f147a4b86e102af5bda8832e348b33e3ab0ec0b2335",
+  "deployBytes": 240237016,
+  "treeSha256": "5c304aa89a646dacada3af5fe6fd782b142f84a1c45eabc60b5a91412741f854",
   "counts": {
     "declarations": 1063284,
     "declarations_in_five_cones": 804912,

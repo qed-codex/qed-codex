@@ -9,7 +9,7 @@ import {
 process.stdin.setEncoding("utf8");
 let input = "";
 for await (const chunk of process.stdin) input += chunk;
-const { proof, imports, catalogue, proofRows, samples, records, extra, board, wantedCount, unmatched, settings, baseURL, previewProbe } = JSON.parse(input);
+const { proof, imports, catalogue, proofRows, totals, samples, records, extra, board, wantedCount, unmatched, settings, baseURL, previewProbe } = JSON.parse(input);
 const out = process.argv[2];
 const sitemap = [];
 
@@ -59,7 +59,9 @@ function sampleLinks(group, staticPath = false) {
 const projectLinks = catalogue.map(p =>
   `<li><a href="/proofs/${escape(p.package)}/">${p.titleHTML}</a><span>Formalization: <a href="${escape(p.creditSource)}">${escape(p.listCredit ?? p.credit)}</a> · ${p.moduleCount.toLocaleString("en-US")} modules</span></li>`
 ).join("");
-const home = `<div class="home-intro"><h1>Search the proofs</h1><p>QED Codex presents informalizations of machine-written proofs by people and autoinformalizations by AI, side by side.</p></div>
+const number = n => n.toLocaleString("en-US");
+const home = `<div class="home-intro"><h1>Search the proofs</h1><p>QED Codex presents informalizations of machine-written proofs by people and autoinformalizations by AI, side by side.</p>
+<p>${number(totals.proofs)} proofs · ${number(totals.files)} Lean files · ${number(totals.declarations)} declarations · ${number(totals.statements)} statements by Andrew O’Desky · ${number(totals.contributed)} contributed informalizations</p></div>
 <form class="search-box" role="search"><label for="term">Lean name or module path</label><input id="term" type="search" autocomplete="off" placeholder="e.g. anyGeometry">
 <button type="submit">Search everywhere</button></form><div id="matches" aria-live="polite"></div>
 <nav aria-labelledby="proofs-heading"><h2 id="proofs-heading">Proofs</h2><ul class="proof-list">${projectLinks}</ul><a href="/proofs/">All proofs</a></nav>
@@ -72,17 +74,20 @@ const indexRows = proofRows.map(({id, source, modules, documented, contributed})
   const p = proofsById.get(id);
   const pinURL = proof.packages[source].url + "/tree/" + p.commit;
   const numbers = [modules, documented, contributed].map(n => `<td>${n.toLocaleString("en-US")}</td>`).join("");
+  const statements = id === "riemann-hypothesis" ? totals.statements : 0;
+  const records = (p.verificationRecords || []).map(({who, address}) =>
+    `<li><a href="${escape(address)}">${escape(who)}</a></li>`).join("");
   return `<tr><th scope="row"><a href="/proofs/${escape(id)}/">${p.titleHTML}</a></th>
     <td><a href="${escape(p.creditSource)}">${escape(p.listCredit ?? p.credit)}</a></td>
     <td>${escape(source)}<br><a href="${escape(pinURL)}"><code>${escape(p.commit.slice(0, 8))}</code></a></td>
-    <td>${escape(p.license || "Not stated")}</td>${numbers}<td>${p.verificationRecords?.length ? "Yes" : "No"}</td></tr>`;
+    <td>${escape(p.license || "Not stated")}</td>${numbers}<td>${number(statements)}</td><td>${records && `<ul class="record-list">${records}</ul>`}</td></tr>`;
 }).join("");
 await page("/proofs/", "All proofs", "Registered proofs, pinned sources and contributions.",
   `<h1 id="index-title">All proofs</h1><div class="proof-index" role="region" aria-labelledby="index-title" tabindex="0">
   <table aria-labelledby="index-title"><thead><tr><th scope="col">Proof</th><th scope="col">Formalization</th>
   <th scope="col">Source and pin</th><th scope="col">Licence</th><th scope="col">Modules</th>
   <th scope="col">Modules with source notes</th><th scope="col">Contributed informalizations</th>
-  <th scope="col">Verification record</th></tr></thead><tbody>${indexRows}</tbody></table></div>`,
+  <th scope="col">Statements by Andrew O’Desky</th><th scope="col">Verification records</th></tr></thead><tbody>${indexRows}</tbody></table></div>`,
   {attrs:'data-static-page="true"'});
 
 // Render source metadata as data. URLs are links and all other values are escaped text.

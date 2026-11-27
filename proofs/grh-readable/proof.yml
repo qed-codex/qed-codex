@@ -11,6 +11,11 @@
       "title": "Checks",
       "who": "Readable edition README",
       "address": "https://github.com/lsernau/grh-lean/blob/72fead102f663d5c7a407964a13dc0cf9d977207/grh/README.md#checks"
+    },
+    {
+      "title": "Shorter GRH Lean proof: verification files",
+      "who": "Andrew Sutherland",
+      "address": "https://math.mit.edu/~drew/shortgrh/"
     }
   ],
   "root": "src/Main.lean",
@@ -71,6 +76,10 @@
     {
       "label": "Compact edition, about 76,000 lines of code (outside this directory)",
       "url": "https://github.com/lsernau/grh-lean/tree/72fead102f663d5c7a407964a13dc0cf9d977207/grh-compact"
+    },
+    {
+      "label": "Lean community repository: main continues from the readable grh/ edition at 72fead10. The original branch preserves 40e56bab.",
+      "url": "https://github.com/leanprover-community/riemann-hypothesis"
     }
   ]
 }
