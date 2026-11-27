@@ -114,6 +114,7 @@ function status(informalizations, disputes) {
   if (disputes.length) return "disputed";
   if (informalizations.some((r) => r.kind === "ai-reviewed-by-human"))
     return "human reviewed";
+  if (informalizations.some((r) => r.kind === "human")) return "human written";
   if (!informalizations.length) return "no informalization";
   if (informalizations.length === 1) return "one informalization";
   if (

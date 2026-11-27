@@ -259,20 +259,22 @@ async function collectPages() {
               function onRequest(request) {
                 const url = new URL(request.url());
                 if (url.origin !== origin) return;
+                if (url.pathname === "/proof.json") primedAssets.add("manifest");
                 if (url.pathname.endsWith("/sqlite3.wasm")) primedAssets.add("wasm");
                 if (url.pathname.endsWith("/interior")) primedAssets.add("interior");
                 if (/\/db\/[^/]+\/p\/\d+$/.test(url.pathname)) pagesRead.push(url.pathname);
               }
               try {
                 await render(page, sample);
-                if (sample.id === "home" && name === "chromium") {
-                  const deadline = Date.now() + 5000;
-                  while (primedAssets.size < 2 && Date.now() < deadline) {
-                    await new Promise(resolve => setTimeout(resolve, 25));
-                  }
-                  assert.deepEqual([...primedAssets].sort(), ["interior", "wasm"], "Idle startup assets");
-                }
                 await page.waitForLoadState("networkidle");
+                if (sample.id === "home") {
+                  const deadline = Date.now() + 5000;
+                  while (primedAssets.size < 3 && Date.now() < deadline)
+                    await new Promise(resolve => setTimeout(resolve, 25));
+                  assert.deepEqual([...primedAssets].sort(), ["interior", "manifest", "wasm"]);
+                } else {
+                  assert.equal(primedAssets.size, 0, "Record fetched database startup assets");
+                }
                 const metric = await page.evaluate(() => ({
                   viewport: window.innerWidth,
                   screen: document.documentElement.clientWidth,

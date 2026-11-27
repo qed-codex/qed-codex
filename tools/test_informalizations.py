@@ -108,7 +108,10 @@ class InformalizationTests(unittest.TestCase):
         }
         self.assertEqual(agreement_json(note, {}, index), "{}")
         self.assertEqual(agreement_json(note, {"peer": digest}, index), '{"peer":"' + digest + '"}')
-        for invalid in (None, [], {"root-reader": digest}, {"peer": "a" * 64}, {"reviewer": "a" * 64}):
+        self.assertEqual(agreement_json(note, {"peer": digest, "root-reader": digest}, index),
+                         '{"peer":"' + digest + '"}')
+        self.assertEqual(agreement_json(note, {"peer": "a" * 64}, index), "{}")
+        for invalid in (None, [], {"reviewer": "a" * 64}):
             with self.subTest(invalid=invalid), self.assertRaises(ValueError):
                 agreement_json(note, invalid, index)
 
