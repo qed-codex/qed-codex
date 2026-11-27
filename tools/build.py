@@ -19,7 +19,6 @@ from submission_order import submission_order
 from check_informalization_pr import InvalidInformalization, note_key, read_note
 from informalizations import agreement_json
 from note_headings import index_headings
-from search_counts import populate_search_counts
 from statement_links import DECLS_SHA, unlinked_cards
 from urllib.parse import urlsplit
 from seed import PROOF, rows, verify_version
@@ -284,7 +283,6 @@ def populate(repo, release, working, issue_data):
         INSERT INTO names(rowid,declaration_name) SELECT (3 << 40)+id,name FROM note_headings;
         INSERT INTO names(names) VALUES('optimize');
     """)
-    populate_search_counts(db)
     counts = {
         t: db.execute(f"SELECT count(*) FROM {t}").fetchone()[0]
         for t in (
