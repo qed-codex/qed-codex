@@ -14,7 +14,7 @@ for (const [engine,launcher] of Object.entries({chromium,firefox,webkit})) {
     for (const [kind,name] of [["module",path],["declaration","GlobalTheory.CuspRep.Eop"],
                                ["declaration","GlobalTheory.CuspRep.Zalg"]]) {
       await page.goto(new URL(route(kind,name,pkg),origin).href);
-      const link = page.locator('main a[href="'+outside+'"]');
+      const link = page.locator("main section").filter({has:page.getByRole("heading",{name:"Elsewhere",exact:true})}).locator('a[href="'+outside+'"]');
       await link.first().waitFor();
       assert.equal(await link.count(),1);
       assert.ok((await link.innerText()).trim());
